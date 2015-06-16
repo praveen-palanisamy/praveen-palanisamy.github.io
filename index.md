@@ -1,9 +1,9 @@
 
-Hi! This is Praveen Palanisamy's webpage for his projects.
+Hi! This is Praveen Palanisamy's webpage for his Code/Wiki/WorkDiary.
 =========================================
 
 * [Wiki](/wiki)
-* [Diary@work](http://praveenofpersia.bitbucket.org/workDiary)
+* [Diary@work](/workDiary)
 
 
 --------------------------------------
