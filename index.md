@@ -3,7 +3,7 @@ Hi! This is Praveen Palanisamy's webpage for his Code/Wiki/WorkDiary.
 =========================================
 
 * [Wiki](/wiki)
-* [Diary@work](/workDiary)
+
 
 
 --------------------------------------
