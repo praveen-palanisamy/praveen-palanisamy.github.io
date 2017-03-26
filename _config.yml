@@ -1,7 +1,7 @@
 # Configurations
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
-highlighter: pygments
+highlighter: rouge
 
 # Needed for backward compatibility
 gems: [jekyll-paginate]
@@ -46,7 +46,7 @@ instagram:
 pinterest:
 linkedin:       'https://www.linkedin.com/in/praveenpalanisamy'
 rss:
-stackoverflow:  'http://stackoverflow.com/users/1310924/'
+stackoverflow:  'https://stackoverflow.com/users/1310924/'
 twitter:        'https://twitter.com/praveenpalanis5'
 
 # Google Analytics
