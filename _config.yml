@@ -13,7 +13,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Praveen Palanisamy'
 tagline:          'Autonomous driving AI research engineer'
 description:      'Personal portfolio and posts on {AI, Robotics, Computer Vision, Linux-dev}'
-url:              'http://praveenofpersia.github.io'
+url:              'https://praveenofpersia.github.io'
 baseurl:          ''
 
 # Navigation
