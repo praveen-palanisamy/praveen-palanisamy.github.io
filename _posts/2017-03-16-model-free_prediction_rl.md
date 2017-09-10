@@ -106,7 +106,7 @@ where,
 
  $$\begin{align}\mathbf e_{t,\mathbf{w_t}} (s_t)= \gamma \lambda e_{t-1,\mathbf w_t}(s_t) +\nabla_{\mathbf w_t}\hat V(s_t, \mathbf w_{t})\color{red}{-\gamma\lambda[e_{t-1,\mathbf{w_{t-1}}} (s_t)\nabla_{\mathbf w_t}\hat V(s_t, \mathbf w_{t})]\nabla_{\mathbf w_t}\hat V(s_t, \mathbf w_t)}\end{align}$$
 
-and $$\delta_t= r_{t+1} + \gamma  * \hat V(s_{t+1},\mathbf{w_t})-\hat V(s_t, \mathbf w_{\color{red}{t-1}})$$
+and $$\begin{align}\delta_t= r_{t+1} + \gamma  * \hat V(s_{t+1},\mathbf{w_t})-\hat V(s_t, \mathbf w_{\color{red}{t-1}})\end{align}$$
 
 ## True online TD($\lambda$) algorithm [Seijien & Sutton; 2014]()
 
