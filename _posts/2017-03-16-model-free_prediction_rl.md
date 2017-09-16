@@ -14,7 +14,7 @@ Conventions:
 * Functions are represented by $Q,\hat{Q}, V, \hat V,... $ (capital letters)
 * Random variables are represened by $s,a,r...$ (lower case letters)
 
-**Note:** This post is for comparing the differences and understanding the similarities of various model-free prediction algorithms for (deep) reinforcement learning (especially with function approximations). Red colored fonts indicates the comparable differences (if applicable) from the preceding equation/algorithm. Some of the details may be left out for brievity. Please refer to [Sutton & Barto, 2017](linkToBook) and the cited papers for completeness.
+**Note:** This post is for comparing the differences and understanding the similarities of various model-free prediction algorithms for (deep) reinforcement learning (especially with function approximations). Red colored fonts indicates the comparable differences (if applicable) from the preceding equation/algorithm. Some of the details may be left out for brievity. Please refer to [Sutton & Barto, 2017](http://incompleteideas.net/sutton/book/bookdraft2017june19.pdf) and the cited papers for completeness.
 
 ## N-step return with value function approximation 
 
@@ -26,7 +26,7 @@ equivalently,   $$\begin{align}g_{t,\mathbf w_t}^{(n)}= \sum_{i=1}^n \gamma^{i-1
 
 $$\begin{align}g_{t,\mathbf{w_t}}^{\color{red}{(\lambda)}}= (1-\lambda) \sum_{n=1}^{\infty}\lambda^{n-1}g_{t,\mathbf{w_t}}^{(n)}\end{align}$$
 
-The $\lambda-return$, $g_{t,\mathbf{w_t}}^{\lambda}$ combines all n-step returns using $\lambda^{n-1}$ as the weights for each of the n-step returns.  $(1-\lambda)$ is the normalizing term so that, $(1-\lambda) \sum_{n=1}^{\infty}\lambda^{n-1}=1$. Visually, it makes intuitive sense: 
+The $\lambda-return$, $g_{t,\mathbf{w_t}}^{\lambda}$ combines all n-step (from the current time step) returns using $\lambda^{n-1}$ as the weights for each of the n-step returns.  $(1-\lambda)$ is the normalizing term so that, $(1-\lambda) \sum_{n=1}^{\infty}\lambda^{n-1}=1$. Visually, it makes intuitive sense: 
 
 ![1505067011338]({{site.url}}/blog/images/1505067011338.png){:class="img-responsive"}
 
@@ -36,7 +36,7 @@ Let T be the time step at which a terminal state is reached which marks the end 
 
 $$\begin{align}{\displaystyle g_{t,\mathbf{w_t}}^{(\lambda)}= (1-\lambda) \sum_{n=1}^{\color{red}{T-t}}\lambda^{n-1}g_{t,\mathbf{w_t}}^{(n)}}\end{align}$$
 
-(**Question:** Is the normalizing factor of $(1-\lambda)$ still valid? If n goes till $\infty$,  summation of $\lambda^{n-1}$ approaches $\frac{1}{1-r}$. For the summation still $T-t$, the term comes to $\frac{1-\lambda^{T-t-1}}{1-\lambda}$. Is the normalizing factor still normalizing? )
+(**Question:** Is the normalizing factor of $(1-\lambda)$ still valid? If n goes till $\infty$,  summation of $\lambda^{n-1}$ approaches $\frac{1}{1-r}$. For the summation still $T-t$, the term comes to $\frac{1-\lambda^{T-t-1}}{1-\lambda}$. Is the term $1-\lambda$ still  the normalizing factor? )
 
 We can pull out the last term from this summation and write it as:
 
@@ -48,7 +48,7 @@ $$\begin{align}g_{t,\mathbf{w_t}}^{(T-t)}=\sum_{i=1}^{T-t}\gamma^{i-1}r_{t+i}=g_
 
 ## Truncated $\lambda-return $
 
-[Off-line^1]()  TD($\lambda$) is equivalent to the (off-line) $\lambda-return$ algorithm [Sutton & Barto; 1998](),[Sutton; 1988](). However, [online^2]() TD($\lambda$) is only approximately equal to the online $\lambda-return$ algorithm. [Seijen & Sutton; 2014]() proposed the use of truncated $\lambda-return$ that truncates the $\lambda-return$ at a specific timestep $t'$ to pave way for the [strict-online forward view algorithm](#strict-online-forward-view).
+[Off-line^1]()  TD($\lambda$) is equivalent to the (off-line) $\lambda-return$ algorithm [Sutton & Barto; 1998](),[Sutton; 1988](). However, [online^2]() TD($\lambda$) is only approximately equal to the online $\lambda-return$ algorithm. [Seijen & Sutton; 2014](http://proceedings.mlr.press/v32/seijen14.pdf) proposed the use of truncated $\lambda-return$ that truncates the $\lambda-return$ at a specific timestep $t'$ to pave way for the [strict-online forward view algorithm](#strict-online-forward-view).
 
 $$\begin{align}g_{t,\mathbf w_t}^{\color{red}{\lambda|t'}}= (1-\lambda) \sum_{n=1}^{\color{red}{t'-t-1}} \lambda^{n-1}g_{t,\mathbf {w_{\color{red}{t+n-1}}}}^{(n)}+\lambda^{\color{red}{t'-t-1}} g_{t,\mathbf w_{\color{red}{t'-t}}}^{\color{red}{t'-t}}\end{align}$$
 
@@ -108,7 +108,7 @@ where,
 
 and $$\begin{align}\delta_t= r_{t+1} + \gamma  * \hat V(s_{t+1},\mathbf{w_t})-\hat V(s_t, \mathbf w_{\color{red}{t-1}})\end{align}$$
 
-## True online TD($\lambda$) algorithm [Seijien & Sutton; 2014]()
+## True online TD($\lambda$) algorithm [Seijien & Sutton; 2014](http://proceedings.mlr.press/v32/seijen14.pdf)
 
 ![1505084324974]({{site.url}}/blog/images/1505084324974.png){:class="img-responsive"}
 

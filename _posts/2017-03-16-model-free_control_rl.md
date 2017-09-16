@@ -9,10 +9,10 @@ typora-copy-images-to: images/rlNotes
 
 Conventions: 
 
-- Sets are represented by \mathcal{A, S},... (caligraphy font)
-- Vectors are represented by \mathbf{w, \theta,...} (bold font)
-- Functions are represented by Q,\hat Q, V, \hat V,...  (capital letters)
-- Random variables are represened by s,a,r... (lower case letters)
+- Sets are represented by $\mathcal{A, S}$,... (caligraphy font)
+- Vectors are represented by $\mathbf{w, \theta,...}$ (bold font)
+- Functions are represented by $Q,\hat Q, V, \hat V,$...  (capital letters)
+- Random variables are represened by $s,a,r$... (lower case letters)
 
 **Note**: This post is for comparing the differences and understanding the similarities of various model-free control algorithms in (deep) reinforcement learning (especially with function approximations). It is not intended to be a primer or a comprehensive refresher. Please refer to Sutton & Barto, 2017 for completeness.
 
