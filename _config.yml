@@ -13,7 +13,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Praveen Palanisamy'
 tagline:          'Autonomous driving AI research engineer'
 description:      'Personal portfolio and posts on {AI, Robotics, Computer Vision, Linux-dev}'
-url:              'https://praveenofpersia.github.io'
+url:              'https://praveen-palanisamy.github.io'
 baseurl:          ''
 
 # Navigation
@@ -40,7 +40,7 @@ dribbble:
 email:
 facebook:       ''
 flickr:
-github:         'https://github.com/praveenofpersia'
+github:         'https://github.com/praveen-palanisamy'
 gplus:          'https://plus.google.com/+PraveenpalanisamyPraveenofpersia'
 instagram:
 pinterest:
@@ -56,7 +56,7 @@ gahandler: ''
 footersvg: 'true'
 
 # Disqus
-disqushandler: 'praveenofpersia-github-io'
+disqushandler: 'praveen-palanisamy-github'
 
 # Blog Configurations
 paginate: 10 # Posts per page on the blog index
