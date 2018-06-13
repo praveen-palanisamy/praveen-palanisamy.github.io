@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making use of Pytorch Distribution's hidden gem: validate_args
+title: Making use of Pytorch Distribution's hidden gem - validate_args
 category: PyTorch, Deeplearning, RL, DRL
 tags: [PyTorch, pytorch-distributions, pytorch-RuntimeError] 
 
