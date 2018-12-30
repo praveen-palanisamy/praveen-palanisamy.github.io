@@ -4,24 +4,27 @@ markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: rouge
 
 # Needed for backward compatibility
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Permalinks
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
 title:            'Praveen Palanisamy'
-tagline:          'Autonomous driving AI research engineer'
-description:      'Personal portfolio and posts on {AI, Robotics, Computer Vision, Linux-dev}'
+tagline:          'Autonomous Driving AI Researcher'
+description:      'Projects, code and posts on {Deep RL, AI, Robotics, Computer Vision, Linux-dev}'
 url:              'https://praveen-palanisamy.github.io'
 baseurl:          ''
+
+# Uncomment for local dev
+#webrick:
+#    headers:
+#        Access-Control-Allow-Origin: "*"
 
 # Navigation
 navigation:
 - text: About
-  url: /about/
-- text: Resume
-  url: /resume/
+  url: 'https://praveenp.com'
 - text: Blog
   url: /blog/
 - text: Tags
@@ -38,7 +41,7 @@ author:         'Praveen Palanisamy'
 #Social Media links (Use complete URL except for email)
 dribbble:
 email:
-facebook:       ''
+facebook:
 flickr:
 github:         'https://github.com/praveen-palanisamy'
 gplus:          'https://plus.google.com/+PraveenpalanisamyPraveenofpersia'
@@ -47,7 +50,7 @@ pinterest:
 linkedin:       'https://www.linkedin.com/in/praveenpalanisamy'
 rss:
 stackoverflow:  'https://stackoverflow.com/users/1310924/'
-twitter:        'https://twitter.com/praveenpalanis5'
+twitter:        'https://twitter.com/PraveenPsamy'
 
 # Google Analytics
 gahandler: ''
