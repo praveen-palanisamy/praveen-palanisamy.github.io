@@ -17,8 +17,13 @@
           {% if page.url == pageurl or (link.text == 'Blog' and page.id) %}
             <li class="left-nav-item left-nav-selected">
 			  <a href="{{link.url}}">{{link.text}}</a>
-          {% else %}
+			</li>
+          {% elsif link.text == 'About' %}
             <li class="left-nav-item">
+              <a href="{{link.url}}" target="_blank">{{link.text}}</a>
+			</li>
+		  {% else %}
+			<li class="left-nav-item">
               <a href="{{link.url}}">{{link.text}}</a>
             </li>
           {% endif %}
