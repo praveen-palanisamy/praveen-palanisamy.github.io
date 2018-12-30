@@ -1,7 +1,7 @@
 ---
 layout: master
 title: Home
-description: Praveen Palanisamy Projects, Portfolio, Profile, Blog
+description: Praveen Palanisamy -On a quest to build systems with Artificial General Intelligence using concious, learning agents. Current focus of research-Deep Reinforcement Learning for Autonomous Driving
 ---
 
 <div class="container">
@@ -14,10 +14,10 @@ description: Praveen Palanisamy Projects, Portfolio, Profile, Blog
 	<nav>
 		<div class="row">
  			<div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="about/" title="About Me">
+				<a href="https://praveenp.com" title="About Me" target="_blank">
 					<div class="tile purple profile">
 						<h2 class="title">About Me</h2>
-						<p>Hello World, I am {{site.author}}. The tiles on this page will take you to my [B]Blog , About-me page, recent posts, online profiles, resume etc.</p>
+						<p>Welcome! The tiles on this page will take you to my [B]Blog , About-me page, recent posts, online profiles, etc. Click on the tiles to learn more.</p>
 					</div>
 				</a>
 		    </div>
@@ -48,7 +48,7 @@ description: Praveen Palanisamy Projects, Portfolio, Profile, Blog
 					<div class="tile green">
 						<h3 class="title">Recent Article</h3>
 						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+						<p> {{ post.content | strip_html | truncatewords: 6 }}</p>
 					</div>
 				</a>
 				{% endfor %}
@@ -61,18 +61,13 @@ description: Praveen Palanisamy Projects, Portfolio, Profile, Blog
 					<div class="tile red">
 						<h3 class="title">Latest Article</h3>
 						<h4 class="title">{{ post.title }}</h4>
-						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+						<p> {{ post.content | strip_html | truncatewords: 6 }}</p>
 					</div>
 				</a>
 				{% endfor %}
 			</div>
 
-			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.stackoverflow}}" title="StackOverflow" class="tile darken" >
-					<i class="icon-skow" style="font-size:8em;color:white"></i>
-				</a>
-			</div>
-
+			
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts %}
 					{% if post.featured == true %}
@@ -118,14 +113,11 @@ description: Praveen Palanisamy Projects, Portfolio, Profile, Blog
 			</div>
 
 			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.facebook}}" class="tile blue">
-					<i class="icon-fcbk" style="font-size:8em"></i>
+				<a href="{{site.stackoverflow}}" title="StackOverflow" class="tile darken" >
+					<i class="icon-skow" style="font-size:8em;color:white"></i>
 				</a>
 			</div>
 
-			
-
-			
 		</div>
 	</nav>
 </div>

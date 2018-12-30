@@ -7,7 +7,7 @@ tags: [PyTorch, pytorch-autodiff, pytorch-computation-graph, pytorch-no-gradient
 
 ---
 
-#### Never create a new  `torch.tensor` /`variable` from an existing list/tuple/sequence/container of `tensors`/`variables` 
+#### Never create a new  `torch.tensor` /`variable` from an existing list/ tuple/ sequence/ container of `tensors`/`variables` 
 
 Unless you don't mind loosing the history of computations done on the `tensors`/`variables` in the list/tuple/sequence/container. In other words, unless you do not need the computation graph to include the operations done on those `tensors`/`variables` in the list/tuple/sequence/container, do not create a new `torch.tensor` from the list/tuple/sequence/container hoping to preserve the operations and use the automatic differentiation. 
 
