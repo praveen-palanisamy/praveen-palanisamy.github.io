@@ -17,7 +17,9 @@ Starting with an introduction to the fundamentals of deep reinforcement learning
 
 | ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk-ch9-app-screen.png){:class="img-responsive"} | ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk-cross-platform-export-options.png){:class="img-responsive"} |
 | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Android RL Table-Tennis App, Ch9, TFRL-Cookbook                                                   | Cross-platform Deep RL Agent deployment options, Ch9, TFRL-Cookbook                                              |
+| (Left) Android RL Table-Tennis App, Ch9                                                           | (Right) Cross-platform Deep RL Agent deployment options, Ch9                                                     |
+
+---
 
 By the end of this TensorFlow book, you'll be able to:
 
