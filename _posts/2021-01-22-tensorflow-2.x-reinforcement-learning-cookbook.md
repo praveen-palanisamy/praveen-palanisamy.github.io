@@ -2,7 +2,7 @@
 layout: post
 title: TensorFlow 2.x Reinforcement Learning Cookbook
 category: Deep Reinforcement Learning, TensorFlow 2.x, RL, DRL
-tags: [TensorFlow 2.x, Deep RL code]
+tags: [TensorFlow 2.x, Deep RL code, Cross-platform RL Apps, mobile Deep RL]
 ---
 
 #### TFRL Cookbook is a practical guide with over 50 short-&-sweet recipes to help you build, train and deploy learning agents for real-world applications
@@ -16,14 +16,15 @@ With deep reinforcement learning, you can build intelligent agents, products, an
 Starting with an introduction to the fundamentals of deep reinforcement learning and TensorFlow 2.x, the book covers OpenAI Gym, model-based RL, model-free RL, and how to develop basic agents. You'll discover how to implement advanced deep reinforcement learning algorithms such as actor-critic, deep deterministic policy gradients, deep-Q networks, proximal policy optimization, and deep recurrent Q-networks for training your RL agents. As you advance, you’ll explore the applications of reinforcement learning by building cryptocurrency trading agents, stock/share trading agents, and intelligent agents for automating task completion. Finally, you'll find out how to deploy deep reinforcement learning agents to the cloud and build cross-platform apps using TensorFlow 2.x.
 
 By the end of this TensorFlow book, you'll be able to:
-| |
+
+|                                                                                                                                                                                                   |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Build**: Deep RL agents from scratch using the all-new and powerful TensorFlow 2.x framework and Keras API |
-| **Implement**: Deep RL algorithms (DQN, A3C, DDPG, PPO, SAC etc.) with minimal lines of code |
+| **Build**: Deep RL agents from scratch using the all-new and powerful TensorFlow 2.x framework and Keras API                                                                                      |
+| **Implement**: Deep RL algorithms (DQN, A3C, DDPG, PPO, SAC etc.) with minimal lines of code                                                                                                      |
 | **Train**: Deep RL agents in simulated environments (gyms) beyond toy-problems and games to perform real-world tasks like cryptocurrency trading, stock trading, tweet/email management and more! |
-| **Scale**: Distributed training of RL agents using TensorFlow 2.x, Ray + Tune + RLLib |
-| **Deploy**: RL agents to the cloud and edge for real-world testing by creating cloud services, web apps and Android mobile apps using TensorFlow Lite, TensorFlow.js, ONNX and Triton |
-| |
+| **Scale**: Distributed training of RL agents using TensorFlow 2.x, Ray + Tune + RLLib                                                                                                             |
+| **Deploy**: RL agents to the cloud and edge for real-world testing by creating cloud services, web apps and Android mobile apps using TensorFlow Lite, TensorFlow.js, ONNX and Triton             |
+|                                                                                                                                                                                                   |
 
 This book covers the following exciting features:
 
