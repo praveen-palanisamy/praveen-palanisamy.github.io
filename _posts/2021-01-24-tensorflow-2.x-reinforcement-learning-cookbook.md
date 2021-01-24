@@ -32,6 +32,10 @@ By the end of this TensorFlow book, you'll be able to:
 | **Deploy**: RL agents to the cloud and edge for real-world testing by creating cloud services, web apps and Android mobile apps using TensorFlow Lite, TensorFlow.js, ONNX and Triton             |
 |                                                                                                                                                                                                   |
 
+| ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/r1.6-gridworldenv.png){:class="img-responsive"} | ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/r1.6-neural-evolutionary-agent-gridworld-reward-plot.png){:class="img-responsive"} |
+| ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| (Left) GridworldEnv, Ch1                                                                             | (Right) Neural evolutionary agent learning performance, Ch1                                                                             |
+
 This book covers the following exciting features:
 
 - Build deep reinforcement learning agents from scratch using the all-new TensorFlow 2.x and Keras API
@@ -41,7 +45,13 @@ This book covers the following exciting features:
 - Speed up agent development using distributed DNN model training
 - Explore distributed deep RL architectures and discover opportunities in AIaaS (AI as a Service)
 
+[![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/crypto_trading_env-render-init-few-steps.png){:class="img-responsive"}](https://www.amazon.com/dp/183898254X)
+
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/183898254X) today!
+
+| ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/StockTradingVisual.png){:class="img-responsive"}                             |
+| --------------------------------------------------------------------------------------------------------------------------------- |
+| ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/sac-agent-TradingContinuousEnv-reward-loss-tb.png) {:class="img-responsive"} |
 
 The chapter-wise recipes covered in the book are listed below with direct links to the code:
 
