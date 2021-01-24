@@ -91,47 +91,52 @@ The chapter-wise recipes covered in the book are listed below with direct links 
 
 ### Chapter 4: RL in real-world: Building cryptocurrency trading agents
 
-- 4.1 Building Bitcoin trading RL platform using real market data
+- [4.1 Building Bitcoin trading RL platform using real market data](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter04/crypto_trading_env.py)
 
-- 4.2 Building Ethereum tradingRL platform using price charts
+- [4.2 Building Ethereum tradingRL platform using price charts](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter04/crypto_trading_visual_env.py)
 
-- 4.3 Building advanced cryptocurrency trading platform for RL agents
+- [4.3 Building advanced cryptocurrency trading platform for RL agents](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter04/crypto_trading_visual_continuous_env.py)
 
-- 4.4 Training cryptocurrency trading bot using RL
+- [4.4 Training cryptocurrency trading bot using RL](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter04/sac_agent.py)
 
 ### Chapter 5: RL in real-world: Building stock/share trading agents
 
-- 5.1 Building stock-market trading RL platform using real stock-exchange data
+- [5.1 Building stock-market trading RL platform using real stock-exchange data](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter05/stock_trading_continuous_env.py)
 
-- 5.2 Building stock-market trading RL platform using price charts
+- [5.2 Building stock-market trading RL platform using price charts](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter05/stock_trading_visual_continuous_env.py)
 
-- 5.3 Building advanced stock trading RL platform to train agents that trade like human pros
+- [5.3 Building advanced stock trading RL platform to train agents that trade like human pros](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter05/sac_agent.py)
 
 ### Chapter 6: RL in real-world: Building intelligent agents to complete your To-Dos
 
-- 6.1 Building learning environments for real-world RL
+- [6.1 Building learning environments for real-world RL](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/tree/master/Chapter06/webgym)
 
-- 6.2 Building an RL agent to complete tasks on the web: Call to Action bot
+- [6.2 Building an RL agent to complete tasks on the web: Call to Action bot](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter06/2_call_to_action_agent.py)
 
-- 6.3 Building a visual auto-login bot
+- [6.3 Building a visual auto-login bot](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter06/3_login_agent.py)
 
-- 6.4 Training an RL agent to automate flight booking for your travel
+- [6.4 Training an RL agent to automate flight booking for your travel](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter06/4_flight_booking_agent.py)
 
-- 6.5 Training an RL agent to manage your emails
+- [6.5 Training an RL agent to manage your emails](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter06/5_important_emails_manager_agent.py)
 
-- 6.6 Training an RL agent to automate your social-media account management
+- [6.6 Training an RL agent to automate your social-media account management](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter06/6_social_media_like_reply_ddpg_agent.py)
+
+- [Bonux recipe: Training an RL agent to mute/block users](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter06/7_social_media_mute_user_agent.py)
 
 ### Chapter 7: Deploying Deep RL agents to the cloud
 
-- 7.1 Implementing RL agent's runtime components
+- ]7.1 Implementing RL agent's runtime components](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter07/sac_agent_runtime.py)
 
 - 7.2 Building RL environment simulator as a service
 
-- 7.3 Training RL agents using remote simulator instances
+  - [Server](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter07/tradegym_http_server.py)
+  - [Client](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter07/tradegym_http_client.py)
 
-- 7.4 Ealuating/testing RL agents
+- [7.3 Training RL agents using remote simulator instances](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter07/3_training_rl_agents_using_remote_sims.py)
 
-- 7.5 Packaging RL agents for deployment: A trading bot
+- [7.4 Ealuating/testing RL agents](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter07/4_evaluating_rl_agents.py)
+
+- [7.5 Packaging RL agents for deployment: A trading bot](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter07/5_packaging_rl_agents_for_deployment.py)
 
 - 7.6 Deploying RL agents to the cloud: Trading-Bot-as-a-Service
 
