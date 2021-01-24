@@ -37,7 +37,7 @@ This book covers the following exciting features:
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/183898254X) today!
 
-The chapter-wise recipes covered in the book is listed below:
+The chapter-wise recipes covered in the book are listed below with direct links to the code:
 
 ## TFRL Cookbook recipes
 
@@ -53,25 +53,25 @@ The chapter-wise recipes covered in the book is listed below:
 
 - 1.5 Building a neural agent
 
-- 1.6 Building a neural evolutionary Agent
+- [1.6 Building a neural evolutionary Agent](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter01/06_neural_evolutionary_agent.py)
 
 ### Chapter 2: Implementing value-based, policy gradients and actor-critic Deep RL algorithms
 
 - 2.1 Building stochastic environmnts for training RL agents
 
-- 2.2 Building value-based Reinforcement Learning agent algorithms
+- [2.2 Building value-based Reinforcement Learning agent algorithms](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter02/2_value_based_rl.py)
 
-- 2.3 Implementing Temporal Difference (TD) Learning
+- [2.3 Implementing Temporal Difference (TD) Learning](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter02/3_temporal_difference_learning.py)
 
-- 2.4 Building Monte-Carlo prediction and control for RL
+- [2.4 Building Monte-Carlo prediction and control for RL](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter02/4_monte_carlo_prediction_and_control_rl.py)
 
-- 2.5 Implementing SARSA algorithm and SARSA agent
+- [2.5 Implementing SARSA algorithm and SARSA agent](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter02/5_sarsa_sarsa_lambda.py)
 
-- 2.6 Building a Q-Learning agent
+- [2.6 Building a Q-Learning agent](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter02/6_q_learning.py)
 
-- 2.7 Implementing Policy Gradients (PG) and a PG agent
+- [2.7 Implementing Policy Gradients (PG) and a PG agent](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter02/7_policy_gradients.py)
 
-- 2.8 Implementing Actor-Critic Algorithms and agent
+- [2.8 Implementing Actor-Critic Algorithms and agent](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter02/8_actor_critic_agent.py)
 
 ### Chapter 3: Implementing Advanced (Deep) RL algorithms
 
