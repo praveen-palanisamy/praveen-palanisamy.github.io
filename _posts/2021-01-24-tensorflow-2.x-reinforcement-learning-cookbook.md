@@ -47,11 +47,11 @@ This book covers the following exciting features:
 
 [![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/crypto_trading_env-render-init-few-steps.png){:class="img-responsive"}](https://www.amazon.com/dp/183898254X)
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/183898254X) today!
+#### **If you feel this book is for you, get your [copy](https://www.amazon.com/dp/183898254X) today!**
 
-| ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/StockTradingVisual.png){:class="img-responsive"}                             |
-| --------------------------------------------------------------------------------------------------------------------------------- |
-| ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/sac-agent-TradingContinuousEnv-reward-loss-tb.png) {:class="img-responsive"} |
+| ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/StockTradingVisual.png){:class="img-responsive"}                            |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+| ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk/sac-agent-TradingContinuousEnv-reward-loss-tb.png){:class="img-responsive"} |
 
 The chapter-wise recipes covered in the book are listed below with direct links to the code:
 
