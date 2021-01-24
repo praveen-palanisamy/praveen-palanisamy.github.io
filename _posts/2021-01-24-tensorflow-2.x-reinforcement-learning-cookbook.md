@@ -15,6 +15,10 @@ With deep reinforcement learning, you can build intelligent agents, products, an
 
 Starting with an introduction to the fundamentals of deep reinforcement learning and TensorFlow 2.x, the book covers OpenAI Gym, model-based RL, model-free RL, and how to develop basic agents. You'll discover how to implement advanced deep reinforcement learning algorithms such as actor-critic, deep deterministic policy gradients, deep-Q networks, proximal policy optimization, and deep recurrent Q-networks for training your RL agents. As you advance, you’ll explore the applications of reinforcement learning by building cryptocurrency trading agents, stock/share trading agents, and intelligent agents for automating task completion. Finally, you'll find out how to deploy deep reinforcement learning agents to the cloud and build cross-platform apps using TensorFlow 2.x.
 
+| ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk-ch9-app-screen.png){:class="img-responsive"} | ![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk-cross-platform-export-options.png){:class="img-responsive"} |
+| ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Android RL Table-Tennis App, Ch9, TFRL-Cookbook                                                   | Cross-platform Deep RL Agent deployment options, Ch9, TFRL-Cookbook                                              |
+
 By the end of this TensorFlow book, you'll be able to:
 
 |                                                                                                                                                                                                   |
