@@ -7,7 +7,7 @@ tags: [TensorFlow 2.x, Deep RL code, Cross-platform RL Apps, mobile Deep RL]
 
 #### TFRL Cookbook is a practical guide with over 50 short-&-sweet recipes to help you build, train and deploy learning agents for real-world applications
 
-<a href="https://www.packtpub.com/product/tensorflow-2-reinforcement-learning-cookbook/9781838982546?utm_source=praveenp.com&utm_medium=blog&utm_campaign=9781838982546"><img src="https://static.packt-cdn.com/products/9781838982546/cover/smaller" alt="TensorFlow 2 Reinforcement Learning Cookbook" height="256px" align="right"></a>
+![TF-RL-Cookbook]({{site.url}}/blog/images/tfrl-ckbk-cover-focused.jpg){:class="img-responsive"}
 
 ## What is this book about?
 
