@@ -21,7 +21,7 @@ Starting with an introduction to the fundamentals of deep reinforcement learning
 
 ---
 
-By the end of this TensorFlow book, you'll be able to:
+#### By the end of this TensorFlow book, you'll be able to:
 
 |                                                                                                                                                                                                   |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -36,7 +36,7 @@ By the end of this TensorFlow book, you'll be able to:
 | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | (Left) GridworldEnv, Ch1                                                                             | (Right) Neural evolutionary agent learning performance, Ch1                                                                             |
 
-This book covers the following exciting features:
+#### This book covers the following exciting features:
 
 - Build deep reinforcement learning agents from scratch using the all-new TensorFlow 2.x and Keras API
 - Implement state-of-the-art deep reinforcement learning algorithms using minimal code
@@ -73,7 +73,7 @@ The chapter-wise recipes covered in the book are listed below with direct links 
 
 ### Chapter 2: Implementing value-based, policy gradients and actor-critic Deep RL algorithms
 
-- 2.1 Building stochastic environmnts for training RL agents
+- 2.1 Building stochastic environments for training RL agents
 
 - [2.2 Building value-based Reinforcement Learning agent algorithms](https://github.com/PacktPublishing/Tensorflow-2-Reinforcement-Learning-Cookbook/blob/master/Chapter02/2_value_based_rl.py)
 
