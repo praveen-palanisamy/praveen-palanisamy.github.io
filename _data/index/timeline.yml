@@ -67,6 +67,63 @@
   date: September 22, 2019
   title: "Technical Program Committee Member, IEEE Connected Autonomous Vehicles Symposium, 2019"
   img: ieee-cavs-2019.png
-  description: ""
-  link:
-  icon:
+
+- timeline-item:
+  date: September 7, 2019
+  title: "Received “Best Reinforcement Learning ebooks of all time” award!"
+  img: best-reinforcement-learning-ebooks.png
+  description: "I’m happy to announce that my book, HOIAWOG!  “Hands-On Intelligent Agents with OpenAI Gym: Your guide to developing AI agents using deep reinforcement learning”, made it to the <a href='https://bookauthority.org/books/best-reinforcement-learning-ebooks?t=1a0g37&s=award&book=178883657X'>Best Reinforcement Learning eBooks of All Time!</a> compiled by BookAuthority. BookAuthority collects and ranks the best books in the world, and it is a great honor to get this kind of recognition. Thank you for all the reader’s support! You can learn more about the HOIAWOG book here. The source code for all the agents, algorithms and implementation details are available on GitHub. You can get a copy of the book from Amazon."
+  link: https://github.com/PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym
+
+- timeline-item:
+  date: June 17, 2019
+  title: "Joined Microsoft as a Senior AI Engineer"
+  img: ms-pp-768x576.jpg
+  description: "Excited to join Microsoft’s Autonomous Systems, Business AI org as a Senior AI Engineer to work on developing end-to-end platform and services for real-world AI applications using Reinforcement Learning and Machine Teaching"
+
+- timeline-item:
+  date: June 16, 2019
+  title: "[CVPR19]Attention-Based Hierarchical Deep Reinforcement Learning for Lane Change Behaviors in Autonomous Driving"
+  img: attentionDDPG1.png
+  description: "Performing safe and efficient lane changes is a crucial feature for creating fully autonomous vehicles. Recent advances have demonstrated successful lane following behavior using deep reinforcement learning, yet the interactions with other vehicles on road for lane changes are rarely considered. In this paper, we design a hierarchical Deep Reinforcement Learning (DRL) algorithm to learn lane change behaviors in dense traffic. By breaking down overall behavior to sub-policies, faster and safer lane change actions can be learned. We also apply temporal and spatial attention to the DRL architecture, which helps the vehicle focus more on surrounding vehicles and leads to smoother lane change behavior. We conduct our experiments in the TORCS simulator and the results outperform the state-of-art deep reinforcement learning algorithm in various lane change scenarios. Citing: Chen, Y., Dong, C., Palanisamy, P., Mudalige, P., Muelling, K., & Dolan, J. M. (2019). Attention-Based Hierarchical Deep Reinforcement Learning for Lane Change Behaviors in Autonomous Driving. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (pp. 0-0)."
+  link: http://openaccess.thecvf.com/content_CVPRW_2019/papers/Autonomous%20Driving/Chen_Attention-Based_Hierarchical_Deep_Reinforcement_Learning_for_Lane_Change_Behaviors_in_CVPRW_2019_paper.pdf
+
+- timeline-item:
+  date: January 8, 2019
+  title: "[WACV19]Learning On-Road Visual Control for Self-Driving Vehicles with Auxiliary Tasks"
+  img: WACV19_learning_on-road_visual_nav_aux_tasks-768x566.png
+  description: "A safe and robust on-road navigation system is a crucial component of achieving fully automated vehicles. NVIDIA recently proposed an End-to-End algorithm that can directly learn steering commands from raw pixels of a front camera by using one convolutional neural network. In this paper, we leverage auxiliary information aside from raw images and design a novel network structure, called Auxiliary Task Network (ATN), to help boost the driving performance while maintaining the advantage of minimal training data and an End-to-End training method. In this network, we introduce human prior knowledge into vehicle navigation by transferring features from image recognition tasks. Image semantic segmentation is applied as an auxiliary task for navigation. We consider temporal information by introducing an LSTM module and optical flow to the network. Finally, we combine vehicle kinematics with a sensor fusion step. We discuss the benefits of our method over state-of-the-art visual navigation methods both in the Udacity simulation environment and on the real-world Comma.ai dataset. Citing: Yilun Chen, Praveen Palanisamy, Priyantha Mudalige, Katharina Muelling: “Learning On-Road Visual Control for Self-Driving Vehicles with Auxiliary Tasks”, 2018; arXiv:1812.07760."
+  link: https://arxiv.org/abs/1812.07760
+
+- timeline-item:
+  date: November 4, 2018
+  title: "[ITSC18]POMDP and Hierarchical Options MDP with Continuous Actions for Autonomous Driving at Intersections"
+  img: image-768x768.png
+  description: "When applying autonomous driving technology to real-world scenarios, environmental uncertainties make the development of decision-making algorithms difficult. Modeling the problem as a Partially Observable Markov Decision Process (POMDP) [1] allows the algorithm to consider these uncertainties in the decision process, which makes it more robust to real sensor characteristics. However, solving the POMDP with reinforcement learning (RL) [2] often requires storing a large number of observations. Furthermore, for continuous action spaces, the system is computationally inefficient. This paper addresses these problems by proposing to model the problem as an MDP and learn a policy with RL using hierarchical options (HOMDP). The suggested algorithm can store the state-action pairs and only uses current observations to solve a POMDP problem. We compare the results of to the time-to-collision method [3] and the proposed POMDP-with-LSTM method. Our results show that the HOMDP approach is able to improve the performance of the agent for a four-way intersection task with two-way stop signs. The HOMDP method can generate both higher-level discrete options and lower-level continuous actions with only the observations of the current step. Citing: Z. Qiao, K. Muelling, J. M. Dolan, P. Palanisamy and P. Mudalige, “POMDP and Hierarchical Options MDP with Continuous Actions for Autonomous Driving at Intersections,” 2018 IEEE 21st International Conference on Intelligent Transportation Systems, Maui, 2018"
+  link: https://praveenp.com/wp-content/uploads/2013/09/POMDP_Hierarchical_Options_MDP_with_Continuous_Actions_for_Autonomous_Driving_at_Intersections_ITSC2018_.pdf
+
+- timeline-item:
+  date: October 31, 2018
+  title: "GM Award for invention – Vehicle state estimation failure detection using Deep Learning"
+  img: TMS_apparatusMethodologyDLStateEstFailureDet-768x651.jpg
+  description: "GM award for protected (secret) method invention: “Apparatus and Methodology for Deep Learning Based State Estimation Failure Detection”, 2017"
+
+- timeline-item:
+  date: October 29, 2018
+  title: "3rd rank – Full Stack Deep Learning certification exam"
+  img: FSDL_cert_completion_3rdRank-1-768x339.png
+  description: "What was it?: Hands-on program for developers familiar with the basics of deep learning <br/> When was it?: August 3 – 5, UC Berkeley, CA. I scored 119 out of 124 which was the 3rd highest score. The certification exam statistics: <br/> Minimum: 23.0; Maximum: 124.0; Mean: 100.75; Median: 105.0; Standard Deviation: 20.54 <br/>The certification exam tested the following topics:Fundamentals of Deep Learning, Convnets, Sequences, Vision Applications, Troubleshooting Deep Learning implementations, Deep Learning Infrastructure, Deep Learning model deployment"
+
+- timeline-item:
+  date: June 26, 2019
+  title: "[IV18]Automatic Curriculum Generation for RL in Autonomous Vehicles in Urban Environment"
+  img: AGCS-768x380.png
+  description: "We address the problem of learning autonomous driving behaviors in urban intersections using deep reinforcement learning (DRL). DRL has become a popular choice for creating autonomous agents due to its success in various tasks. However, as the problems tackled become more complex, the number of training iterations necessary increase drastically. Curriculum learning has been shown to reduce the required training time and improve the performance of the agent, but creating an optimal curriculum often requires human handcrafting. In this work, we learn a policy for urban intersection crossing using DRL and introduce a method to automatically generate the curriculum for the training process from a candidate set of tasks. We compare the performance of the automatically generated curriculum (AGC) training to those of randomly generated sequences and show that AGC can significantly reduce the training time while achieving similar or better performance. keywords: {learning (artificial intelligence);mobile robots;optimal curriculum;human handcrafting;urban intersection crossing;DRL;training process;automatically generated curriculum training;randomly generated sequences;autonomous vehicles;urban environment;autonomous driving behaviors;urban intersections;deep reinforcement learning;autonomous agents;training iterations necessary increase;curriculum learning;required training time;AGC;Training;Autonomous vehicles;Task analysis;Learning (artificial intelligence);Machine learning;Heuristic algorithms}, Citing: Z. Qiao, K. Muelling, J. M. Dolan, P. Palanisamy and P. Mudalige, “Automatically Generated Curriculum based Reinforcement Learning for Autonomous Vehicles in Urban Environment,” 2018 IEEE Intelligent Vehicles Symposium (IV), Changshu, 2018, pp. 1233-1238. doi: 10.1109/IVS.2018.8500603"
+  link: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8500603&isnumber=8500355
+
+- timeline-item:
+  date: June 26, 2018
+  title: "[IV18]Learning Vehicle Surrounding-aware Lane-changing Behavior from Observed Trajectories"
+  img: IV18surroundingAwareLC.png
+  description: "Predicting lane-changing intentions has long been a very active area of research in the autonomous driving community. However, most of the literature has focused on individual vehicles and did not consider both the neighbor information and the accumulated effects of vehicle history trajectories when making the predictions. We propose to apply a surrounding-aware LSTM algorithm for predicting the intention of a vehicle to perform a lane change that takes advantage of both vehicle past trajectories and their neighbor’s current states. We trained the model on real-world lane changing data and were able to show in simulation that these two components can lead not only to higher accuracy, but also to earlier lane-changing prediction time, which plays an important role in potentially improving the autonomous vehicle’s overall performance. keywords: {mobile robots;road safety;road vehicles;vehicle surrounding-aware lane-changing behavior;autonomous driving community;vehicle history trajectories;surrounding-aware LSTM algorithm;autonomous vehicle;lane-changing prediction time;lane-changing intentions;Trajectory;History;Prediction algorithms;Automobiles;Training;Predictive models;Feature extraction;LSTM;lane-change intention}, Citing: S. Su, K. Muelling, J. Dolan, P. Palanisamy and P. Mudalige, “Learning Vehicle Surrounding-aware Lane-changing Behavior from Observed Trajectories,” 2018 IEEE Intelligent Vehicles Symposium (IV), Changshu, 2018, pp. 1412-1417. doi: 10.1109/IVS.2018.8500445"
+  link: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8500445&isnumber=8500355
