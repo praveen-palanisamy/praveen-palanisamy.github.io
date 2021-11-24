@@ -1,0 +1,63 @@
+# Website settings
+title: Praveen Palanisamy
+description: Building Autonomous Systems, AI, Deep RL & Robotics
+keywords: Praveen,Praveen Palanisamy, HOIAWOG
+# url: https://praveen-palanisamy.github.io
+url: http://127.0.0.1:4000
+baseurl: /
+# url: http://127.0.0.1:4000
+img_path: /static/assets/img/blog # url should be '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:
+  name: Praveen Palanisamy# Be used at blog posts' author.
+  first_name: Praveen # Used at index page about me section.
+  last_name: Palanisamy # Used at index page about me section.
+  avatar: /static/assets/img/avatar.jpg
+  github_username: praveen-palanisamy# Leave blank if you don't have now
+  linkedin_id: praveenpalanisamy
+  twitter_username: praveenpsamy# Leave blank if you don't have now
+  email: email@praveenp.com
+  cv: https://praveenp.com
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-apache
+    - name: fa-linux
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-apache
+  desc: Praveen Palanisamy is a Principal AI Engineer in Autonomous Systems group, Business AI at Microsoft, working on developing end-to-end platform and services for real-world AI applications using Reinforcement Learning and Machine Teaching. Prior to that, he was an Autonomous Driving AI Researcher at General Motors R&D in Michigan, where, he developed planning and decision making algorithms and architectures using Deep Reinforcement Learning. Before that , he was at the Robotics Institute, Carnegie Mellon University, where, he worked on Autonomous Navigation, Perception and Artificial Intelligence. He holds numerous patents in the area of autonomous learning systems.
+
+# comment
+disqus:
+  name: praveen-palanisamy-github
+
+# analytics
+## google analytics
+ga:
+  # id:
+
+## google optimize
+go:
+  # id:
+
+## donation
+donation: off # type 'on'/'off' to choice display donation button at post page or not
+
+## carousels
+index_carousel: on # index page carousel switch
+blog_carousel: on # blog page carousel switch
+
+# scss
+sass:
+  style: compressed
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
