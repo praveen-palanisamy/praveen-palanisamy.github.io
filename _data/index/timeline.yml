@@ -26,3 +26,47 @@
   date: November 21, 2020
   title: "Elevated to IEEE Senior Member"
   img: ieee-senior-member-plaque-768x626.jpeg
+
+- timeline-item:
+  date: July 24, 2020
+  title: "[IJCNN20][Oral]Multi-Agent Deep RL for Connected Autonomous Driving"
+  img: ijcnn-presentation-slide1-praveen-palanisamy-768x277.png
+  description: "Excited to be part of IEEE World Congress on Computational Intelligence (WCCI) 2020. I will making an oral presentation at the International Joint Conference on Convolutional Neural Networks (IJCNN) Special Session on Methods and Applications of Deep Reinforcement Learning to Autonomous Systems. More info and link to presentation: https://2020.wcci-virtual.org/presentation/oral/multi-agent-connected-autonomous-driving-using-deep-reinforcement-learning"
+  link: https://2020.wcci-virtual.org/presentation/oral/multi-agent-connected-autonomous-driving-using-deep-reinforcement-learning
+
+- timeline-item:
+  date: July 23, 2020
+  title: "[Guest talk] Keynote presentation on RL for Smart Cities (AMSB2020)"
+  img: amsb2020-768x137.png
+  description: "Invited keynote speaker at the international virtual conference on AI & ML Applications in Smart Buildings (AMSB2020). Gave a talk on “Reinforcement Learning for Smart Cities”."
+  link: https://chennai.vit.ac.in/events/international-virtual-conference-on-ai-and-ml-applications-in-smart-buildings-amsb2020/
+
+- timeline-item:
+  date: January 11, 2020
+  title: "[Demo] CES 2020"
+  img: ces-2020-2cities-360-768x314.jpeg
+  description: "It was an invaluable CES 2020 experience as a part of Microsoft’s Autonomous Systems group collaborating with Bell Helicopter (https://lnkd.in/eGqndv9) in the showcase of Bell’s AerOS’s capabilities with a fully operational demo using scaled-down Nexus 4EX (https://lnkd.in/enJ5W5F) in a smart city. While it’s far from perfect, just seeing the TOL (Take-Off-Landing) and the NAV (Navigation) “Brains”, (providing an autonomous visual guidance system as a backup) deployed onto Bell’s drones that were demoed to the 150k+ CES audience was rewarding for me after months of hard-work on the AI pipeline. Thanks to Microsoft and Bell for providing the opportunity. This was my shortest development-to-deployment/production cycle of an autonomous (sub)system till date that was demoed publicly on the target hardware/robot!"
+
+- timeline-item:
+  date: December 8, 2019
+  title: "[NeurIPS19] Multi-Agent Connected Autonomous Driving using Deep Reinforcement Learning "
+  img: macad-gym-urban_4way_intrx_2c1p1m-768x182.png
+  # TODO: Add NeurIPS img slideshow
+  description: "The capability to learn and adapt to changes in the driving environment is crucial fordeveloping autonomous driving systems that are scalable beyond geo-fenced oper-ational design domains. Deep Reinforcement Learning (RL) provides a promisingand scalable framework for developing adaptive learning based solutions. Deep RLmethods usually model the problem as a (Partially Observable) Markov DecisionProcess in which an agent acts in a stationary environment to learn an optimalbehavior policy. However, driving involves complex interaction between multiple,intelligent (artificial or human) agents in a highly non-stationary environment. Inthis paper, we propose the use of Partially Observable Markov Games(POSG) forformulating the connected autonomous driving problems with realistic assumptions.We provide a taxonomy of multi-agent learning environments based on the natureof tasks, nature of agents and the nature of the environment to help in categorizingvarious autonomous driving problems that can be addressed under the proposedformulation. As our main contributions, we provide MACAD-Gym, a Multi-AgentConnected, Autonomous Driving agent learning platform for furthering research inthis direction. Our MACAD-Gym platform provides an extensible set of ConnectedAutonomous Driving (CAD) simulation environments that enable the research anddevelopment of Deep RL- based integrated sensing, perception, planning andcontrol algorithms for CAD systems with unlimited operational design domainunder realistic, multi-agent settings. We also share the MACAD-Agents that weretrained successfully using the MACAD-Gym platform to learn control policies formultiple vehicle agents in a partially observable, stop-sign controlled, 3-way urbanintersection environment with raw (camera) sensor observations. Paper: https://arxiv.org/abs/1911.04175  Code: https://github.com/praveen-palanisamy/macad-gym"
+  link: https://github.com/praveen-palanisamy/macad-gym
+
+- timeline-item:
+  date: October 4, 2019
+  title: "Winner at TechCrunch Disrupt San Francisco 2019 Hackathon"
+  img: techcrunch-disrupt-2019-hackathon-winner-praveen-palanisamy-e1571028954348-768x827.jpg
+  # TODO: Add TechCrunch Disrupt hackathon img slideshow
+  description: "Built SaveWise- An AI powered fin-tech app that won the TechCrunch Disrupt San Francisco 2019 Hackathanon sponsored by Plaid.SaveWise is an AI service that connects to a user’s bank/card accounts, trains on their past transaction data and predicts upcoming expenses and savings potential for the future. It is aimed at helping users to pay down their debt faster and attain financial freedom. It provides pro-active, actionable notifications, for e.g.: It can predict when and where you will head out to grab lunch and provides you more economical options without changing your lifestyle (same cuisine etc.). Visit the project page for more info:  https://devpost.com/software/spendwise-69ik2c"
+  link: https://devpost.com/software/spendwise-69ik2c
+
+- timeline-item:
+  date: September 22, 2019
+  title: "Technical Program Committee Member, IEEE Connected Autonomous Vehicles Symposium, 2019"
+  img: ieee-cavs-2019.png
+  description: ""
+  link:
+  icon:
