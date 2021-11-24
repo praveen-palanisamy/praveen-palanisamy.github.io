@@ -1,0 +1,28 @@
+# timeline section data
+- timeline-item:
+  date: March 26, 2021
+  title: "[Guest Lecture @CMU] Deep Reinforcement Learning: Building Autonomous Agents"
+  img: CMU-Kigali-talk-Twitter-01-768x433.jpg
+  description: "Delivered a quick primer on Deep Reinforcement Learning and any interested and curious student can dive into the field using read-made recipes from the TFRL Cookbook. The talk also covers pointers to free book, lectures and courses available to build a strong foundation and theoretical understanding before embarking on a practical, application oriented journey using the relatively advanced recipes discussed in the TFRL Cookbook."
+  link: CMU-kigali-talk-PRAVEEN-PALANISAMY-RL-Guest-Lecture-1024x677.jpg
+  latest: true
+
+- timeline-item:
+  date: January 24, 2021
+  title: "[Book Published] TensorFlow 2.x Reinforcement Learning Cookbook"
+  img: tfrl-ckbk-cover-focused-768x447.jpg
+  description: "A practical guide with 50 short-&-sweet recipes to help you build, train and deploy learning agents for real-world applications. Full blog-post"
+  link: https://praveenp.com
+  icon: fa-book
+
+- timeline-itme:
+  date: March 9, 2021
+  title: "[Patent]Spatial and temporal attention-based deep reinforcement learning of hierarchical lane-change policies for controlling an autonomous vehicle"
+  img: spatio-temporal-attention-hdrl-768x662.png
+  description: "Performing safe and efficient lane changes is a crucial feature for creating fully autonomous vehicles. Recent advances have demonstrated successful lane following behavior using deep reinforcement learning, yet the interactions with other vehicles on road for lane changes are rarely considered. Systems and methods are provided that employ spatial and temporal attention-based deep reinforcement learning of hierarchical lane-change policies for controlling an autonomous vehicle. An actor-critic network architecture includes an actor network that process image data received from an environment to learn the lane-change policies as a set of hierarchical actions, and a critic network that evaluates the lane-change policies to calculate loss and gradients to predict an action-value function (Q) that is used to drive learning and update parameters of the lane-change policies. The actor-critic network architecture implements a spatial attention module to select relevant regions in the image data that are of importance, and a temporal attention module to learn temporal attention weights to be applied to past frames of image data to indicate relative importance in deciding which lane-change policy to select."
+  link: https://patentimages.storage.googleapis.com/81/26/e7/5326f00f5c1501/US10940863.pdf
+
+- timeline-item:
+  date: November 21, 2020
+  title: "Elevated to IEEE Senior Member"
+  img: ieee-senior-member-plaque-768x626.jpeg
