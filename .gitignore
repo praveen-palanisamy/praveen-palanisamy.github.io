@@ -1,0 +1,5 @@
+vendor
+_site
+.bundle
+.vscode
+.Gemfile.lock

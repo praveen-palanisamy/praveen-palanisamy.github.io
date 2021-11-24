@@ -1,0 +1,31 @@
+# careers section data
+- name:
+    detail: Microsoft
+  desc:
+    detail: Building blocks for Autonomous Systems
+  date:
+    detail: Jun. 2019
+  job:
+    detail: Principal AI Engineer
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: General Motors R&D
+  desc:
+    detail: Deep RL for Autonomous Driving
+  date:
+    detail: Jan 2016
+  job:
+    detail: Researcher
+  icon: fa-plus-square
+
+- name:
+    detail: Carnegie Mellon University
+  desc:
+    detail: Autonomous Navigation, Perception & Deep Learning
+  date:
+    detail: Aug 2014
+  job:
+    detail: Researcher
+  icon: fa-plus-square

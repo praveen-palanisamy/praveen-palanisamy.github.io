@@ -1,0 +1,26 @@
+# index page sections
+- id: about-me
+  name: About
+  tpl: about.html
+  css:
+
+- id: timeline
+  name: Timeline
+  tpl: timeline.html
+  css: timeline
+
+- id: projects
+  name: Projects
+  tpl: projects.html
+  css: project
+
+- id: blog
+  name: Blog
+  tpl: blog.html
+  page: blog/
+  css: testimonials navy-section
+
+- id: career
+  name: Career
+  tpl: career.html
+  css: timeline
