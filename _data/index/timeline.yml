@@ -127,3 +127,50 @@
   img: IV18surroundingAwareLC.png
   description: "Predicting lane-changing intentions has long been a very active area of research in the autonomous driving community. However, most of the literature has focused on individual vehicles and did not consider both the neighbor information and the accumulated effects of vehicle history trajectories when making the predictions. We propose to apply a surrounding-aware LSTM algorithm for predicting the intention of a vehicle to perform a lane change that takes advantage of both vehicle past trajectories and their neighbor’s current states. We trained the model on real-world lane changing data and were able to show in simulation that these two components can lead not only to higher accuracy, but also to earlier lane-changing prediction time, which plays an important role in potentially improving the autonomous vehicle’s overall performance. keywords: {mobile robots;road safety;road vehicles;vehicle surrounding-aware lane-changing behavior;autonomous driving community;vehicle history trajectories;surrounding-aware LSTM algorithm;autonomous vehicle;lane-changing prediction time;lane-changing intentions;Trajectory;History;Prediction algorithms;Automobiles;Training;Predictive models;Feature extraction;LSTM;lane-change intention}, Citing: S. Su, K. Muelling, J. Dolan, P. Palanisamy and P. Mudalige, “Learning Vehicle Surrounding-aware Lane-changing Behavior from Observed Trajectories,” 2018 IEEE Intelligent Vehicles Symposium (IV), Changshu, 2018, pp. 1412-1417. doi: 10.1109/IVS.2018.8500445"
   link: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8500445&isnumber=8500355
+
+- timeline-item:
+  date: March 26, 2018
+  title: "[IV2018]Reviewer for 2018 IEEE Intelligent Vehicles Symposium "
+  img: IEEE-IV-Symposium-2018-banner-768x262.jpg
+  description: ""
+  link:
+
+- timeline-item:
+  date: September 6, 2017
+  title: "[Patent Pending] Unsupervised learning agents for environment interpretation and human-like driving behaviors with visual reasoning"
+  img: DIRL_unsupervised_AD-768x418.png
+  description: ""
+  link:
+  icon:
+
+- timeline-item:
+  date: August 16, 2017
+  title: "[Patent]Autonomous Behavior Control using Policy Triggering and Execution"
+  img: Autonomous_behavior_control_policy_trigger_exec-768x865.png
+  description: ""
+  link:
+  icon:
+
+- timeline-item:
+  date: August 14, 2017
+  title: "[Patent]Autonomous operation using Deep Spatio-Temporal Learning"
+  img: deep_spatio-temporal_recurrent_learning_for_autonomous_operation-768x524.png
+  description: ""
+  link:
+  icon:
+
+- timeline-item:
+  date: May 31, 2017
+  title: "[Patent] Trajectory Planning for Autonomous Driving using Graph Search & Bezier Curves"
+  img: trajBezier-768x768.jpg
+  description: ""
+  link:
+  icon:
+
+- timeline-item:
+  date: April 28, 2017
+  title: "[Patent] Method for Automated Vehicle Route Traversal"
+  img: figSample.png
+  description: ""
+  link:
+  icon:

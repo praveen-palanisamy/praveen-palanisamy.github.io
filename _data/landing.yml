@@ -4,15 +4,15 @@
   tpl: about.html
   css:
 
-- id: timeline
-  name: Timeline
-  tpl: timeline.html
-  css: timeline
-
 - id: projects
   name: Projects
   tpl: projects.html
   css: project
+
+- id: timeline
+  name: Timeline
+  tpl: timeline.html
+  css: timeline
 
 - id: blog
   name: Blog

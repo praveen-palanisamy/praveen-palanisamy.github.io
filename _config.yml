@@ -18,7 +18,7 @@ author:
   linkedin_id: praveenpalanisamy
   twitter_username: praveenpsamy# Leave blank if you don't have now
   email: email@praveenp.com
-  cv: https://praveenp.com
+  cv:
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-apache
