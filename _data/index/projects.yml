@@ -1,1 +1,24 @@
 # projects section data
+- name: MACAD-Gym
+  gh_user: praveen-palanisamy
+  repo: macad-gym
+  img: macad-gym-urban_4way_intrx_2c1p1m.png
+  desc: Multi-Agent Connected Autonomous Driving (MACAD) Gym environments for Deep RL.
+
+- name: Tensorflow-2-Reinforcement-Learning-Cookbook
+  gh_user: PacktPublishing
+  repo: Tensorflow-2-Reinforcement-Learning-Cookbook
+  img: tf2rl-cookbook.png
+  desc: This book contains easy-to-follow recipes for leveraging TensorFlow 2.x to develop artificial intelligence applications. Starting with an introduction to the fundamentals of deep reinforcement learning and TensorFlow 2.x, the book covers OpenAI Gym, model-based RL, model-free RL, and how to develop basic agents. You'll discover how to implement advanced deep reinforcement learning algorithms such as actor-critic, deep deterministic policy gradients, deep-Q networks, proximal policy optimization, and deep recurrent Q-networks for training your RL agents. As you advance, you’ll explore the applications of reinforcement learning by building cryptocurrency trading agents, stock/share trading agents, and intelligent agents for automating task completion. Finally, you'll find out how to deploy deep reinforcement learning agents to the cloud and build cross-platform apps using TensorFlow 2.x.
+
+- name: Multiple Object Tracking using LiDARs
+  gh_user: praveen-palanisamy
+  repo: multiple-object-tracking-lidar
+  img: multi-object-tracking-lidar.gif
+  desc: Multiple objects detection, tracking and classification from LIDAR scans/point-clouds
+
+- name: Hands-on Intelligent Agent development using OpenAI Gym
+  gh_user: PacktPublishing
+  repo: Hands-On-Intelligent-Agents-with-OpenAI-Gym
+  img: hoiawog.png
+  desc: HOIAWOG! Your guide to developing AI agents using deep reinforcement learning. Implement intelligent agents using PyTorch to solve classic AI problems, play console games like Atari, and perform tasks such as autonomous driving using the CARLA driving simulator.
