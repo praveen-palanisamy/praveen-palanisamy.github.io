@@ -4,4 +4,4 @@
 
 # make sure name is the same as href but capitalized first letter(except HTML)
 - name: Deep RL
-  href: /python/
+  href: /deeprl/
