@@ -6,6 +6,7 @@ desc: "TFRL Cookbook: Tutorial guide for building, training and deploying Deep R
 keywords: "Deep Reinforcement Learning, TensorFlow 2.x, Deep RL code, Cross-platform RL Apps, mobile Deep RL"
 categories: [DeepRL]
 tags: [TensorFlow 2.x, Deep RL code, Cross-platform RL Apps, mobile Deep RL]
+icon: fa-book
 ---
 
 #### TFRL Cookbook is a practical guide with over 50 short-&-sweet recipes to help you build, train and deploy learning agents for real-world applications
