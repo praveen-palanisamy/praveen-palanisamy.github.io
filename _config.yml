@@ -10,7 +10,7 @@ img_path: /static/assets/img/blog # url should be '/homepage/static/assets/img/b
 
 # author -- index page "about me" section
 author:
-  name: Praveen Palanisamy# Be used at blog posts' author.
+  name: Praveen Palanisamy # used as blog posts' author.
   first_name: Praveen # Used at index page about me section.
   last_name: Palanisamy # Used at index page about me section.
   avatar: /static/assets/img/avatar.jpg
