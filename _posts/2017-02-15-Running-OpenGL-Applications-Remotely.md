@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Running OpenGL Applications remotely through ssh from a linux system"
+date: 2017-02-15
 desc: "Running OpenGL Applications remotely through ssh from a linux system"
 keywords: [OpenGL, remote rendering, ssh X, Linux-Dev]
 categories: [Linux]
