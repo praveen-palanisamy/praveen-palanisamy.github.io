@@ -7,7 +7,7 @@ keywords: "PyTorch, Deep Learning, Reinforcement Learning, Deep RL"
 categories: [PyTorch]
 tags:
   [PyTorch, pytorch-autodiff, pytorch-computation-graph, pytorch-no-gradients]
-icon: fa-fire
+icon: fa-burn
 ---
 
 #### Never create a new `torch.tensor` /`variable` from an existing list/ tuple/ sequence/ container of `tensors`/`variables`
