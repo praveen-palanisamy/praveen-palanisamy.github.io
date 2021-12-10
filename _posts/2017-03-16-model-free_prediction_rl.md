@@ -6,7 +6,7 @@ desc: "Model-free prediction algorithms for deep reinforcement learning --Simila
 keywords: "Deep Reinforcement Learning, RL, DRL"
 categories: [DeepRL]
 tags: [Deep-Reinforcement-Learning, model-free-prediction, TD(lambda), RL, DRL]
-icon: icon-robot
+icon: fa-robot
 ---
 
 Conventions:
