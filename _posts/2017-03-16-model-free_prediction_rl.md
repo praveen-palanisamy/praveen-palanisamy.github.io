@@ -4,7 +4,7 @@ title: "Model-free prediction algorithms for deep reinforcement learning --Simil
 date: 2017-03-16
 desc: "Model-free prediction algorithms for deep reinforcement learning --Similarities and differences (WIP)"
 keywords: "Deep Reinforcement Learning, RL, DRL"
-categories: [DeepRL]
+categories: [Deeprl]
 tags: [Deep-Reinforcement-Learning, model-free-prediction, TD(lambda), RL, DRL]
 icon: fa-robot
 ---

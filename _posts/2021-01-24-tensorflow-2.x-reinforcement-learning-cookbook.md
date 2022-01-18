@@ -4,7 +4,7 @@ title: "TensorFlow 2.x Reinforcement Learning Cookbook"
 date: 2021-01-24
 desc: "TFRL Cookbook: Tutorial guide for building, training and deploying Deep Reinforcement Learning Agents for real-world tasks implemented in TensorFlow 2.x"
 keywords: "Deep Reinforcement Learning, TensorFlow 2.x, Deep RL code, Cross-platform RL Apps, mobile Deep RL"
-categories: [DeepRL]
+categories: [Deeprl]
 tags: [TensorFlow 2.x, Deep RL code, Cross-platform RL Apps, mobile Deep RL]
 icon: fa-book
 ---
