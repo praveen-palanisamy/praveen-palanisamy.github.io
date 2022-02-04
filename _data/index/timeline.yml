@@ -28,6 +28,14 @@
   img: ieee-senior-member-plaque-768x626.jpeg
 
 - timeline-item:
+  date: November 6, 2020
+  title: "[Talk]FIU Seminar on Multi-Agent Deep Reinforcement Learning for Connected Autonomous Driving"
+  img: florida-international-university-seminar-MACAD.png
+  description: "Delivered seminar at Florida Internation University School of Computing and Information Sciences (FIUSCIS). Abstract: The ability to autonomously navigate in 2D, 3D and unconstrained spaces by vehicles, robots or agents is desirable for several real-world applications. Autonomous driving on roads, which is a subset of the autonomous navigation space has become one of the major focus in the automotive industry in the recent times in addition to electrification. It involves autonomous vehicles navigating safely and socially from their start location to their desired goal location in usually complex environments. The autonomous driving field has advanced to the point of feasible deployments in the real-world. But they are limited in several ways including their domain of operation. The capability to learn and adapt to changes in the driving environment and in the intents of other road actors is crucial for autonomous driving systems to scale beyond the current, limited operation design domains. With the increasingly ubiquitous availability of 5G communication infrastructure, connectivity among vehicles provides a whole new avenue for connected autonomous driving. This talk is on using multi-agent deep reinforcement learning as a framework for formulating autonomous driving problems and developing solutions for these problems using simulation. This talk proposes the use of Partially Observable Markov Games for formulating the connected autonomous driving problems with realistic assumptions. The taxonomy of multi-agent learning environments based on the nature of tasks, nature of agents and the nature of the environment to help in categorizing various autonomous driving problems that can be addressed under the proposed formulation will be discussed. In addition,  MACAD-Gym, a multi-agent learning platform with an extensible set of Connected Autonomous Driving (CAD) simulation environments that enable the research and development of Deep RL based integrated sensing, perception, planning and control algorithms for CAD systems with unlimited operational design domain under realistic, multi-agent settings will also be discussed. The talk concludes with remarks on autonomous navigation in 3D space, AirSim, Bonsai and an overview of Microsoft Autonomous Systems."
+  link: https://www.youtube.com/watch?v=a3tDo6Aof_k
+  icon:
+
+- timeline-item:
   date: July 24, 2020
   title: "[IJCNN20][Oral]Multi-Agent Deep RL for Connected Autonomous Driving"
   img: ijcnn-presentation-slide1-praveen-palanisamy-768x277.png
