@@ -36,7 +36,15 @@
             <a
               href="https://github.com/{{ site.author.github_username }}"
               target="blank"
-              ><i class="fa fa-github"></i
+              ><i class="fa fa-github fa-3x"></i
+            ></a>
+          </li>
+          {% endif %} {% if site.author.google_scholar_uid%}
+          <li>
+            <a
+              href="https://scholar.google.com/citations?user={{ site.author.google_scholar_uid}}"
+              target="blank"
+              ><i class="fa fa-book fa-3x"></i
             ></a>
           </li>
           {% endif %} {% if site.author.linkedin_id %}
@@ -44,7 +52,7 @@
             <a
               href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}"
               target="blank"
-              ><i class="fa fa-linkedin"></i
+              ><i class="fa fa-linkedin fa-3x"></i
             ></a>
           </li>
           {% endif %} {% if site.author.facebook_username %}
@@ -52,7 +60,7 @@
             <a
               href="https://www.facebook.com/{{ site.author.facebook_username }}"
               target="blank"
-              ><i class="fa fa-facebook"></i
+              ><i class="fa fa-facebook fa-3x"></i
             ></a>
           </li>
           {% endif %} {% if site.author.twitter_username %}
@@ -60,25 +68,25 @@
             <a
               href="https://twitter.com/{{ site.author.twitter_username }}"
               target="blank"
-              ><i class="fa fa-twitter"></i
+              ><i class="fa fa-twitter fa-3x"></i
             ></a>
           </li>
           {% endif %} {% if site.author.email %}
           <li>
             <a href="mailto:{{ site.author.email }}"
-              ><i class="fa fa-envelope-o"></i
+              ><i class="fa fa-envelope-o fa-3x"></i
             ></a>
           </li>
           {% endif %}
           <li>
             <a href="{{ site.baseurl }}/feed.xml" target="blank"
-              ><i class="fa fa-rss"></i
+              ><i class="fa fa-rss fa-3x"></i
             ></a>
           </li>
           {% if site.author.cv %}
           <li>
             <a href="{{ site.author.cv }}" target="blank"
-              ><i class="fa fa-file-pdf-o"></i
+              ><i class="fa fa-file-pdf-o fa-3x"></i
             ></a>
           </li>
           {% endif %}
