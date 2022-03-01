@@ -13,13 +13,13 @@ Work-In-Progress draft.
 
 ## The Life-Time-Resource Triangle
 
-![LTR-Triangle]({{site.img_path}}/ltr-mdp/ltr-triangle.jpg)
+![LTR-Triangle]({{site.img_path}}/ltr-mdp/ltr-triangle.jpg){:class="img-responsive"}
 
 Maximizing the Life-Time-Resources is an optimization that every human being runs one way or the other. Time can be traded for Resources and vice-versa. We have only got one (Physical) Life now.
 
 ## The Mental-Digital-Physical Framework
 
-![MDP-layers]({{site.img_path}}/ltr-mdp/mental-digital-physical.png)
+![MDP-layers]({{site.img_path}}/ltr-mdp/mental-digital-physical.png){:class="img-responsive"}
 
 Our reality is made up of three layers: Mental, Digital and Physical.
 
