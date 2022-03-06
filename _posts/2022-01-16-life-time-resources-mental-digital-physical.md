@@ -46,3 +46,13 @@ In [Reinforcement Learning](https://www.andrew.cmu.edu/course/10-703/textbook/Ba
 Learning to optimize for maximizing Life-Time-Resources/Long-Term-Rewards using the Mental-Digital-Physical/Markov-Decision-Process Framework as a Human/Agent is the Goal.
 
 [Reward is enough](https://www.sciencedirect.com/science/article/pii/S0004370221000862)? TBD
+
+Creating and executing ideas that cause physical changes is a key to attain human-level intelligence. A reward signal should point towards creativity for Artifical Intelligence(AI) beyond human-level, general intelligence.
+AI Agents should collectively figure out what the _Goal_ is (if there is _one_) and what the _Reward_ is (if it is _enough_).
+
+## Open Notes
+
+- Artificial Neural Networks (ANNs), regardless of their size (deep or wide or large # of learnable parameters), trained using Supervised learning methods alone are less likely to be "conscious". They are less likely to provide "good explanations" to their own outputs. By definition, in Supervised learning, the ANNs are told/instructed/supervised to learn a given input-output mapping. These mappings are existing knowledge that humans posses today.
+- Datasets and simulators created by humans have a lot of bias and creativity in them that may not reflect the truth or the physics of the world we live in.
+- Mimetic evolution is several orders of magnitude faster than genetic evolution.
+- Replicating/transferring knowledge/intelligence/code to other humans through memes happens faster than replicating/transferring biological code through genes
