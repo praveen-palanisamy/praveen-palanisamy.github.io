@@ -27,6 +27,22 @@ author:
     - name: fa-linux
     - name: icon-apache
   desc: Praveen Palanisamy is a Principal AI Engineer in the Autonomous Systems Business Incubation group at Microsoft, building an end-to-end (Perception + Scene-Understanding + Prediction + Planning + Control) autonomy platform for autonomous aerial robots and systems using Simulation, Deep Learning, Deep Reinforcement Learning and Machine Teaching. Prior to that, he was an Autonomous Driving AI Researcher at General Motors R&D in Michigan, where, he developed planning and decision making algorithms and architectures using Deep Reinforcement Learning. He is the lead inventor of 20+ patents in the area of learning-based autonomous mobile systems. He has worked at a few early-stage startups as a tech lead. He obtained his Graduate degree from the Robotics Institute, Carnegie Mellon University, and worked on Autonomous Navigation, Perception and Artificial Intelligence as a Research and Teaching Assistant.
+  short_bio: Principal AI Engineering Lead for Autonomous Systems at Microsoft AI + Research
+  uri: "https://praveenp.com"
+  location: U.S.A
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:email@praveenp.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://praveenp.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/PraveenPSamy"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/praveen-palanisamy"
 
 # comment
 disqus:
@@ -45,7 +61,7 @@ go:
 donation: off # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on # index page carousel switch
+index_carousel: off # index page carousel switch
 blog_carousel: on # blog page carousel switch
 
 # scss
@@ -61,3 +77,19 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Default front matter content https://jekyllrb.com/docs/configuration/front-matter-defaults/
+
+defaults:
+  - scope:
+      path: ""  # All files
+      type: pages
+    values:
+      layout: "default"
+      author_profile: true
+  - scope:
+      path: ""  # All files
+      type: posts
+    values:
+      layout: "post"
+      author_profile: true
