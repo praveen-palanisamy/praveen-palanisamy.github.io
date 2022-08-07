@@ -257,6 +257,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  nokogiri (>= 1.13.6)
+  tzinfo (>= 1.2.10)
   webrick
 
 BUNDLED WITH
