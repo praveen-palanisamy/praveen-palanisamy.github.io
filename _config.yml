@@ -14,6 +14,9 @@ author:
   last_name: Palanisamy # Used at index page about me section.
   avatar: /static/assets/img/avatar.jpg
   links:  # Custom links.
+    - label: "Patents"
+      icon: "fa fa-2x fa-trophy"
+      url: "https://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=Praveen&FIELD1=IN&co1=AND&TERM2=Palanisamy&FIELD2=IN&d=PG01"
     - label: "Google Scholar"
       icon: "fa fa-2x fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=gHmYX8YAAAAJ"
