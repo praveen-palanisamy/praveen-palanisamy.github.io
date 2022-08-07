@@ -39,6 +39,30 @@
         {% endfor %}
       {% endif %}
 
+      {% if author.github_username %}
+        <li>
+          <a href="https://github.com/{{ author.github_username }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fa fa-2x fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.linkedin_id %}
+        <li>
+          <a href="https://www.linkedin.com/in/{{ author.linkedin_id }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.twitter_username %}
+        <li>
+          <a href="https://twitter.com/{{ author.twitter_username }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+            <i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url" rel="me">
@@ -64,26 +88,11 @@
         </li>
       {% endif %}
 
-      {% if author.twitter_username %}
-        <li>
-          <a href="https://twitter.com/{{ author.twitter_username }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
-          </a>
-        </li>
-      {% endif %}
 
       {% if author.facebook %}
         <li>
           <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i><span class="label">Facebook</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.linkedin_id %}
-        <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin_id }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
           </a>
         </li>
       {% endif %}
@@ -116,14 +125,6 @@
         <li>
           <a href="https://bitbucket.org/{{ author.bitbucket }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fa fa-2x fa-bitbucket" aria-hidden="true"></i><span class="label">Bitbucket</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.github_username %}
-        <li>
-          <a href="https://github.com/{{ author.github_username }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fa fa-2x fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
       {% endif %}
