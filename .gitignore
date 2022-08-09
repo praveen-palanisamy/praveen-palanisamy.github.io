@@ -3,3 +3,4 @@ _site
 .bundle
 .vscode
 .Gemfile.lock
+node_modules
