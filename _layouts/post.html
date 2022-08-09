@@ -4,7 +4,7 @@ layout: default
 {% include sidebar.html %}
 <div class="wrapper wrapper-content  animated fadeInRight article">
     <div class="row">
-        <div class="col-lg-10 col-lg-offset-1">
+        <div class="col-lg-9 col-lg-offset-1">
             <div class="ibox">
                 <div class="ibox-content">
                     <div class="pull-right">
@@ -18,7 +18,15 @@ layout: default
                             {{ page.title }}
                         </h1>
                     </div>
-                    	{{ content }}
+                        {% if page.toc %}
+                        <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+                            <nav class="toc">
+                            <header><h4 class="nav__title"><i class="fa fa-{{ page.toc_icon | default: 'bookmark' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "Contents" }}</h4></header>
+                            {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
+                            </nav>
+                        </aside>
+                        {% endif %}
+                        {{ content }}
                     <hr>
                     <div class="row">
                         <div class="col-md-6">

@@ -73,7 +73,6 @@ kramdown:
   syntax_highlighter: rouge
 
 # Default front matter content https://jekyllrb.com/docs/configuration/front-matter-defaults/
-
 defaults:
   - scope:
       path: ""  # All files
@@ -86,4 +85,6 @@ defaults:
       type: posts
     values:
       layout: "post"
-      author_profile: true
+      author_profile: true  # Author profile on sidebar (left)
+      toc: "true"  # Table of Contents on sidebar_right
+      toc_sticky: "true"
