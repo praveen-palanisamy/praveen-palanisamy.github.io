@@ -19,8 +19,9 @@ $right-sidebar-width-wide: 400px !default;
 
 /* Other */
 
-$nav-height: 2em !default;
 $border-radius: 4px !default;
+$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
+$nav-height: 2em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
@@ -69,3 +70,8 @@ $danger-color: #ee5f5b !default;
 $info-color: #3b9cba !default;
 $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
+
+/* YIQ color contrast */
+$yiq-contrasted-dark-default: $dark-gray !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 175 !default;
