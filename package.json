@@ -32,11 +32,15 @@
     "pace-progress": "^1.0.2",
     "peity": "^3.2.0",
     "purify-css": "^1.1.9",
-    "wowjs": "^1.1.2"
+    "wowjs": "^1.1.2",
+    "mem": ">=4.0.0",
+    "yargs-parser": ">=13.1.2"
   },
   "devDependencies": {
     "clean-css": "^4.0.6",
     "shelljs": "^0.8.3",
-    "uglify-js": "^2.7.5"
+    "uglify-js": "^2.7.5",
+    "mem": ">=4.0.0",
+    "yargs-parser": ">=13.1.2"
   }
 }
