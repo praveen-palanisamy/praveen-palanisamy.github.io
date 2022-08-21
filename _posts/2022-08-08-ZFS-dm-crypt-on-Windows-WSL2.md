@@ -12,9 +12,27 @@ icon: fa-book
 
 ### ZFS
 
+ZFS is a Linux filesystem that is designed to be fast and resilient with advanced features like compression and deduplication enabled by default. The main advantages of ZFS over other filesystems like ext4 (the most common) are:
+
+* Copy-on-write: Avoid file corruptions when writing/modifying existing files. A visual description is avaialble [here](https://arstechnica.com/information-technology/2020/05/zfs-101-understanding-zfs-storage-and-performance/3/)
+* Support for snapshots: Track changes in files and directories over time without additional storage space.
+* Supports pooled storage: Create a file system that spans across multiple disks
+* Supports data integrity verification and automatic repairs (scrubbing)
+
+#### Further reading on ZFS: 
+ - [Arch Linux Wiki has a detailed article about ZFS](https://wiki.archlinux.org/title/ZFS).
+
+ - [This very well written blog post in the Alibaba Cloud community](https://www.alibabacloud.com/blog/594181) describes practical use cases of ZFS and how you can use your storage space more effectively with ZFS.
+
 ### DM-Crypt
 
-### Custom WSL2 kernel
+dm-crypt is a Linux kernel module that enables encryption of block devices.
+
+### Why custom WSL2 kernel ?
+
+Windows WSL2 kernel does not have ZFS and dm-crypt support by default.
+Additional kernel modules are needed to enable ZFS and dm-crypt support.
+Moreoever, ZFS is licensed under CDDL, and is incompatible with GPL and therefore it is not distributed with the Linux Kernel.
 
 ## Steps to enable ZFS and dm-crypt on Windows WSL2
 
