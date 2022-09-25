@@ -1,4 +1,12 @@
 # timeline section data
+
+- timeline-item:
+  date: July 18, 2022
+  title: "[Product Launch] Microsoft Project AirSim at Farnborough International AirShow"
+  img: "fia2022/pp-msft-booth-fia-2022-1500x500.jpg"
+  description: "Project AirSim is an End-to-End platform for aerial autonomy that's powered by Simulation, planet-scale 3D assets and AI. My team & I announced Microsoft Project AirSim at the Farnborough International Airshow, 2022 in London."
+  link: "https://www.linkedin.com/posts/praveenpalanisamy_introducing-microsoft-project-airsim-for-activity-6954744131554332672-WoHk"
+
 - timeline-item:
   date: March 26, 2021
   title: "[Guest Lecture @CMU] Deep Reinforcement Learning: Building Autonomous Agents"
