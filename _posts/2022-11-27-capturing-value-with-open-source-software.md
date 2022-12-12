@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Capturing Value with Open Source Software"
-date: 2022-11-20
-desc: "Ways to generate and capture"
+date: 2022-11-27
+desc: "Existing value generation and capture mechanisms with Open Source Software"
 keywords: "OSS, business models"
-categories: [Ideas]
-tags: [open-source, software, business idea, WIP, thoughts]
+categories: [Entrepreneurship]
+tags: [open-source, software, business models, entrepreneurship, value creation]
 icon: fa-robot
 ---
 
