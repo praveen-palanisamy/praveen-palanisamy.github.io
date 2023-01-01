@@ -1,6 +1,15 @@
 # timeline section data
 
 - timeline-item:
+  date: December 14, 2022
+  title: "[Webinar]Transforming Infrastructure Inspection with Simulation and Autonomy"
+  img: "cuav-webinar-12-2022.jpg"
+  description:
+    "Spoke at the Commercial Unmanned Aerial Vehicle (CUAV) news webinar on Transforming Infrastructure Inspection with Simulation and Autonomy. I was joined by John McKenna, Co-Founder & CEO of [sees.ai](https://sees.ai) and Timothy Reuter from Microsoft. Discussed a few key aspects on how running high-fidelity simulations at scale can accelerate  mission planning, software & AI/ML model development and iteration cycles. Leveraging AI and the Autonomy Building blocks including pre-trained models that can be fine-tuned to build custom autonomy modules is a key enabler for accelerating the journey towards aerial autonomy. I also covered some of the key features and focus areas of the [Microsoft Project AirSim](https://aka.ms/airsim) platform that enables the entire end-to-end pipeline for aerial autonomy. I went over two specific application scenarios: 1. Cell Tower inspection and 2. Bridge inspection. Link to the [Webinar page](https://www.commercialuavnews.com/webinars/transforming-infrastructure-inspection-with-simulation-and-autonomy). Link to the [recording of the webinar](https://divcom-events.webex.com/recordingservice/sites/divcom-events/recording/1195f2765e07103bbbce7aa5c9eed6a0/playback).
+    A snapshot summary is available in the [webinar handout slides](https://divcomplatform.s3.amazonaws.com/www.commercialuavnews.com/images/51ddda254950966a163468fc66254f2c.pdf).  [Post on LinkedIn](https://www.linkedin.com/posts/praveenpalanisamy_transforming-infra-inspection-with-simulation-activity-7011120568972316672-pH98)."
+  link: "https://www.commercialuavnews.com/webinars/transforming-infrastructure-inspection-with-simulation-and-autonomy"
+
+- timeline-item:
   date: July 18, 2022
   title: "[Product Launch] Microsoft Project AirSim at Farnborough International AirShow"
   img: "fia2022/pp-msft-booth-fia-2022-1500x500.jpg"
