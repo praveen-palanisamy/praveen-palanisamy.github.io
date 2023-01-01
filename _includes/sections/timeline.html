@@ -22,7 +22,7 @@
                             <h2><span> {{ timeline.title}}</span></h2>
                             <img width=100% height=80% src= "{{ '/static/assets/img/timeline/' | prepend: site.baseurl}}{{timeline.img}}" />
                         </span>
-                        <p><bold>{{ timeline.description}}</bold></p>
+                        <p><bold>{{ timeline.description | markdownify}}</bold></p>
                         {% if timeline.link %} <small> Click to Read More...</small> {% endif %}
                     </a>
                     </div>
