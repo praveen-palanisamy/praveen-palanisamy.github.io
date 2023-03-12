@@ -43,21 +43,26 @@ icon: fa-book
 
 | **Category**                         | **Startup/Company** | **Description**                                                             |
 |--------------------------------------|---------------------|-----------------------------------------------------------------------------|
-| **3D Asset Creation Tools**          | Sketchfab           | 3D model publishing and discovery platform                                  |
+| **3D Asset Creation Tools**          |                     |                                                                             |
+|                              | Sketchfab           | 3D model publishing and discovery platform                                  |
 |                                  | TurboSquid          | Marketplace for buying and selling 3D models                                |
 |                                  | Artomatix           | AI-powered 3D texture creation software                                     |
 |                                  | Unscreen            | AI-powered video background removal tool                                    |
-| **AI/ML Deployment**                 | Algorithmia         | Platform for deploying and managing AI/ML models                            |
+| **AI/ML Deployment**                 |                     |                                                                             |
+|                              | Algorithmia         | Platform for deploying and managing AI/ML models                            |
 |                                  | Seldon              | Open-source platform for deploying and monitoring machine learning models   |
 |                                  | Paperspace          | Cloud-based platform for machine learning and AI development                |
-| **3D Scene Reconstruction**          | Matterport          | Platform for creating 3D models of physical spaces                          |
+| **3D Scene Reconstruction**          |                     |                                                                             |
+|                              | Matterport          | Platform for creating 3D models of physical spaces                          |
 | | Meshroom            | Open-source 3D reconstruction software                                      |
 |                                  | Photogrammetry.ai   | AI-powered 3D scanning software                                             |
-| **3D Rendering on the Web**          | Sketchfab           | 3D model publishing and discovery platform                                  |
+| **3D Rendering on the Web**          |                     |                                                                             |
+|                              | Sketchfab           | 3D model publishing and discovery platform                                  |
 |                                  | PlayCanvas          | Web-based game engine and development platform                              |
 |                                  | Threekit            | Cloud-based platform for creating and visualizing 3D product configurations |
 |                                  | Verge3D             | WebGL toolkit for creating interactive 3D web experiences                   |
-| **Augmented Reality (AR) Platforms** | Niantic             | Developer of Pokemon Go and other AR games                                  |
+| **Augmented Reality (AR) Platforms** |                     |                                                                             |
+|                              | Niantic             | Developer of Pokemon Go and other AR games                                  |
 |                                  | Zappar              | AR platform for creating interactive content and experiences                |
 |                                  | 8th Wall            | AR development platform for web and mobile applications                     |
 {: .table .table-striped .table-bordered .table-hover .table-sm}
