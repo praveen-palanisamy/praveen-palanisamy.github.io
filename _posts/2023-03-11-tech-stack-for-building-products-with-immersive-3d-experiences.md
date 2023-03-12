@@ -10,7 +10,7 @@ icon: fa-book
 
 ## 3D content generation technologies, tools, and frameworks
 
-| | **Technology/Tool/Framework**        | **Brief Description**                            | **Use Cases**                                                      | **Key Advantage**                                             |  |  |
+|                                    | **Technology/Tool/Framework**        | **Brief Description**                            | **Use Cases**                                                      | **Key Advantage**                                             |  |  |
 |--------------------------------------------|--------------------------------------|--------------------------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------|------|------|
 | **3D Asset Creation, Modeling, Animation** | Blender                              | Open-source 3D creation software                 | Asset creation, 3D modeling and animation, rendering               | Advanced toolset, extensive community                         |      |      |
 | **AI/ML Models**                           |                                      |                                                  |                                                                    |                                                               |      |      |
@@ -31,6 +31,9 @@ icon: fa-book
 | **Experience/XR toolkit/platforms**        |                                      |                                                  |                                                                    |                                                               |      |      |
 |                                        | ARCore                               | Augmented Reality SDK for Android                | Augmented reality app development                                  | Advanced motion tracking, environmental understanding         |      |      |
 |                                        | ARKit                                | Augmented Reality SDK for iOS                    | Augmented reality app development                                  | Face tracking, gesture recognition                            |      |      |
+|                                    | Unity                                | Unity Game Engine                                |                                                                    |                                                               |      |      |
+|                                    | Unreal Engine                        | Unreal Game Engine                               |                                                                    |                                                               |      |      |
+
 
 
 
@@ -46,7 +49,7 @@ icon: fa-book
 |                                  | Seldon              | Open-source platform for deploying and monitoring machine learning models   |
 |                                  | Paperspace          | Cloud-based platform for machine learning and AI development                |
 | **3D Scene Reconstruction**          | Matterport          | Platform for creating 3D models of physical spaces                          |
-| ** **                                | Meshroom            | Open-source 3D reconstruction software                                      |
+| | Meshroom            | Open-source 3D reconstruction software                                      |
 |                                  | Photogrammetry.ai   | AI-powered 3D scanning software                                             |
 | **3D Rendering on the Web**          | Sketchfab           | 3D model publishing and discovery platform                                  |
 |                                  | PlayCanvas          | Web-based game engine and development platform                              |
