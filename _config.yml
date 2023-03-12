@@ -45,7 +45,7 @@ disqus:
 # analytics
 ## google analytics
 ga:
-  # id:
+  id: G-RC2T7K4L01
 
 ## google optimize
 go:
