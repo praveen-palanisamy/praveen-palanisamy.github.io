@@ -6,8 +6,9 @@ keywords: 3D, content, generation, tech, stack, extended reality
 categories: [Ideas]
 tags: 3D, content, generation, tech, stack
 icon: fa-book
+thumbnail: /static/assets/img/blog/gen-ai/tech-stack-for-3d-xp-products.jpg
 ---
-
+[![Generative AI Tech Stack](/static/assets/img/blog/gen-ai/tech-stack-for-3d-xp-products.jpg){:class="img-responsive"}](#)
 ## 3D content generation technologies, tools, and frameworks
 
 |                                    | **Technology/Tool/Framework**        | **Brief Description**                            | **Use Cases**                                                      | **Key Advantage**                                             |
