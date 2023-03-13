@@ -7,6 +7,7 @@ keywords: "OSS, business models"
 categories: [Entrepreneurship]
 tags: [open-source, software, business models, entrepreneurship, value creation]
 icon: fa-robot
+thumbnail: /static//assets/img/blog/oss-value/oss-security-risk-analysis.jpg
 ---
 
 [quick-thoughts draft]
@@ -63,12 +64,12 @@ OSS used by business broadly fall under these categories:
 | Selling event tickets | Linux Foundation, Open Source Summit, ApacheCon, FOSDEM, PyCon, JSConf, NodeConf, DockerCon, KubernetesCon, CloudNativeCon, OpenStack Summit |
 | Consulting | Red Hat, Canonical, SUSE |
 | Selling books | O'Reilly, Manning |
-
+{: .table .table-striped .table-bordered .table-hover .table-sm}
 
 ### Selling event tickets
 
 Examples: Linux Foundation, Open Source Summit, ApacheCon, FOSDEM, PyCon, JSConf, NodeConf, DockerCon, KubernetesCon, CloudNativeCon, OpenStack Summit
-![oss-events-wordcloud]({{site.img_path}}/oss-value/oss-conferences-worldlcoud.jpeg){:class="img-responsive"}
+![oss-events-wordcloud]({{site.img_path}}/oss-value/oss-conferences-wordcloud.jpeg){:class="img-responsive"}
 
 ## Startups capturing value with open source software
 
@@ -82,3 +83,4 @@ A sample set:
 | Plausible.io [Code](https://github.com/plausible/analytics) | Privacy-friendly Google Analytics alternative                                                             | pageviews/usage-based [Pricing](https://plausible.io/#pricing)                | ?                            | ?                 |
 | Supabase.com [Code](https://github.com/supabase/supabase)   | Firebase alternative with full PostgreSQL, Auth, Storage, Edge functions, Subscriptions and instant APIs  | Freemium, cloud service + usage-based [Pricing](https://supabase.com/pricing) | $80M Series B, May 10, 2022  | $116.1M           |
 | ...                                                         | ...                                                                                                       | ...                                                                           | ...                          | ...               |
+{: .table .table-striped .table-bordered .table-hover .table-sm}
