@@ -10,7 +10,7 @@ icon: fa-book
 
 Cash is King but when the Castle (Bank) becomes unsafe, where does the King go?
 
-**TLDR:** Silicon Valley Bank mismanaged risks, announced sale of securities at a loss to meet withdrawal obligations, majority-depositors were VCs and their portfolio companies in the tech and healthcare industry who were shrewd to act optimally (in a game-theoretic sense), spread the word through network-effects, led to  'bankrun', FDIC took-over and placed under receivership, posed systemic risk, the feds, treasury, and FDIC intervened to make the depositors whole. What can we learn from this? 
+**TLDR:** Silicon Valley Bank mismanaged risks, announced sale of securities at a loss to meet withdrawal obligations, majority-depositors were VCs and their portfolio companies in the tech and healthcare industry who were shrewd to act optimally (in a game-theoretic sense), spread the word through network-effects, led to  'bankrun', FDIC took-over and placed under receivership, faced with systemic risk, the feds, treasury, and FDIC intervened to make the depositors whole. What can we learn from this?
 
 ## What happend to Silicon Valley Bank?
 Silicon Valley Bank (SVB) is (was) U.S's 16th largest Bank with assets totaling $220 Billion. What can go wrong in less than a week?
