@@ -4,7 +4,7 @@ date: 2023-01-01
 desc: Generative AI for text, image, audio, video generation and how it will help humanity to become more productive and accelerate memetic evolution
 keywords: AI
 categories: [Ideas]
-tags: web3
+tags: [AI, generative, memetic evolution]
 icon: fa-book
 ---
 
