@@ -21,7 +21,7 @@ thumbnail: /static/assets/img/blog/apps/prisma-postgres-pgvector_sm.jpg
   - [0. Setup VectorDB using Prisma](#0-setup-vectordb-using-prisma)
   - [0. Setup Schema](#0-setup-schema)
   - [1. Update VectorDB schema](#1-update-vectordb-schema)
-  - [Issues](#issues)
+  - [Issues and Troubleshooting](#issues-and-troubleshooting)
 
 <!-- tocstop -->
 
@@ -86,7 +86,7 @@ datasource db {
 1. Run `npx prisma generate` to generate Prisma Client.
 1. (Optional) Run `npx prisma studio` to open the Prisma Studio GUI to view the data in the database.
 
-## Issues
+## Issues and Troubleshooting
 
 1. Composite types are ignored by Prisma. Prisma only supports composite types for MongoDB.
 
@@ -133,3 +133,4 @@ CREATE TABLE "Embedding" (
 
 Related issues/feature-requests [Reuse collections of fields inside models](https://github.com/prisma/prisma/issues/2371) and, [Support for native DB composite types](https://github.com/prisma/prisma/issues/4263) has been open since 2020!
 
+There is a helpful troubleshooting section for some of the common issues when using Prisma with Supabase [here](https://supabase.com/docs/guides/integrations/prisma#troubleshooting).
