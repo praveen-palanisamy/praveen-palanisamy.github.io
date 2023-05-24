@@ -7,7 +7,7 @@ keywords: "OSS, business models"
 categories: [Entrepreneurship]
 tags: [open-source, software, business models, entrepreneurship, value creation]
 icon: fa-robot
-thumbnail: /static//assets/img/blog/oss-value/oss-security-risk-analysis.jpg
+thumbnail: /static/assets/img/blog/oss-value/oss-security-risk-analysis.jpg
 ---
 
 [quick-thoughts draft]
