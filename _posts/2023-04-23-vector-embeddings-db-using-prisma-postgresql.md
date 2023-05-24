@@ -9,8 +9,6 @@ icon: fa-book
 thumbnail: /static/assets/img/blog/apps/prisma-postgres-pgvector_sm.jpg
 ---
 
-[![prisma-postgres-pgvector-db]({{site.img_path}}/apps/prisma-postgres-pgvector_sm.jpg){:class="img-responsive"}](#)
-
 # Setting up a Vector Database store using Prisma and PostgreSQL with PgVector extension
 
 [Prisma](https://prisma.io) is useful as an object-relational mapper (ORM) and Postgres is one of the supported database backend. Prisma is used to define the database schema in a simple Schema Definition Language (SDL) and can help with migrations and to auto generate the Prisma Client with type declarations for Javascript/Typescript. The generated Prisma Client is tailored to the models and views in the Schema and is used to interact with the database.
@@ -110,6 +108,7 @@ model Embedding{
   vector Unsupported("vector(4)")  // vector(n) for a n-dimensional vector.
 }
 ```
+
 > Note: We have to use `Unsupported("vector(4)")` for the `vector` field because Prisma Schema Language (Schema) does not support the `vector` type (as of Prisma 4.13.0).
 
 With the above Data model, we can use Prisma to store and retrieve vector embeddings in PostgreSQL with PgVector extension. The `vector` field is of type `Unsupported("vector(4)")` which is a 4-dimensional vector. You can update this to suit your actual embedding size for example `1536` when using OpenAI's `text-embedding-*-002` models.The `vector` field is stored in the `vector` column in the `Embedding` table in the database.
@@ -141,60 +140,60 @@ Since the Prisma Schema language does not support the `vector` type, the generat
 For example, the following Application code to insert vector data into a PostgreSQL database using Prisma does not work:
 
 ```ts
-import { PrismaClient } from '@prisma/client'
+import { PrismaClient } from "@prisma/client";
 
-const prisma = new PrismaClient()
+const prisma = new PrismaClient();
 
 async function main() {
   const embedding = await prisma.embedding.create({
     data: {
-      text: 'Hello World',
+      text: "Hello World",
       // vector: [1, 2, 3, 4], // This does not work.
     },
-  })
-  console.log(embedding)
+  });
+  console.log(embedding);
 }
 
 main()
   .catch((e) => {
-    throw e
+    throw e;
   })
   .finally(async () => {
-    await prisma.$disconnect()
-  })
+    await prisma.$disconnect();
+  });
 ```
 
- See [Prisma docs on Unsupported field types](https://www.prisma.io/docs/concepts/components/prisma-schema/features-without-psl-equivalent#unsupported-field-types) for more information. You can still execute raw SQL to insert vector data into your database via Prisma. Let's see how in the next section below.
+See [Prisma docs on Unsupported field types](https://www.prisma.io/docs/concepts/components/prisma-schema/features-without-psl-equivalent#unsupported-field-types) for more information. You can still execute raw SQL to insert vector data into your database via Prisma. Let's see how in the next section below.
 
 ### Inserting/Upserting to the Database
 
 The following sample script uses `prisma.$executeRaw` to insert vector embeddings into a postgreSQL database with the `pgvector` extension installed and updated using the Prisma data model and migration/SQL script discussed above.
 
 ```ts
-import { PrismaClient } from '@prisma/client'
+import { PrismaClient } from "@prisma/client";
 
-const prisma = new PrismaClient()
+const prisma = new PrismaClient();
 
 async function main() {
+  // Generate embeddings
+  const vectorEmbedding1 = JSON.stringify([1, 2, 3, 4]);
+  const vectorEmbedding2 = JSON.stringify([64, 256, 512, 1024]);
 
-    // Generate embeddings
-    const vectorEmbedding1 = JSON.stringify([1, 2, 3, 4])
-    const vectorEmbedding2 = JSON.stringify([64, 256, 512, 1024])
+  // Insert embeddings into DB
+  await prisma.$executeRaw`INSERT INTO embedding (vector) VALUES (${vectorEmbedding1}::vector), (${vectorEmbedding2}::vector)`;
 
-    // Insert embeddings into DB
-    await prisma.$executeRaw`INSERT INTO embedding (vector) VALUES (${vectorEmbedding1}::vector), (${vectorEmbedding2}::vector)`
-
-    // Search/Query and retrieve embeddings
-    const results = await prisma.$queryRaw`SELECT id, embedding::text FROM embedding ORDER BY vector >-> ${vecEmbed}::vector LIMIT 2`
+  // Search/Query and retrieve embeddings
+  const results =
+    await prisma.$queryRaw`SELECT id, embedding::text FROM embedding ORDER BY vector >-> ${vecEmbed}::vector LIMIT 2`;
 }
 
 main()
   .catch((e) => {
-    throw e
+    throw e;
   })
   .finally(async () => {
-    await prisma.$disconnect()
-  })
+    await prisma.$disconnect();
+  });
 ```
 
 ## Issues and Troubleshooting

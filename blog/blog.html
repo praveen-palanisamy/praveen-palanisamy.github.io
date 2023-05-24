@@ -21,11 +21,13 @@ permalink: /blog/
         <div class="col-md-4">
           <div class="card mb-4">
             <a href="{{ post.url | prepend: site.baseurl }}" class="card-link">
+              {% if post.thumbnail %}
               <img
                 class="card-img-top img-responsive"
                 src="{{ post.thumbnail }}"
                 alt="{{ post.title }}"
               />
+              {% endif %}
               <div class="card-body">
                 <h5 class="card-title">{{ post.title }}</h5>
                 <div class="vote-info">
@@ -37,7 +39,7 @@ permalink: /blog/
                     >0</span
                   >) {% endif %}
                 </div>
-                <p class="card-text">{{ post.excerpt }}</p>
+                <p class="card-text">{{ post.desc | truncate: 200}}</p>
                 <a
                   href="{{ post.url | prepend: site.baseurl }}"
                   class="btn btn-primary"
