@@ -6,6 +6,7 @@ keywords: Microsoft CoPilot
 categories: [blog]
 tags: Microsoft CoPilot
 icon: fa-robot
+thumbnail: /static/assets/img/blog/msbuild23/ai-era-tools-msbuild23.jpg
 ---
 
 Here's a quick, key summary of the key announcements from Microsoft Build 2023.
@@ -78,6 +79,11 @@ An end-to-end analytics platform fro enterprises in the era of AI. It offers a h
     <iframe frameborder="0" rel="0" controls="0" allowfullscreen="" src="https://youtube.com/embed/X_c7gLfJz_Q?rel=0"></iframe>
   </div>
 </div>
-## 
+## Other exciting announcements
 
 ### Vector Search using CosmosDB for MongoDB Atlas 
+
+The first MongoDB-compatible fully managed No-SQL offering to support Vector Search. [Read More](https://devblogs.microsoft.com/cosmosdb/introducing-vector-search-in-azure-cosmos-db-for-mongodb-vcore/).
+This is a big plus for the AI era and will join PostgresQL + PGVector, Pinecone, Milvus, Qdrant, Chroma, Vespa and other Vector Search offerings. 
+
+![CosMos DB for MongoDB Atlas with Vector Search](https://devblogs.microsoft.com/cosmosdb/wp-content/uploads/sites/52/2023/05/vector_search_vcore.png){:class="img-responsive"}
