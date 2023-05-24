@@ -50,3 +50,23 @@
   max-width: 100%;
   height: auto;
 }
+
+// Blog home page card for posts list
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.card:hover {
+  background-color: #f8f9fa;
+}
+
+.card-link {
+  display: block;
+  color: inherit;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
