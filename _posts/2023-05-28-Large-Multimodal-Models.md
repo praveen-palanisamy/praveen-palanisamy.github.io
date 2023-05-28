@@ -1,11 +1,12 @@
 ---
 title: Large Multimodal Models
 date: 2023-05-28 00:00:00 Z
-desc: Large Multimodal Models
+desc: Collection of Large Multimodal Models (LMMs) and Datasets
 keywords: AI, LLMs, multimodal, models
 categories: [blog, AI, LLM]
 tags: AI, LLMs, mul
 icon: fa-robot
+thumbnail: /static/assets/img/blog/lmm/lmm-thumb.png
 ---
 
 ## Large Multi-Modal Datasets
