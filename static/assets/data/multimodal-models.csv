@@ -1,0 +1,90 @@
+model;architecture;parameters;modality;objective;highlights;paper;code
+VisualBERT [139];Trans, BERT;170M;image-text;GR, MML;A simple and strong baseline for VLP;arXiv-2019;https://github.com/uclanlp/visualbert
+ViLBERT [140];Trans;274M;image-text;CS, GR;First adopt co-attention for MM pre-training;NeurIPS-2019;https://github.com/jiasenlu/vilbert_beta
+LXMERT [117];Trans;183M;image-text;QA, MOR, MOC, MML, MLM;Propose a cross-modality encoder for vision-language pre-training;EMNLP-2019;https://github.com/airsplay/lxmert
+B2T2 [141];ResNet, BERT;-;image-text;MML, GR;Embed bounding box into text transformer in a early fusion manner;EMNLP-2019;https://github.com/google-research/language/tree/master/language/question_answering/b2t2
+Unicoder-VL [114];Trans;170M;image-text;GR, MML, MOC;Single transformer encoder for VLP;AAAI-2020;https://github.com/microsoft/Unicoder
+VL-BERT [142];BERT;-;image-text;GR, MOC;MM PTMs and faster rcnn are jointly trained;ICLR-2019;https://github.com/jackroos/VL-BERT
+VLP [143];Trans;-;image-text;BiDT, Seq2seq;Unified encoder-decoder network architecture;AAAI-2020;https://github.com/LuoweiZhou/VLP
+UNITER [18];Trans;110M;image-text;MRA, MML;Propose an OT-based WordRegion Alignment objective;ECCV-2020;https://github.com/ChenRocks/UNITER
+12-IN-1 [144];Trans;270M;image-text;CS, GR;Training jointly on 12 different datasets in a multi-task learning manner;CVPR-2020;https://github.com/facebookresearch/vilbert-multi-task
+VisDial-BERT [145];Trans;-;image-text;MLM, NSP, MIR;Pre-training on image-text corpus and finetuning on visual dialog;ECCV-2020;https://github.com/vmurahari3/visdial-bert/
+ImageBERT [87];Trans;170M;image-text;MOC, MLM, MML, MOR;Indicating that multi-stage pre-training works better;arXiv-2020;-
+PREVALENT [122];Trans;-;image-text;MLM, AP;Pre-training for vision and language navigation;CVPR-2020;https://github.com/weituo12321/PREVALENT
+XGPT [11];Trans;-;image-text;IC, MLM, IDA, MOR;Novel IDA pre-training;Share parameters between encoder and decoder;-
+InterBERT [115];Trans;173M;image-text;MSM, MOC, ITM-hn;Finding that all-attention works better than co-attention for modal interaction;arXiv-2020;https://github.com/black4321/InterBERT
+PixelBERT [20];CNN, Trans;142M;image-text;MLM, MML;First to align vision and language in pixel and text-level;arXiv-2020;-
+OSCAR [17];Trans;155M;image-text;CS, MLM;Align the visual patches with word embeddings by using object tags as anchor points;ECCV-2020;https://github.com/microsoft/Oscar
+pyramidCLIP [146];CNN+Trans;-;image-text;CS;Hierarchical image-text contrastive learning;arXiv-2022;-
+FashionBERT [147];BERT;-;image-text;MLM, MOR, MML;Use image patches for fashion domain instead of RoIs;RDIR-2020;https://github.com/alibaba/EasyTransfer
+VILLA [148];Trans;-;image-text;MLM, MOR, MML;Pre-training with adversarial learning;NeurIPS-2020;https://github.com/zhegan27/VILLA
+ERNIE-ViL [123];Trans;-;image-text;MOC, AttP, RelP, MLM, MOR, MML;Use the knowledge obtained from scene graph;AAAI-2021;https://github.com/Muennighoff/vilio
+KVL-BERT [149];BERT;-;image-text;MOC, MLM;Integrate commonsense knowledge for visual commonsense reasoning;KBS-2021;-
+VinVL [113];Trans;157M;image-text;MTL, 3-way CS;Verifying that visual feature matters in VLP, i.e., strong object detector brings better results;CVPR-2021;https://github.com/pzzhang/VinVL
+VL-T5 [150];Trans;400M;image-text;MLM, VQA, MML, VG, GC;Unified framework for VL via generating texts;ICML-2021;https://github.com/j-min/VL-T5
+ViLT [151];Trans;87M;image-text;MLM, MML;Use linear embedding only for Fast VL transformer;ICML-2021;https://github.com/dandelin/vilt
+ALIGN [21];EfficientNet, BERT;300M;image-text;CS;Milestone for image-text pre-training using noisy data;ICML-2021;-
+Kaleido-BERT [124];Trans;-;image-text;MLM, MML, AKPM;Use saliency detector to generate multi-grained patches;CVPR-2021;http://dpfan.net/Kaleido-BERT
+MDETR [152];CNN+Trans;-;image-text;STP, MML;A text-modulated detection system which can be trained in an end to end way;ICCV-2021;https://github.com/ashkamath/mdetr
+SOHO [153];CNN+Trans;-;image-text;MLM, MOR, MML;Use a dynamic-updated visual dictionary for vision-language alignment;CVPR-2021;https://github.com/researchmm/soho
+E2E-VLP [125];Trans;94M;image-text;OBD, ITG;The first PTM for vision-language understanding and generation;ACL-2021;-
+PIM [154];Trans;48M;image-text;MLM, MML, MOR;Measure and reveal the V+L fusion using the proposed inter-modality flow metric;NeurIPS-2021;-
+CLIP − V iLp [137];Trans;-;image-text;MLM, VQA, MML;Take the CLIP visual encoder as its visual backbone;arXiv-2021;https://github.com/clip-vil/CLIP-ViL
+ALBEF [130];Trans;210M;image-text;CS, GR;Design a momentum model to address noisy data;NeurIPS-2021;https://github.com/salesforce/ALBEF
+SimVLM [116];Trans;-;image-text;PrefixLM;Simple VL model using single PrefixLM pre-training objective only;arXiv-2021;-
+MURAL [155];Trans;430M;image-text;CS;Adopt multi-task contrastive learning objective (image-text, text-text);arXiv-2021;-
+VLMo [156];Trans;-;image-text;MLM, MML, CS;Jointly learns visual-, text-encoder and a fusion encoder;arXiv-2021;https://aka.ms/vlmo
+METER [157];Trans;-;image-text;MLM, MOR, MOC, MML;An empirical study on VLP;CVPR-2022;https://github.com/zdou0830/METER
+VideoBERT [158];BERT;-;video-text;MLM;A simple model for video-text feature learning;ICCV-2019;https://github.com/ammesatyajit/VideoBERT
+CBT [159];Trans;15M;video-text;NCE;Self-supervised contrastive bidirectional Transformer;arXiv-2019;-
+UniVL [160];Trans;-;video-text;MLM, MFM, MML, ITG;A unified model for multimodal understanding and generation;arXiv-2020;https://github.com/microsoft/UniVL
+HERO [126];Trans;-;video-text;MLM, MFM, VSM, FOM;Hierarchical Transformer-based model trained with newly proposed VSM and FOM;EMNLP-2020;https://github.com/linjieli222/HERO
+MMFT-BERT [161];BERT;-;image-text;Classification;Adopt multiModal fusion Transformer for modality fusion;EMNLP-2020;https://github.com/aurooj/MMFT-BERT
+ActBERT [133];Trans;-;image-text;CS, GR;Extract actions explicitly as one of the inputs;CVPR-2020;-
+CLIP [77];Resnet, Trans;88.6M;image-text;CS;Milestone for image-text pre-training using noisy data;ICML-2021;https://github.com/OpenAI/CLIP
+Frozen [92];Trans;180.4M;video/image-text;MML;Jointly optimize the model on both images and videos;ICCV-2021;https://github.com/m-bain/frozen-in-time
+RegionLearner [162];Trans;-;video-text;MML;Implicitly learning object region without position supervision;arXiv-2021;https://github.com/showlab/Region_Learner
+UNIMO [163];Trans;-;image-text;CS;Adapt to single-, multi-modal understanding and generation tasks effectively;arXiv-2020;https://github.com/PaddlePaddle/Research/tree/master/NLP/UNIMO
+DALL-E [164];Trans;12B;image-text;ELB;Achieve high quality image generation without using any of the training labels;ICML-2021;https://github.com/openai/DALL-E
+BriVL [106];Trans;10B;image-text;InfoNCE;The first Chinese large-scale MM-PTMs;arXiv-2021;https://github.com/chuhaojin/WenLan-api-document
+VLC [165];ViT;87M;image-text;MIM, MLM, ITM;Built on top of MAE that does not require trained on ImageNet;arXiv-2022;https://github.com/guilk/VLC
+M6 [103];Trans;100B;image-text;LM;The largest pretrained model in Chinese;arXiv-2021;-
+CogView [166];Trans;4B;image-text;NLL;The first open-source large text-to-image transformer;NeurIPS-2021;https://github.com/THUDM/CogView
+VATT [167];Trans;306.1M;Video, Audio, Text;NCE, MIL-NCE;Modality-specific or Modality-agnostic triplet modality pre-trained model;NeurIPS-2021;https://github.com/google-research/google-research/tree/master/vatt
+OPT [22];Trans;-;image, Audio, Text;MLM, MVM, MoLM, MAM, DTR, DIR;The first model pre-trained using triplet modalities;arXiv-2021;-
+Florence [168];CoSwin UniCL;-;image-text;Multi-dimensional expansion of representations;893M;arXiv-2021;-
+ROSITA [128];Trans;-;image-text;SKM, MLM, MRM;Fuse the intra-, cross-modality knowledge, and SKM;MM-2021;-
+VLCDoC [169];Trans;-;image-text;CS;Contrastive Pre-Training for document classification;arXiv-2022;-
+MVP [170];ViT;-;image-text;MIM;Multimodality-guided visual pre-training leads to impressive gains;arXiv-2022;-
+GilBERT [171];BERT;-;image-text;MLM, MOR;Considers both realistic and synthetic data for VLP;IR-2021;-
+COTS [172];Trans;-;image-text;CS, KLD, MVLM;Token- and task-level interaction are proposed to enhance cross-modal interaction;arXiv-2022;-
+U-VisualBERT [173];Trans, BERT;-;image-text;GR, MML;Unpaired image-text data for pre-training;NAACL-2021;https://github.com/uclanlp/visualbert
+Flamingo [174];NFNet;80B;image-text;CS;Pre-training on interleaved visual and text data as input;arXiv-2022;https://github.com/lucidrains/flamingo-pytorch
+M3P [175];BERT;-;image-text;xMLM, MC-MLM, MC-MRM;Multitask, Multilingual, Multimodal Pre-training;CVPR-2021;https://github.com/microsoft/M3P
+BLIP [176];BERT;224M;image-text;CS, MML, MLM;Propose the multimodal mixture of encoder-decoder, and captioning-filtering scheme;arXiv-2022;https://github.com/salesforce/BLIP
+NUWA [177];Trans;809M;image-text;T2I, T2V, V2V;A 3D transformer framework can handle image, text, and video, simultaneously;arXiv-2021;https://github.com/microsoft/NUWA
+TCL [178];BERT;123.7M;image-text;CMA, IMC, LMI, ITM, MLM;The first work considers local structure information for multi-modality representation learning;CVPR-2022;https://github.com/uta-smile/TCL
+SCALE [179];BERT;-;image, text, table, video, audio;MRP, MLM, MEM, MFP, MFP, MAM;A unified model to handle five modalities;CVPR-2022;https://xiaodongsuper.github.io/M5Product_dataset/
+Clinical-BERT [180];BERT;102M;image-text;CD, MMM, MLM, IMM;The first work to learn domain knowledge during pre-training for the medical domain;AAAI-2022;-
+RegionCLIP [181];Trans;-;image-text;Distillation loss, CS;Learn region-level visual representations based on CLIP;CVPR-2022;https://github.com/microsoft/RegionCLIP
+ProbES [182];LSTM, ViLBERT;-;image-text;Ranking loss;Prompt-based learning for VLN based on CLIP;ACL-2022;https://github.com/liangcici/Probes-VLN
+GLIP [183];BERT;394M;image-text;CS;Unifying the object detection and grounding into a unified framework;CVPR-2022;https://github.com/microsoft/GLIP
+VLP-MABSA [127];BERT;-;image-text;MLM, AOE, MRM,AOG, MSP;Task-specific VL-PTMs;ACL-2022;Code
+R2D2 [184];ViT, BERT;-;image-text;GCPR, FGR, MLM;A two-way distillation strategy is proposed, i.e., target- and feature-guided distillation;arXiv-2022;https://github.com/NUSTM/VLP-MABSA
+DeCLIP [19];ViT;276M;image-text;InfoNCE, SS, MVS, NNS;Learn generic visual features in a data efficient way;ICLR-2022;-
+DeFILIP [136];ViT, ResNet;-;image-text;CS;A benchmark for CLIP and its variants;arXiv-2022;https://github.com/Sense-GVT/DeCLIP
+SLIP [185];ViT;38M;image-text;CS, InfoNCE;Combine the self-supervised learning and CLIP pre-training in a multi-task framework;arXiv-2021;https://github.com/Sense-GVT/DeCLIP
+FILIP [186];ViT;-;image-text;CS;Cross-modal interactive learning for finer-level alignment;arXiv-2021;https://github.com/facebookresearch/SLIP
+SemVLP [187];Trans;2.1B;image-text;MLM, MOP, ITM, QA;Fuse the single- and two-stream architectures;arXiv-2021;-
+CoCa [188];Trans;-;image-text;CS, ITG;Jointly pre-train image text model with contrastive loss and captioning loss;arXiv-2022;-
+HiVLP [189];Trans;-;image-text;LRM, HRL, VLM;Accelerate image-text retrieval via hierarchical retrieval;arXiv-2022;-
+CLIP-Event [135];Trans;-;image-text;CS;Consider event structural knowledge and prompts in the pre-training phase.;CVPR-2022;-
+AudioCLIP [190];Trans;30M;image-text-audio;CS;Build a triplet modality based PTMs like CLIP;ICASSP-2022;https://github.com/limanling/clip-event
+VL-BEiT [191];Trans;-;image-text;MLM, MIM, MVLM;Share the Transformer network on both monomodal and multimodal-data;arXiv-2022;https://github.com/AndreyGuzhov/AudioCLIP
+MV-GPT [192];BERT;117M;image-text;MLM, LG;Pre-train both a multi-modal video encoder and a sentence decoder jointly.;arXiv-2022;https://github.com/microsoft/unilm
+MMKD [193];BERT;-;image-text;ITM;Iteratively execute knowledge discovery and model pre-training for continuous learning;arXiv-2022;-
+GLIPv2 [194];Swin, BERT;-;image-text;PGL, CS, MLM;Serves both the localization and understanding tasks.;arXiv-2022;-
+LIMoE [195];Trans;675M;image-text;CS;multi-modal pre-training with a sparse mixture of experts model;arXiv-2022;https://github.com/microsoft/GLIP
+VLMixer [196];Trans;-;image-text;MLM, CMCL, MTM;Implicit cross-modal alignment learning in unpaired VLP.;arXiv-2022;-
+ProtoCLIP [138];Trans;-;image-text;CS;Combine the CLIP loss and prototypical supervisions for VLP.;arXiv-2022;https://github.com/ttengwang/VLMixer
+i-Code [131];Trans;906M;image-text-audio;MLM, MVM, MSM, CS;It can handle different combinations of modalities (such as single-, dual-, and triple-modality) into a single representation space.;arXiv-2022;https://github.com/megvii-research/protoclip
