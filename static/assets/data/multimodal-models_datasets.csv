@@ -1,0 +1,34 @@
+﻿dataset	size	modality	language	year	url
+LAION-5B	5B	Image-Text	English	2022	https://laion.ai/laion-5b-a-new-era-of-open-large-scale-multi-modal-datasets/
+COYO-700M	770M	Image-Text	English	2022	https://github.com/kakaobrain/coyo-dataset
+SBU Captions	1M	image-text	English	2011	http://www.cs.virginia.edu/~vicente/sbucaptions/
+Flickr30k	145K	image-text	English	2014	http://nlp.cs.illinois.edu/
+COCO	567K	image-text	English	2014	https://cocodataset.org/#home
+Visual Genome	5.4M	image-text	English	2017	https://visualgenome.org/
+VQA v2.0	1.1M	image-text	English	2017	https://visualqa.org/
+FashionGen	300k	image-text	English	2018	https://fashion-gen.com/
+CC3M	3M	image-text	English	2018	https://github.com/google-research-datasets/conceptual-captions
+GQA	1M	image-text	English	2019	https://cs.stanford.edu/people/dorarad/gqa/
+LAIT	10M	image-text	English	2020	-
+CC12M	12M	image-text	English	2021	https://github.com/google-research-datasets/conceptual-12m
+AltText	1.8B	image-text	English	2021	-
+TVQA	21.793K	video-text	English	2018	http://tvqa.cs.unc.edu/
+HT100M	136M	video-text	English	2019	https://www.di.ens.fr/willow/research/howto100m
+WebVid2M	2.5M	video-text	English	2021	https://github.com/m-bain/webvid
+YFCC-100M	100M	image-text	English	2015	http://projects.dfki.uni-kl.de/yfcc100m/
+LAION-400M	400M	image-text	English	2021	https://laion.ai/laion-400-open-dataset/
+RedCaps	12M	image-text	English	2021	https://redcaps.xyz/
+Wukong	100M	image-text	Chinese	2022	https://wukong-dataset.github.io/wukong-dataset/index.html
+CxC	24K	image-text	English	2021	https://github.com/google-research-datasets/Crisscrossed-Captions
+Product1M	1M	image-text	Chinese	2021	https://github.com/zhanxlin/Product1M
+WIT	37.5M	image-text	Multi-lingual	2021	https://github.com/google-research-datasets/wit
+JFT-300M	30M	image-text	English	2017	-
+JFT-3B	3000M	image-text	English	2021	-
+IG-3.5B-17k	350M	image-text	English	2018	-
+M6-Corpus	60M	image-text/image	Chinese		2021	-
+M5Product	6M	text/image/audio/video/table	English	2021	https://xiaodongsuper.github.io/M5Product_dataset/index.html
+Localized Narratives	849K	image/audio/text/mouse trace	English	2021	https://google.github.io/localized-narratives/
+RUC-CAS-WenLan	30M		image-text		Chinese		2021	-
+WuDaoMM	600M	image-text	Chinese	2022	https://data.wudaoai.cn/home
+MEP-3M	3M	image-text	Chinese	2021	https://github.com/ChenDelong1999/MEP-3M
+WSCD	650M	image-text	Chinese	2021	-
