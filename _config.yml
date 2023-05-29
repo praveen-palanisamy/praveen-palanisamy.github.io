@@ -2,7 +2,8 @@
 title: Praveen Palanisamy
 description: Building Autonomous Systems, AI, Deep RL Agents & Robots
 keywords: Praveen,Praveen Palanisamy, HOIAWOG
-url: https://praveen-palanisamy.github.io
+# url: https://praveen-palanisamy.github.io
+uri: "https://praveenp.com"
 # url: http://127.0.0.1:4000
 baseurl: ""
 img_path: /static/assets/img/blog # url should be '/homepage/static/assets/img/blog' as before
@@ -35,7 +36,6 @@ author:
     - name: fa-angle-double-down
   desc: Praveen Palanisamy is the Principal AI Engineering lead for [Project AirSim](https://aka.ms/airsim) in the Autonomous Systems Business Incubation group at Microsoft, building an end-to-end (Perception + Scene-Understanding + Prediction + Planning + Control) autonomy platform for autonomous aerial robots and systems using Simulation, Planet-scale Synthetics, Deep Learning and AI. Prior to that, he was an Autonomous Driving AI Researcher at General Motors R&D in Michigan, where, he developed planning and decision making algorithms and architectures using Deep Reinforcement Learning. He is the lead inventor of [20+ patents](https://patents.google.com/?inventor=Praveen+Palanisamy) in the area of learning-based autonomous mobile systems. He has authored two practical books -- [HOIAWOG](https://praveenp.com/deeprl/2018/12/12/hoiawog.html) and [TensorFlow 2.x RL Cookbook](https://praveenp.com/deeprl/2021/01/24/tensorflow-2.x-reinforcement-learning-cookbook.html) for use by ML engineers, researchers, students and enthusiasts. He has worked at a few early-stage startups as a tech lead. He obtained his Graduate degree from the Robotics Institute, Carnegie Mellon University, and worked on Autonomous Navigation, Perception and Artificial Intelligence as a Research and Teaching Assistant.
   short_bio: Principal AI Engineering Lead,<br> Autonomous Systems,<br> Microsoft AI + Research
-  uri: "https://praveenp.com"
   location: ""
 
 # comment
