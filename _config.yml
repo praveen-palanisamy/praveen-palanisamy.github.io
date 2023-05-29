@@ -7,7 +7,7 @@ uri: "https://praveenp.com"
 # url: http://127.0.0.1:4000
 baseurl: ""
 img_path: /static/assets/img/blog # url should be '/homepage/static/assets/img/blog' as before
-
+permalink: /:categories/:title/
 # author -- index page "about me" section
 author:
   name: Praveen Palanisamy # used as blog posts' author.
