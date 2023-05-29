@@ -9,7 +9,18 @@
     <meta name="keywords" content="{{ page.keywords }}">
   {% endif %}
   <meta name="author" content="{{ site.author.name }}">
-  <meta name="baseurl" content="{{ site.baseurl }}">
+  <meta name="baseurl" content="{{ site.url }}">
+
+  <!-- OG meta tags for Twitter, Facebook, and other URL previews -->
+  <meta property="og:title" content="{% if page.title != "index" %}{{ site.title }}|{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.desc }}">
+  <meta property="og:image" content="{{ page.thumbnail | prepend: site.url }}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title != "index" %}{{ site.title }}|{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ page.desc }}">
+  <meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
+  <meta name="twitter:image" content="{{ page.thumbnail | prepend: site.url }}">
 
   <title>
     {% if page.title != "index" %}
