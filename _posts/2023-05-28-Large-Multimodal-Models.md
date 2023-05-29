@@ -34,9 +34,6 @@ Overview of multimodal datasets available for training Large Multimodal Models (
         header: true,
         dynamicTyping: true,
         complete: function(results) {
-            console.log("results:", results);
-            console.log("results.data:", results.data);
-            console.log(document.getElementById("datasets"));
             grid = new gridjs.Grid({
                 data: results.data,
                 pagination: {
@@ -74,9 +71,6 @@ Overview of Large Multimodal Models (LMMs) available/published/used in research.
         header: true,
         dynamicTyping: true,
         complete: function(results) {
-            console.log("results:", results);
-            console.log("results.data:", results.data);
-            console.log(document.getElementById("datasets"));
             grid = new gridjs.Grid({
                 data: results.data,
                 pagination: {
