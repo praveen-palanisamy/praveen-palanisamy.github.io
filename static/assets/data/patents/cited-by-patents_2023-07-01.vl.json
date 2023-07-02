@@ -1,0 +1,264 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "autosize": "fit",
+  "background": "transparent",
+  "view": {
+    "stroke": null
+  },
+  "width": 831,
+  "config": null,
+  "padding": null,
+  "height": 400,
+  "selection": {
+    "grid": {
+      "encodings": [
+        "x"
+      ],
+      "type": "interval",
+      "bind": "scales",
+      "zoom": "wheel![event.shiftKey]"
+    }
+  },
+  "mark": {
+    "type": "bar",
+    "point": {
+      "cursor": "pointer",
+      "size": 80
+    }
+  },
+  "encoding": {
+    "x": {
+      "field": "label",
+      "type": "temporal",
+      "axis": {
+        "title": "Publication Date",
+        "titlePadding": 10,
+        "labelFontSize": 10,
+        "domain": true,
+        "grid": false,
+        "titleFontSize": 13,
+        "titleFont": "source_sans_prosemibold",
+        "titleFontWeight": "normal",
+        "labelFont": "source_sans_proregular",
+        "labelFontWeight": "normal",
+        "labelColor": "#565f69",
+        "titleColor": "#14597a",
+        "domainColor": "#e4ebf3",
+        "gridColor": "#d8e1ed",
+        "gridDash": [
+          2,
+          2
+        ]
+      },
+      "timeUnit": "utcyear",
+      "scale": {
+        "type": "utc"
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "format": ",",
+      "axis": {
+        "title": "Document Count",
+        "titlePadding": 10,
+        "labelFontSize": 10,
+        "titleFontSize": 13,
+        "titleFont": "source_sans_prosemibold",
+        "titleFontWeight": "normal",
+        "labelFont": "source_sans_proregular",
+        "labelFontWeight": "normal",
+        "labelColor": "#565f69",
+        "titleColor": "#14597a",
+        "domainColor": "#e4ebf3",
+        "gridColor": "#d8e1ed",
+        "gridDash": [
+          2,
+          2
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Document Count",
+        "format": ","
+      },
+      {
+        "field": "label",
+        "type": "temporal",
+        "timeUnit": "utcyear",
+        "scale": {
+          "type": "utc"
+        },
+        "title": "Publication Date"
+      },
+      {
+        "field": "color",
+        "type": "nominal",
+        "title": "Document Type"
+      }
+    ],
+    "color": {
+      "field": "color",
+      "type": "nominal",
+      "scale": {
+        "scheme": "category20c"
+      },
+      "legend": {
+        "orient": "bottom",
+        "columns": 3,
+        "columnPadding": 10,
+        "rowPadding": 1,
+        "labelFontSize": 12,
+        "titleFontSize": 13,
+        "titleFont": "source_sans_prosemibold",
+        "titleFontWeight": "normal",
+        "labelFont": "source_sans_proregular",
+        "labelFontWeight": "normal",
+        "labelColor": "#565f69",
+        "titleColor": "#14597a",
+        "domainColor": "#e4ebf3",
+        "gridColor": "#d8e1ed",
+        "gridDash": [
+          2,
+          2
+        ],
+        "titlePadding": 15
+      },
+      "axis": {
+        "title": "Document Type"
+      }
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "color": "Granted Patent",
+        "label": "2018",
+        "value": 0
+      },
+      {
+        "color": "Limited Patent",
+        "label": "2018",
+        "value": 0
+      },
+      {
+        "color": "Patent Application",
+        "label": "2018",
+        "value": 1
+      },
+      {
+        "color": "Search Report",
+        "label": "2018",
+        "value": 0
+      },
+      {
+        "color": "Granted Patent",
+        "label": "2019",
+        "value": 0
+      },
+      {
+        "color": "Limited Patent",
+        "label": "2019",
+        "value": 0
+      },
+      {
+        "color": "Patent Application",
+        "label": "2019",
+        "value": 11
+      },
+      {
+        "color": "Search Report",
+        "label": "2019",
+        "value": 0
+      },
+      {
+        "color": "Granted Patent",
+        "label": "2020",
+        "value": 15
+      },
+      {
+        "color": "Limited Patent",
+        "label": "2020",
+        "value": 1
+      },
+      {
+        "color": "Patent Application",
+        "label": "2020",
+        "value": 67
+      },
+      {
+        "color": "Search Report",
+        "label": "2020",
+        "value": 0
+      },
+      {
+        "color": "Granted Patent",
+        "label": "2021",
+        "value": 35
+      },
+      {
+        "color": "Limited Patent",
+        "label": "2021",
+        "value": 0
+      },
+      {
+        "color": "Patent Application",
+        "label": "2021",
+        "value": 92
+      },
+      {
+        "color": "Search Report",
+        "label": "2021",
+        "value": 1
+      },
+      {
+        "color": "Granted Patent",
+        "label": "2022",
+        "value": 65
+      },
+      {
+        "color": "Limited Patent",
+        "label": "2022",
+        "value": 0
+      },
+      {
+        "color": "Patent Application",
+        "label": "2022",
+        "value": 72
+      },
+      {
+        "color": "Search Report",
+        "label": "2022",
+        "value": 2
+      },
+      {
+        "color": "Granted Patent",
+        "label": "2023",
+        "value": 41
+      },
+      {
+        "color": "Limited Patent",
+        "label": "2023",
+        "value": 0
+      },
+      {
+        "color": "Patent Application",
+        "label": "2023",
+        "value": 10
+      },
+      {
+        "color": "Search Report",
+        "label": "2023",
+        "value": 1
+      }
+    ],
+    "format": {
+      "parse": {
+        "label": "utc:'%Y'"
+      }
+    }
+  }
+}
