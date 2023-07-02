@@ -14,14 +14,8 @@ This post is about some of the insights I uncovered when sifting through my pate
 
 ## The patent application to grant process and what the different patent numbers mean
 
-Patent Application --~18 months--> Patent Publication --~3 years--> Patent Grant --~20 years--> Patent Expiry
-
-```mermaid
-graph
-    A[Patent Application] --18 months--> B[Patent Publication]
-    B --*3 years--> C[Patent Grant]
-    C --*20 years--> D[Patent Expiry]
-```
+Roughtly the process from application to grant looks like this with the typical timeline:
+[![](https://mermaid.ink/img/pako:eNpd0D1rwzAQgOG_Im4sDrTpUjwEEttkKoSmW9Xhap1jgT6MciIxSf57FMdaqunQ-yDQXaD1iqCEzvhT22Ng8V1LJ9JZ_-yQybFYD4PRLbL27ndOYrFYXd8-hPWO--NVbLLdxb9_djPZl3cxEoZEq0y3AR3PqHqi5WtWdVbNedBhnFn9YKLJ7YscndDMsZliBQVYCha1Sr-6PJIE7smShDKNijqMhiVId0sUI_v96FooOUQqIA4qvV1rPAS0UHZojumWlGYfPp-bmhZ2uwNw52Ta?type=png)](https://mermaid.live/edit#pako:eNpd0D1rwzAQgOG_Im4sDrTpUjwEEttkKoSmW9Xhap1jgT6MciIxSf57FMdaqunQ-yDQXaD1iqCEzvhT22Ng8V1LJ9JZ_-yQybFYD4PRLbL27ndOYrFYXd8-hPWO--NVbLLdxb9_djPZl3cxEoZEq0y3AR3PqHqi5WtWdVbNedBhnFn9YKLJ7YscndDMsZliBQVYCha1Sr-6PJIE7smShDKNijqMhiVId0sUI_v96FooOUQqIA4qvV1rPAS0UHZojumWlGYfPp-bmhZ2uwNw52Ta)
 
 ### Patent Numbers
 
