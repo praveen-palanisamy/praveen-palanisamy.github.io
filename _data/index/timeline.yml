@@ -53,6 +53,13 @@
   icon:
 
 - timeline-item:
+  date: October 26, 2020
+  title: "[Podcast]Reinforcement Learning, Intelligent vehicles & Acquiring Data, with Praveen Palanisamy - AI Engineer Microsoft AI + Research, E15"
+  img: applied-ai-pod-ep15-guest.jpg
+  description: "Covered topics: Deep Reinforcement Learning (DRL or DeepRL) applied to the automotive industry, Simulation platforms and the role of simulators in training agents, Obtaining data to prepare the autonomous vehicle, Methods to evaluate robustness of the solution, Deploying in real world, Startups to use DL or be at the forefront of DL, Techcrunch Disrupt Hackathon win & engineers at hackathons as a practice"
+  link: https://appliedaipod.simplecast.com/episodes/drl-intelligentvehicles-acquiringdata-praveenpalanisamy-e15-5iL2_RTd
+
+- timeline-item:
   date: July 24, 2020
   title: "[IJCNN20][Oral]Multi-Agent Deep RL for Connected Autonomous Driving"
   img: ijcnn-presentation-slide1-praveen-palanisamy-768x277.png
