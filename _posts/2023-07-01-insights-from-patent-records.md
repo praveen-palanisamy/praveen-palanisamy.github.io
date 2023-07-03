@@ -29,7 +29,7 @@ The relationship between these numbers can vary by country. For example, an appl
 
 In the United States, a publication number includes a four-digit year, followed by a seven-digit sequence code followed by a two-character Kind Code that is assigned by the USPTO. The Kind Code is used to distinguish between different types of publications, such as applications, granted patents, and reissues. For example, a US patent application publication number is 2019/0123456 A1, and a US patent grant publication number is 10,123,456 B2. The application publication number and the grant publication number are different, but the patent number is the same.
 
-Example:
+#### Example:
 
 ![Google patents side panel annotated with patent numbers](/static/assets/img/blog/patents/google-patents-spanel-annotated.png){:class="img-responsive"}
 
@@ -69,9 +69,16 @@ For a complete list, here is a link to the [USPTO patent classification codes](h
 
 ## Tools, Resources and Databases
 
-### Google Scholar Profile's Patent information is incomplete
+### Google Scholar
 
-Google Scholar profile automatically includes _some_ patent documents and an _incomplete_ patent citation count.
+[Google Scholar](https://scholar.google.com) is a great and widely used service for scholarly profiles, citation counts and publication indexing. On the down side, the patent information in Google Scholar Profile is incomplete.
+Google Scholar profile automatically includes _some_ patent documents and an _incomplete_ patent citation count. For example, [my Google Scholar profile](https://scholar.google.com/citations?user=gHmYX8YAAAAJ), as of 2023-07-01, shows only 556 as my total citations count which includes 442 scholarly publication citations and 114 patent citations. But, my total citation count is more likely to be 442 (Scholarly citations based on Google Scholar profile data) + [479 (combined patent citations based on lens.org query data)](https://link.lens.org/NsO8YdGEyxc) = 921.
+
+actually 114 + 442 = 556 + 1 = 557. The missing citation is from my patent US 10,845,815 B2 which is not included in the Google Scholar profile.
+
+### Publish or Perish
+
+[Harzing's Publish or Perish](https://harzing.com/resources/publish-or-perish) is a great tool to get [several citation metrics](https://harzing.com/resources/publish-or-perish/manual/using/query-results/metrics) for scholarly publications. It is a free software program that retrieves and analyzes academic citations. It uses Google Scholar to obtain the raw citations, then analyzes these and presents various metrics and allows you to export the data in multiple formats (e.g. CSV, Excel, HTML, RTF, and PDF).
 
 ### Google Patents
 
@@ -81,9 +88,13 @@ It has a nice side panel that shows the patent numbers and citations along with 
 
 But, searching for patents on Google Patents didn't yield complete results in my experience. For example, I couldn't find my patent US 10,845,815 B2 on Google Patents search results by inventor name. I had to use the patent number directly to find it. The Google patent search results by intentor name returned an incomplete list of granted patents and patent applications.
 
-### Lengs.org
+### Lens.org
 
 Use lens.org for a more complete list of scholarly publications, patents, metrics, analysis and insights. Lens.org also has an extensive query, search and filter capability for both patents and scholarly publications.
+As an example, here is a link to [my lens.org profile](https://www.lens.org/lens/profile/514096051/patent) which shows a comprehensive list of my patents and scholarly publications along with the citation counts and other metrics. You can also search the database using queries, share queries, customize the dashboard and more. A sample screenshot of [this search query](https://link.lens.org/NsO8YdGEyxc) is shown below:
+![Lens patents search results sample](/static/assets/img/blog/patents/lens-patents-search-results-sample.jpg){:class="img-responsive"}
+
+As you can see, the interface is quite customizable and extensible.
 
 > Tip: When you search/run a query for your publications and inventions, always search for both FirstName LastName and LastName FirstName. For example, I searched for "Praveen Palanisamy" and "Palanisamy Praveen" to get a complete list of my patents and scholarly publications. This is true for all the databases that I have used so far. It is due to the different citation format by standard bodies such as IEEE, ACM, etc.
 
