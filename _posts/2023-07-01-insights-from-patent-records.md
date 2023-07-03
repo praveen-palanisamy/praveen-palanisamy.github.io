@@ -6,6 +6,7 @@ keywords: [patents, inventions, insight]
 categories: [blog]
 tags: patents, inventions, insight
 icon: icon
+thumbnail: /static/assets/img/blog/patents/thumbnail-patents-insights.jpg
 ---
 
 ## Introduction
@@ -14,12 +15,30 @@ This post is about some of the insights I uncovered when sifting through my pate
 
 ## The patent application to grant process and what the different patent numbers mean
 
+### Patent Types
+
+There are three types of patents: utility patents, design patents, and plant patents.
+
+#### Utility Patent
+
+A utility patent is a type of patent that protects new and useful inventions or improvements that are systems, methods, machines, manufactures, compositions of matter, or processes. It is a patentability requirement that the invention provides some identifiable benefit and is capable of use. A utility patent lasts for 20 years from the patent application’s filing date. You can read more about utility patents in the [USPTO's guide for utility patents](https://www.uspto.gov/patents/basics/apply/utility-patent).
+
+#### Design Patent
+
+A design patent protects the appearance of an object, but not its functional or structural features. The patent grants you the right to exclude others from making, using or selling your design for a term of 14 years if filed before May 13, 2015, or 15 years if filed on or after May 13, 2015 34. You can read more about design patents in the [USPTO's guide for design patents](https://www.uspto.gov/patents/basics/apply/design-patent) .
+
+#### Plant Patent
+
+A plant patent is an intellectual property right that protects a new and distinct plant that is asexually reproduced. Asexually reproduced plants are those that do not reproduce by seeds, but by other methods like cuttings, grafting, or budding. A plant patent grants the inventor the exclusive right to prevent others from copying, selling, or using the plant or any of its parts in the United States for 20 years from the date of filing the application 5. You can read more about plant patents in the [USPTO's guide for plant patents](https://www.uspto.gov/patents/basics/apply/plant-patent).
+
+### Patent Application Types
+
 Roughtly the process from application to grant looks like this with the typical timeline:
 [![](https://mermaid.ink/img/pako:eNpd0D1rwzAQgOG_Im4sDrTpUjwEEttkKoSmW9Xhap1jgT6MciIxSf57FMdaqunQ-yDQXaD1iqCEzvhT22Ng8V1LJ9JZ_-yQybFYD4PRLbL27ndOYrFYXd8-hPWO--NVbLLdxb9_djPZl3cxEoZEq0y3AR3PqHqi5WtWdVbNedBhnFn9YKLJ7YscndDMsZliBQVYCha1Sr-6PJIE7smShDKNijqMhiVId0sUI_v96FooOUQqIA4qvV1rPAS0UHZojumWlGYfPp-bmhZ2uwNw52Ta?type=png)](https://mermaid.live/edit#pako:eNpd0D1rwzAQgOG_Im4sDrTpUjwEEttkKoSmW9Xhap1jgT6MciIxSf57FMdaqunQ-yDQXaD1iqCEzvhT22Ng8V1LJ9JZ_-yQybFYD4PRLbL27ndOYrFYXd8-hPWO--NVbLLdxb9_djPZl3cxEoZEq0y3AR3PqHqi5WtWdVbNedBhnFn9YKLJ7YscndDMsZliBQVYCha1Sr-6PJIE7smShDKNijqMhiVId0sUI_v96FooOUQqIA4qvV1rPAS0UHZojumWlGYfPp-bmhZ2uwNw52Ta)
 
 ### Patent Numbers
 
-At each step of the patent process, there is an unique number to identify the document.
+At each step of the patent process, there is a unique number to identify the document.
 
 The **Patent Application Number** is the number that is assigned to the patent application when it is filed.  
 The **Patent Publication Number** is the number that is assigned to the patent application when it is published.  
@@ -47,6 +66,8 @@ Every country has their own set of kind codes, but typically an A code (such as 
 Patent Citations: Citations in the patent document itself
 
 Patent Examiner's Citations: Citations by the patent examiner
+
+Patent citations are the citations that are listed in the patent document itself. These citations are listed in the patent document by the inventor(s) of the patent. Typically, the inventor(s) list these citations to show that their invention is novel and non-obvious compared to the prior-art. The patent examiner also lists citations in the patent document. These citations are called the patent examiner's citations. Typically the patent examiner lists these citations to show that one or more claims in the invention is not novel or non-obvious compared to the prior-art.
 
 ## Patent Document, Patent Family
 
@@ -78,7 +99,7 @@ actually 114 + 442 = 556 + 1 = 557. The missing citation is from my patent US 10
 
 ### Publish or Perish
 
-[Harzing's Publish or Perish](https://harzing.com/resources/publish-or-perish) is a great tool to get [several citation metrics](https://harzing.com/resources/publish-or-perish/manual/using/query-results/metrics) for scholarly publications. It is a free software program that retrieves and analyzes academic citations. It uses Google Scholar to obtain the raw citations, then analyzes these and presents various metrics and allows you to export the data in multiple formats (e.g. CSV, Excel, HTML, RTF, and PDF).
+[Harzing's Publish or Perish](https://harzing.com/resources/publish-or-perish) is a great tool to get [several citation metrics](https://harzing.com/resources/publish-or-perish/manual/using/query-results/metrics) for scholarly publications. It is a free, cross-platform (Windows, Linux, MacOS) software program that retrieves and analyzes academic citations. It uses Google Scholar to obtain the raw citations, then analyzes these and presents various metrics and allows you to export the data in multiple formats (e.g. CSV, Excel, HTML, RTF, and PDF).
 
 ### Google Patents
 
@@ -117,15 +138,13 @@ More importantly, Lens allows exporting the data into various file formats inclu
 
 ## Insights from my patents and inventions
 
-### Discovery: My patents were cited by world's leading organizations
-
 I discovered that my inventions have:
 
 ### 1. High-impact citations
 
 Google Deepmind's ["Multi-agent reinforcement learning with matchmaking policies" patent which was granted on 2023-04-11 cites 3 patents in total (including patent examiner's citations) and one of which is my patent application US20200033868A1](https://patents.google.com/patent/US11627165B2#patentCitations) which was [granted in 2020-11-24](https://patents.google.com/patent/US10845815B2). The fact that the invention by David Silver (AlphaGo, AlphaZero lead), Oriol Vinyals (AlphaStar lead) and Max Jaderberg cites my work, motivates me as my work is indeed impactful.
 
-### 2. 470+ Patent citations
+### 2. 475+ Patent citations
 
 Here's an interactive visualization of my top cited patents:
 
@@ -135,6 +154,8 @@ Here's an interactive visualization of my top cited patents:
     var spec = "/static/assets/data/patents/top-cited-patents_2023-07-01.vl.json";
     vegaEmbed('#top-cited-patents', spec, {"actions": false});
 </script>
+
+### 3. Cited by 50+ organizations
 
 The number of patents citing a list of patents by an inventor, grouped by the citing organizations can be obtained via lens.org using a query.
 For example, here's a list of the top 50 organizations that cite my patents:
