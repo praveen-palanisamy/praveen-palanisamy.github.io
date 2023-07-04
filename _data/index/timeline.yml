@@ -1,6 +1,13 @@
 # timeline section data
 
 - timeline-item:
+  date: May 22, 2023
+  title: "[Journal Paper] Scalable modular synthetic data generation for advancing aerial autonomy"
+  img: "asda-paper-robotics-autonomous-systems-journal.jpg"
+  description: "A paper on prompt-based, procedural generation of diverse datasets for training AI models for aerial autonomy applications. Published in Robotics and Autonomous Systems journal, Volume 166. [Link to summary video:https://www.youtube.com/watch?v=eKpOh-K-NfQ](https://www.youtube.com/watch?v=eKpOh-K-NfQ). [Link to paper](https://www.sciencedirect.com/science/article/pii/S0921889021002219)."
+  link: https://doi.org/10.1016/j.robot.2023.104464
+
+- timeline-item:
   date: December 14, 2022
   title: "[Webinar]Transforming Infrastructure Inspection with Simulation and Autonomy"
   img: "cuav-webinar-12-2022.jpg"
