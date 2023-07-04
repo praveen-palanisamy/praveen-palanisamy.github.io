@@ -16,7 +16,7 @@ This post was seeding with some of the insights I uncovered when sifting through
 ### Summary of the post as flash cards
 
 If you want a quick summary in a flash-card-style primer, here's a summary in the PDF:
-<object data="/static/assets/data/patents/publications-patents-tools-resources.pdf" width="100%" height="400" type="application/pdf"></object>
+<object data="/static/assets/data/patents/innovation-invention-patents-resources-for-startups.pdf" width="100%" height="400" type="application/pdf"></object>
 Read more below for some more details.
 
 ## Types of Patents and Patent Applications
