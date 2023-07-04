@@ -1,5 +1,5 @@
 ---
-title: Uncovering insights from my patents and inventions
+title: Resources to uncover insights and impacts from patents and inventions
 date: 2023-07-01 00:00:00 Z
 desc: Post on some of the insights I uncovered from my patents and inventions. How you can find the real impact of your IP and work too.
 keywords: [patents, inventions, insight]
@@ -11,7 +11,13 @@ thumbnail: /static/assets/img/blog/patents/thumbnail-patents-insights.jpg
 
 ## Introduction
 
-This post is about some of the insights I uncovered when sifting through my patents and inventions through the public databases online. Sharing with a hope that you can use the findings/process/tools to find insights and impact of your's/other's inventions and intellectual work. Let's start with a brief overview of the patent publication process and a summary/refresher of what different patent numbers, patent citations, patent family, etc mean.
+This post was seeding with some of the insights I uncovered when sifting through my patents and inventions through the public databases online. Sharing with a hope that you can use the findings/process/tools to find insights and impact of your's/other's inventions and intellectual work. Let's start with a brief overview of the patent publication process and a summary/refresher of what different patent numbers, patent citations, patent family, etc mean.
+
+### Summary of the post as flash cards
+
+If you want a quick summary in a flash-card-style primer, here's a summary in the PDF:
+<object data="/static/assets/data/patents/publications-patents-tools-resources.pdf" width="100%" height="400" type="application/pdf"></object>
+Read more below for some more details.
 
 ## Types of Patents and Patent Applications
 
