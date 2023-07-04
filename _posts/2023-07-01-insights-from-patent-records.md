@@ -13,25 +13,44 @@ thumbnail: /static/assets/img/blog/patents/thumbnail-patents-insights.jpg
 
 This post is about some of the insights I uncovered when sifting through my patents and inventions through the public databases online. Sharing with a hope that you can use the findings/process/tools to find insights and impact of your's/other's inventions and intellectual work. Let's start with a brief overview of the patent publication process and a summary/refresher of what different patent numbers, patent citations, patent family, etc mean.
 
-## The patent application to grant process and what the different patent numbers mean
+## Types of Patents and Patent Applications
 
 ### Patent Types
 
-There are three types of patents: utility patents, design patents, and plant patents.
+There are three major types of patents: utility patents, design patents, and plant patents.
 
 #### Utility Patent
 
+Generally covers how an invention functions or how an invention is made.
 A utility patent is a type of patent that protects new and useful inventions or improvements that are systems, methods, machines, manufactures, compositions of matter, or processes. It is a patentability requirement that the invention provides some identifiable benefit and is capable of use. A utility patent lasts for 20 years from the patent application’s filing date. You can read more about utility patents in the [USPTO's guide for utility patents](https://www.uspto.gov/patents/basics/apply/utility-patent).
 
 #### Design Patent
 
-A design patent protects the appearance of an object, but not its functional or structural features. The patent grants you the right to exclude others from making, using or selling your design for a term of 14 years if filed before May 13, 2015, or 15 years if filed on or after May 13, 2015 34. You can read more about design patents in the [USPTO's guide for design patents](https://www.uspto.gov/patents/basics/apply/design-patent) .
+A design patent protects the appearance of an object, but not its functional or structural features. The patent grants you the right to exclude others from making, using or selling your design for a term of 14 years if filed before May 13, 2015, or 15 years if filed on or after May 13, 2015. You can read more about design patents in the [USPTO's guide for design patents](https://www.uspto.gov/patents/basics/apply/design-patent) .
 
 #### Plant Patent
 
-A plant patent is an intellectual property right that protects a new and distinct plant that is asexually reproduced. Asexually reproduced plants are those that do not reproduce by seeds, but by other methods like cuttings, grafting, or budding. A plant patent grants the inventor the exclusive right to prevent others from copying, selling, or using the plant or any of its parts in the United States for 20 years from the date of filing the application 5. You can read more about plant patents in the [USPTO's guide for plant patents](https://www.uspto.gov/patents/basics/apply/plant-patent).
+A plant patent is an intellectual property right that protects a new and distinct plant that is asexually reproduced. Asexually reproduced plants are those that do not reproduce by seeds, but by other methods like cuttings, grafting, or budding. A plant patent grants the inventor the exclusive right to prevent others from copying, selling, or using the plant or any of its parts in the United States for 20 years from the date of filing the application. You can read more about plant patents in the [USPTO's guide for plant patents](https://www.uspto.gov/patents/basics/apply/plant-patent).
 
 ### Patent Application Types
+
+#### Provisional Application
+
+A provisional application is a temporary application filed with the USPTO, which allows the applicant to secure an early filing date for their invention. It is generally less expensive and less formal than a non-provisional application.
+
+#### Non-Provisional Application
+
+A non-provisional application, also known as an ordinary application, is a formal application filed with the USPTO to obtain a patent for an invention. It includes a written description of the invention, drawings (if necessary), and claims.
+
+#### Continuation Application
+
+A continuation application is a type of patent application that allows an applicant to pursue additional claims based on the same invention disclosed in an earlier non-provisional application.
+
+#### Divisional Application
+
+A divisional application is a type of patent application that is filed when an applicant’s original non-provisional application contains more than one distinct invention. The divisional application allows the applicant to pursue separate patents for each invention.
+
+## The patent application to grant process and what the different patent numbers mean
 
 Roughtly the process from application to grant looks like this with the typical timeline:
 [![](https://mermaid.ink/img/pako:eNpd0D1rwzAQgOG_Im4sDrTpUjwEEttkKoSmW9Xhap1jgT6MciIxSf57FMdaqunQ-yDQXaD1iqCEzvhT22Ng8V1LJ9JZ_-yQybFYD4PRLbL27ndOYrFYXd8-hPWO--NVbLLdxb9_djPZl3cxEoZEq0y3AR3PqHqi5WtWdVbNedBhnFn9YKLJ7YscndDMsZliBQVYCha1Sr-6PJIE7smShDKNijqMhiVId0sUI_v96FooOUQqIA4qvV1rPAS0UHZojumWlGYfPp-bmhZ2uwNw52Ta?type=png)](https://mermaid.live/edit#pako:eNpd0D1rwzAQgOG_Im4sDrTpUjwEEttkKoSmW9Xhap1jgT6MciIxSf57FMdaqunQ-yDQXaD1iqCEzvhT22Ng8V1LJ9JZ_-yQybFYD4PRLbL27ndOYrFYXd8-hPWO--NVbLLdxb9_djPZl3cxEoZEq0y3AR3PqHqi5WtWdVbNedBhnFn9YKLJ7YscndDMsZliBQVYCha1Sr-6PJIE7smShDKNijqMhiVId0sUI_v96FooOUQqIA4qvV1rPAS0UHZojumWlGYfPp-bmhZ2uwNw52Ta)
@@ -142,7 +161,7 @@ I discovered that my inventions have:
 
 ### 1. High-impact citations
 
-Google Deepmind's ["Multi-agent reinforcement learning with matchmaking policies" patent which was granted on 2023-04-11 cites 3 patents in total (including patent examiner's citations) and one of which is my patent application US20200033868A1](https://patents.google.com/patent/US11627165B2#patentCitations) which was [granted in 2020-11-24](https://patents.google.com/patent/US10845815B2). The fact that the invention by David Silver (AlphaGo, AlphaZero lead), Oriol Vinyals (AlphaStar lead) and Max Jaderberg cites my work, motivates me as my work is indeed impactful.
+Google Deepmind's ["Multi-agent reinforcement learning with matchmaking policies" patent which was granted on 2023-04-11 cites 3 patents in total (including patent examiner's citations) and](https://patents.google.com/patent/US11627165B2#patentCitations) one of them [is my patent application US20200033868A1 which was granted in 2020-11-24](https://patents.google.com/patent/US10845815B2). The fact that the invention by David Silver ( led AlphaGo, AlphaZero, etc.), Oriol Vinyals (led AlphaStar, AlphaCode) and Max Jaderberg cites my work, motivates me as my work is indeed impactful.
 
 ### 2. 475+ Patent citations
 
@@ -154,6 +173,8 @@ Here's an interactive visualization of my top cited patents:
     var spec = "/static/assets/data/patents/top-cited-patents_2023-07-01.vl.json";
     vegaEmbed('#top-cited-patents', spec, {"actions": false});
 </script>
+
+Obtained via lens.org using [`"citingPatentQueryId": "5bf5923b-042f-4974-b7ea-99089fdc1e97"`](https://www.lens.org/lens/search/patent/analysis?citingPatentQueryId=5bf5923b-042f-4974-b7ea-99089fdc1e97).
 
 ### 3. Cited by 50+ organizations
 
