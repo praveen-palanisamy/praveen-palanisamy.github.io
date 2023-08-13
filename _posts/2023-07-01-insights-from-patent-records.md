@@ -11,7 +11,8 @@ thumbnail: /static/assets/img/blog/patents/thumbnail-patents-insights.jpg
 
 ## Introduction
 
-This post was seeding with some of the insights I uncovered when sifting through my patents and inventions through the public databases online. Sharing with a hope that you can use the findings/process/tools to find insights and impact of your's/other's inventions and intellectual work. Let's start with a brief overview of the patent publication process and a summary/refresher of what different patent numbers, patent citations, patent family, etc mean.
+This post was driven by some of the insights I uncovered when sifting through my patents and inventions through the public databases online. Some of the findings were fascinating to uncover for example, I found that among the 500+ patent citations from 50+ top organizations in the world, there were citations by Elon Musk and the creators of AlphaGo/Zero/Star/Code from Deepmind! I wanted to share the process and tools I used to uncover such insights. I hope you can use the process and tools to find insights and impact of your's/other's inventions and intellectual work.
+Let's start with a brief overview of the patent publication process and a summary/refresher of what different patent numbers, patent citations, patent family, etc mean.
 
 ### Summary of the post as flash cards
 
@@ -169,7 +170,7 @@ I discovered that my inventions have:
 
 Google Deepmind's ["Multi-agent reinforcement learning with matchmaking policies" patent which was granted on 2023-04-11 cites 3 patents in total (including patent examiner's citations) and](https://patents.google.com/patent/US11627165B2#patentCitations) one of them [is my patent application US20200033868A1 which was granted in 2020-11-24](https://patents.google.com/patent/US10845815B2). The fact that the invention by David Silver ( led AlphaGo, AlphaZero, etc.), Oriol Vinyals (led AlphaStar, AlphaCode) and Max Jaderberg cites my work, motivates me as my work is indeed impactful.
 
-### 2. 475+ Patent citations
+### 2. 500+ Patent citations
 
 Here's an interactive visualization of my top cited patents:
 
@@ -198,3 +199,8 @@ Going further, finding a statistical summary of the patent documents citing your
   var spec = "/static/assets/data/patents/cited-by-patents_2023-07-01.vl.json";
   vegaEmbed('#cited-by-patents', spec, {"actions": false});
 </script>
+
+### 4. Cited by Elon Musk's Patent
+
+Elon Musk has 10 patents filed as an inventor per [Google Patents results](https://patents.google.com/?inventor=elon+musk&oq=elon+musk), assigned to his companies Tesla, Zip2 and Neurallink.
+One of his patents filed on January 27, 2023 titled ["Autonomous and user controlled vehicle summon to a target](https://patents.google.com/patent/US20230176593A1) which includes former Tesla Director of AI, Andrej Karpathy as an inventor cites my patents ["Systems and methods for autonomous vehicle behavior control"](https://patents.google.com/patent/US10591914B2) granted on March 17, 2020. This is a great motivation for me as my work is cited by Elon Musk's patent.
