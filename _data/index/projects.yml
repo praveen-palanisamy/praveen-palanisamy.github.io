@@ -1,4 +1,10 @@
 # projects section data
+- name: MemReFinder
+  gh_user: praveen-palanisamy
+  repo: memReFinder
+  img: memrefinder-welcomescreen-wslg2.jpg
+  desc: Cross-platform Memory and Retrieval-Augmented Finder (File Explorer) App to chat with your data to find answers powered by **OpenAI-GPT/Llama2/Transformer.js models**. You can load multiple DOCX, PDF, CSV, Markdown, HTML or other files and ask questions related to their content, and the app will use embeddings and LLMs to generate answers from the most relevant files and sections within your files. Leverages **Vector DB for persistant Memory & Chats**, supports **asyncrhonous LLM streaming Ops** and **Conversation Orchestration**. See project page for more details and how you can run or deploy on your own machine, cloud or hybrid environments.
+
 - name: MACAD-Gym
   gh_user: praveen-palanisamy
   repo: macad-gym
@@ -9,7 +15,7 @@
   gh_user: PacktPublishing
   repo: Tensorflow-2-Reinforcement-Learning-Cookbook
   img: tf2rl-cookbook.png
-  desc: This book contains easy-to-follow recipes for leveraging TensorFlow 2.x to develop artificial intelligence applications. Starting with an introduction to the fundamentals of deep reinforcement learning and TensorFlow 2.x, the book covers OpenAI Gym, model-based RL, model-free RL, and how to develop basic agents. You'll discover how to implement advanced deep reinforcement learning algorithms such as actor-critic, deep deterministic policy gradients, deep-Q networks, proximal policy optimization, and deep recurrent Q-networks for training your RL agents. As you advance, you’ll explore the applications of reinforcement learning by building cryptocurrency trading agents, stock/share trading agents, and intelligent agents for automating task completion. Finally, you'll find out how to deploy deep reinforcement learning agents to the cloud and build cross-platform apps using TensorFlow 2.x.
+  desc: This book contains easy-to-follow recipes for leveraging **TensorFlow 2.x** to develop artificial intelligence applications. Starting with an introduction to the fundamentals of **deep reinforcement learning** and TensorFlow 2.x, the book covers **OpenAI Gym**, **model-based RL**, **model-free RL**, and how to develop basic agents. You'll discover how to implement advanced deep reinforcement learning algorithms such as **actor-critic**, **deep deterministic policy gradients**, **deep-Q networks**, **proximal policy optimization**, and **deep recurrent Q-networks** for training your RL agents. As you advance, you’ll explore the applications of reinforcement learning by building **cryptocurrency trading agents**, **stock/share trading agents**, and intelligent **agents for automating task completion**. Finally, you'll find out how to **deploy deep reinforcement learning agents to the cloud** and **build cross-platform apps** using TensorFlow 2.x.
 
 - name: Multiple Object Tracking using LiDARs
   gh_user: praveen-palanisamy
@@ -21,4 +27,4 @@
   gh_user: PacktPublishing
   repo: Hands-On-Intelligent-Agents-with-OpenAI-Gym
   img: hoiawog.png
-  desc: HOIAWOG! Your guide to developing AI agents using deep reinforcement learning. Implement intelligent agents using PyTorch to solve classic AI problems, play console games like Atari, and perform tasks such as autonomous driving using the CARLA driving simulator.
+  desc: HOIAWOG! Your guide to developing AI agents using **deep reinforcement learning**. Implement intelligent agents using **PyTorch** to solve classic AI problems, play console games like Atari, and perform tasks such as **autonomous driving** using the **CARLA driving simulator**.
