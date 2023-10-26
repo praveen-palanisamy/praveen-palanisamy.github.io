@@ -1,18 +1,13 @@
-- title: "81 Patents"
+- title: "[83 Patents](https://link.lens.org/dOVQVVt7Azg)"
   items:
-    - "22 Granted"
+    - "[22 Granted](https://link.lens.org/Syvdc0HGHwg)"
     - "50+ pending"
-    - "500+ Patent Citations"
+    - "[500+ Patent Citations](https://link.lens.org/LMMGr0tWIgj)"
     - "50+ Companies cite my name in their patents"
 
 - title: "17+ Journal/Conference Papers"
   items:
-    - "2 Books: hands-on Deep RL & AI [TF2RL, HOIAWOG]"
-    - "660+ citations"
-
-- title: "17+ Journal/Conference Papers"
-  items:
-    - "2 Books: hands-on Deep RL & AI [TF2RL, HOIAWOG]"
+    - "2 Books: hands-on Deep RL & AI [TF2RL](https://praveenp.com/deeprl/tensorflow-2.x-reinforcement-learning-cookbook/), [HOIAWOG](https://praveenp.com/deeprl/hoiawog/)"
     - "660+ citations"
     - "IROS, ITSC, IV, NeurIPS"
 
@@ -23,16 +18,18 @@
 
 - title: "7+ full-stack AI Agents & Apps"
   items:
-    - "8+ finetuned LLMS + LMMs"
-    - "GPT4 for mission planning"
-    - "Llama2 for code PRs"
-    - "Semantic-SAM + Grounding DINO for AutoGen"
-    - "LERFs-based volumetric rendering for 3D Sims"
-    - "LangChain/SemanticKernel + PromptFlow for Copilot Orchestration"
-    - "Next.js (React) App for Conversational LLMs w/ RAG + Memory (Vector DB)"
+    - "- 8+ finetuned LLMS + LMMs"
+    - "- GPT4 for mission planning"
+    - "- Llama2 for code PRs"
+    - "- Semantic-SAM + Grounding DINO for AutoGen"
+    - "- LERFs-based volumetric rendering for 3D Sims"
+    - "- LangChain/SemanticKernel + PromptFlow for Copilot Orchestration"
+    - "- Next.js (React) App for Conversational LLMs w/ RAG + Memory (Vector DB)"
 
-- title: "10+ direct reports, interns"
+- title: "Team leader: 10+ direct reports, interns"
   items:
     - "Sr. AI Engineers, SWEs, UI/UX Devs, PhD interns"
-    - "5+ direct Customer & Partner engagements"
-    - "Bell/Textron, Sees.ai, Drone Express, Darkhive, TII, Thread.one, Supernal"
+
+- title: "5+ direct Customer & Partner engagements"
+  items:
+    - "Bell/Textron, Sees.ai, Drone Express, Darkhive, TII.ae, Thread.one, Supernal"
