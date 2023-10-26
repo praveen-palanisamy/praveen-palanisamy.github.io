@@ -4,6 +4,11 @@
   tpl: about.html
   css:
 
+- id: metrics
+  name: Metrics
+  tpl: metrics.html
+  css: metrics
+
 - id: projects
   name: Projects
   tpl: projects.html
