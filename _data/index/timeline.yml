@@ -1,6 +1,13 @@
 # timeline section data
 
 - timeline-item:
+  date: Oct 31, 2023
+  title: "[Award] Recognized as an AI Engineering Specialist of the year 2023"
+  img: "new-world-report-ai-eng-specialist-award-.jpg"
+  description: "The New World Report Awards for the Software and Technology category for 2023 recognized me as an AI Engineering Specialist of the year 2023 (USA)."
+  link: https://www.thenewworldreport.com/winners/praveen-palanisamy/
+
+- timeline-item:
   date: May 22, 2023
   title: "[Journal Paper] Scalable modular synthetic data generation for advancing aerial autonomy"
   img: "asda-paper-robotics-autonomous-systems-journal.jpg"
