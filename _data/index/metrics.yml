@@ -25,6 +25,7 @@
     - "- LERFs-based volumetric rendering for 3D Sims"
     - "- LangChain/SemanticKernel + PromptFlow for Copilot Orchestration"
     - "- Next.js (React) App for Conversational LLMs w/ RAG + Memory (Vector DB)"
+    - "- LLM serving using VLLM, Triton, Ray, SkyPilot"
 
 - title: "Team leader: 10+ direct reports, interns"
   items:
