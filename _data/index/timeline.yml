@@ -8,6 +8,13 @@
   link: https://www.thenewworldreport.com/winners/praveen-palanisamy/
 
 - timeline-item:
+  date: April 11, 2023
+  title: "[Impact] Google Deepmind's recent patent cites my patent as prior art"
+  img: "google-deepmind-patent-cites-my-patent-as-prior-art.png"
+  description: "Google Deepmind's [Multi-agent reinforcement learning with matchmaking policies patent which was granted on 2023-04-11 cites 3 patents in total (including patent examiner's citations) and](https://patents.google.com/patent/US11627165B2#patentCitations) one of them [is my patent application US20200033868A1 which was granted in 2020-11-24](https://patents.google.com/patent/US10845815B2). The fact that the invention by David Silver ( led AlphaGo, AlphaZero, etc.), Oriol Vinyals (led AlphaStar, AlphaCode) and Max Jaderberg cites my work, motivates me as my work is indeed impactful."
+  link: https://praveenp.com/blog/insights-from-patent-records/#1-high-impact-citations
+
+- timeline-item:
   date: May 22, 2023
   title: "[Journal Paper] Scalable modular synthetic data generation for advancing aerial autonomy"
   img: "asda-paper-robotics-autonomous-systems-journal.jpg"

@@ -170,6 +170,8 @@ I discovered that my inventions have:
 
 Google Deepmind's ["Multi-agent reinforcement learning with matchmaking policies" patent which was granted on 2023-04-11 cites 3 patents in total (including patent examiner's citations) and](https://patents.google.com/patent/US11627165B2#patentCitations) one of them [is my patent application US20200033868A1 which was granted in 2020-11-24](https://patents.google.com/patent/US10845815B2). The fact that the invention by David Silver ( led AlphaGo, AlphaZero, etc.), Oriol Vinyals (led AlphaStar, AlphaCode) and Max Jaderberg cites my work, motivates me as my work is indeed impactful.
 
+<object data="/static/assets/data/patents/US11627165B2-Deepmind-Multi-Agent-RL-with-Matchmaking-Policy.pdf" width="100%" height="400" type="application/pdf"></object>
+
 ### 2. 500+ Patent citations
 
 Here's an interactive visualization of my top cited patents:
