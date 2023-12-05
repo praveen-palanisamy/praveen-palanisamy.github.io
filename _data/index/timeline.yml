@@ -21,6 +21,13 @@
   description: "A paper on prompt-based, procedural generation of diverse datasets for training AI models for aerial autonomy applications. Published in Robotics and Autonomous Systems journal, Volume 166. [Link to summary video:https://www.youtube.com/watch?v=eKpOh-K-NfQ](https://www.youtube.com/watch?v=eKpOh-K-NfQ). [Link to paper](https://www.sciencedirect.com/science/article/pii/S0921889021002219)."
   link: https://doi.org/10.1016/j.robot.2023.104464
 
+- timeline-itme:
+  date: Februrary 15, 2023
+  title: "[Standard] Approved IEEE Standard 3129 for Robustness Testing and Evaluation of AI-based Service"
+  img: "ieee-std-3129-wg-member.jpg"
+  description: "Contributed to IEEE 3129 Standard as a member of the IEEE 3129 Standard for Robustness Testing and Evaluation of AI-based Service working group as part of the AI Standards Committee of the IEEE Computer Society, which developed the IEEE standard 3129. The standard is now approved and [published](https://ieeexplore.ieee.org/document/10141539). The standard is aimed at providing a framework for testing and evaluating the robustness of AI-based services. <object data='/static/assets/data/IEEE-SA-AI-standards-committee-wg-member.pdf' width='100%' height='400' type='application/pdf'></object>"
+  link: https://ieeexplore.ieee.org/document/10141539
+
 - timeline-item:
   date: December 14, 2022
   title: "[Webinar]Transforming Infrastructure Inspection with Simulation and Autonomy"
