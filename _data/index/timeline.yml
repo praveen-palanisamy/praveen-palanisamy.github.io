@@ -8,6 +8,13 @@
   link: "https://github.com/aerosim-open/aerosim"
 
 - timeline-item:
+  date: Feb 10, 2024
+  title: "[Paper] Premier-TACO:Few-Shot Policy Learner: Pretraining Multitask Representation via Temporal Action-Driven Contrastive Loss"
+  img: "premier-taco.gif"
+  description: "Premier-TACO is a novel multitask feature representation learning methodology for enhancing few-shot policy learning in sequential decision-making tasks. It pretrains general feature representations using a subset of relevant multitask offline datasets, which can then be fine-tuned for specific tasks with minimal expert demonstrations. Building upon temporal action contrastive learning with an efficient negative sampling strategy, Premier-TACO achieves remarkable performance improvements: 101% over learn-from-scratch baselines and 24% over previous state-of-the-art pretraining methods on DeepMind Control Suite, and similar advantages on MetaWorld benchmarks. Link to [Project page](https://premiertaco.github.io/), [Code](https://github.com/PremierTACO/premier-taco) and [Paper](https://arxiv.org/abs/2402.04295)"
+  link: "https://premiertaco.github.io/"
+
+- timeline-item:
   date: Oct 31, 2023
   title: "[Award] Recognized as an AI Engineering Specialist of the year 2023"
   img: "new-world-report-ai-eng-specialist-award-.jpg"
