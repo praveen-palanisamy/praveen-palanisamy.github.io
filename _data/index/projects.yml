@@ -1,4 +1,10 @@
 # projects section data
+- name: AeroSim
+  gh_user: aerosim-open
+  repo: aerosim
+  img: aerosim-logo.jpg
+  desc: A modular, scalable, and open-source aerospace simulation platform. AeroSim integrates with industry-standard tools through standardized interfaces, enabling a range of use cases including aircraft engineering, aerospace software development, and **AI/ML workflows for autonomy development**. Features include **Universal Scene Description (USD)** for simulation assets, **FMI support** for custom dynamics models, robust **middleware layer** (Kafka/DDS) for standardized communication, and compatibility with **high-fidelity renderers** (UE5, Omniverse RTX). The project's built using [Rust + Python at the core](https://github.com/aerosim-open/aerosim), Unreal/Omniverse renderers, [React/TypeScript UI](https://github.com/aerosim-open/aerosim-app), [USD simulation assets](https://github.com/aerosim-open/aerosim-assets), and Simulink integration for co-simulation. Dual-licensed under **Apache 2.0/MIT** (code) and **CC BY 4.0** (assets).
+
 - name: MemReFinder
   gh_user: praveen-palanisamy
   repo: memReFinder
