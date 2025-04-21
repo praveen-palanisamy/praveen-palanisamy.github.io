@@ -1,6 +1,13 @@
 # timeline section data
 
 - timeline-item:
+  date: April 05, 2025
+  title: "[Project Launch] AeroSim: Aerospace Autonomy Simulation Platform" 
+  img: "aerosim.jpg"
+  description: "AeroSim is a scalable, performant flight simulation platform designed for aerospace engineering and software development, seamlessly integrating with industry-standard tools through standardized interfaces and data formats. Its modular architecture supports AI workflows and autonomy development, enabling the generation of training data and scenario execution for testing. With support for the Functional Mockup Interface (FMI), AeroSim allows straightforward integration of custom dynamics models, sensor models, and controllers. The simulator employs a robust middleware layer (Kafka or DDS) for standardized data communication, coordinated by a high-performance orchestrator and synchronized simulation state data-store. This design facilitates interfacing with high-fidelity renderers like UE5, Omniverse's RTX and modular component adjustments without system-wide modifications. AeroSim's Python API ensures accessibility for rapid simulation setups while offering deep control for complex scenarios. AeroSim is a completely open-source platform, with permissive dual-licenses under Apache License 2.0 and MIT License for the source code and CC BY 4.0 License for the assets. AeroSim empowers users to advance autonomy in the aerial industry efficiently"
+  link: "https://github.com/aerosim-open/aerosim"
+
+- timeline-item:
   date: Oct 31, 2023
   title: "[Award] Recognized as an AI Engineering Specialist of the year 2023"
   img: "new-world-report-ai-eng-specialist-award-.jpg"
