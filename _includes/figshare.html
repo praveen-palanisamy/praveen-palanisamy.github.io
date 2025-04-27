@@ -1,0 +1,20 @@
+{% if include.id %}
+<div class="figshare-widget">
+  <script src="https://widgets.figshare.com/static/figshare.js"></script>
+  <div class="figshare-embed" 
+       data-doi="{{ include.doi }}" 
+       data-id="{{ include.id }}" 
+       data-type="{{ include.type | default: 'media' }}"
+       data-width="{{ include.width | default: '100%' }}"
+       data-height="{{ include.height | default: '400' }}">
+  </div>
+  <script>
+    (function() {
+      var figElements = document.getElementsByClassName("figshare-embed");
+      for (var i = 0; i < figElements.length; i++) {
+        figshare.embed_widgets.insert(figElements[i]);
+      }
+    })();
+  </script>
+</div>
+{% endif %}

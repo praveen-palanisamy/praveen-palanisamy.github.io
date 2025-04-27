@@ -18,6 +18,10 @@ layout: compress
     {% endif %}
 
     {{ content }}
+    
+    {% if page.academic_post %}
+        {% include hypothesis.html %}
+    {% endif %}
 
     {% if page.title != 'index' %}
         {% include foot.html %}

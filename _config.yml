@@ -7,7 +7,7 @@ uri: "https://praveenp.com"
 # url: http://127.0.0.1:4000
 baseurl: ""
 img_path: /static/assets/img/blog # url should be '/homepage/static/assets/img/blog' as before
-permalink: /:categories/:title/
+# permalink: /publications/:year/:identifier/
 # author -- index page "about me" section
 author:
   name: Praveen Palanisamy # used as blog posts' author.
@@ -59,6 +59,20 @@ donation: off # type 'on'/'off' to choice display donation button at post page o
 index_carousel: off # index page carousel switch
 blog_carousel: on # blog page carousel switch
 
+# Jekyll settings
+timezone: America/Los_Angeles
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+# Custom permalink for academic posts is handled individually in frontmatter
+# paginate: 10
+# paginate_path: "/blog/page:num"
+# excerpt_separator: <!-- more -->
+exclude: ['README.md', 'LICENSE', "build", "node_modules"]
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+
 # scss
 sass:
   style: compressed
@@ -67,7 +81,6 @@ sass:
 encoding: utf-8
 
 # other settings
-highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM

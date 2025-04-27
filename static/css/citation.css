@@ -1,0 +1,308 @@
+.citation-box {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.citation-box h4 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #343a40;
+}
+
+.citation-formats {
+  margin-bottom: 10px;
+}
+
+.citation-formats button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.citation-formats button:hover {
+  background-color: #5a6268;
+}
+
+.citation-text {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 13px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-radius: 3px;
+}
+
+.citation-copy-btn {
+  float: right;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.citation-copy-btn:hover {
+  background-color: #218838;
+}
+
+/* Citation popup styling */
+.citation-popup {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.25);
+  padding: 12px 16px;
+  width: auto;
+  min-width: 250px;
+  max-width: 400px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.citation-ref {
+  color: inherit;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  outline: none !important;
+}
+
+.citation-title {
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.citation-authors {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 4px;
+  display: block;
+  max-height: 3.5em;
+}
+
+.citation-doi, .citation-link {
+  display: block;
+  font-size: 13px;
+  color: #1a0dab;
+  margin-top: 4px;
+}
+
+.citation-meta {
+  font-size: 13px;
+  color: #666;
+  margin-top: 2px;
+  display: block;
+}
+
+.citation-ref:hover .citation-popup,
+.citation-ref:hover + .citation-popup {
+  display: none;
+}
+
+.citation-popup::after {
+  display: none;
+}
+
+/* References section styling */
+.references-section {
+  margin: 30px 0;
+  border-top: 1px solid #eaecef;
+  padding-top: 20px;
+}
+
+.references-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.reference-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+
+.reference-anchor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+.reference-text {
+  display: block;
+}
+
+.reference-link {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.reference-link a {
+  color: #0366d6;
+  word-break: break-all;
+}
+
+/* Reference tooltip styles */
+.reference-tooltip {
+  position: relative;
+  text-decoration: none;
+  border-bottom: 1px dotted #007bff;
+  color: inherit;
+}
+
+.reference-tooltip .tooltip-content {
+  display: none;
+  width: 300px;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -150px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-size: 0.9em;
+  border: 1px solid #e9ecef;
+}
+
+.reference-tooltip .tooltip-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.reference-tooltip:hover .tooltip-content {
+  display: block;
+}
+
+.tooltip-content .ref-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tooltip-content .ref-authors {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.tooltip-content .ref-journal {
+  margin-bottom: 5px;
+}
+
+.tooltip-content .ref-link {
+  display: block;
+  margin-top: 5px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* References section styles */
+.references {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.reference-item {
+  margin-bottom: 15px;
+  padding-left: 25px;
+  text-indent: -25px;
+}
+
+.reference-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.reference-item a:hover {
+  text-decoration: underline;
+}
+
+/* New citation styles */
+.citation-ref sup {
+  color: #007bff;
+}
+
+/* IEEE format styles */
+.ieee-citation {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Wikipedia-style citation hover */
+sup {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+sup a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+sup a:hover {
+  text-decoration: underline;
+}
+
+/* Reference item styles */
+.reference-item {
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+  text-indent: -2em;
+  line-height: 1.5;
+}
+
+.reference-link {
+  display: inline;
+  margin-left: 0.5em;
+}
+
+.reference-anchor {
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+/* Citation box at end of article */
+.citation-box {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0 20px 0;
+}
+
+sup[id^="cite-"] a.citation-ref,
+sup[id^="cite-"] a.citation-ref:visited,
+sup[id^="cite-"] a.citation-ref:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  outline: none !important;
+  color: inherit;
+}

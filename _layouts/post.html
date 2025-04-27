@@ -45,6 +45,74 @@ layout: default
           </aside>
           {% endif %} {{ content }}
           <hr />
+          
+          {% if page.figshare_id %}
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Research Data</h3>
+                    <p>The following research data is associated with this publication:</p>
+                    {% include figshare.html id=page.figshare_id type=page.figshare_type doi=page.figshare_doi %}
+                </div>
+            </div>
+          {% endif %}
+            
+          {% if page.academic_post %}
+          <!-- Share section -->
+          {% include share.html %}
+          
+          <!-- Citation Widget -->
+          <div class="citation-box">
+            <h4>Cite this article</h4>
+            <div class="citation-formats">
+              <button onclick="showCitation('ieee')" class="active">IEEE</button>
+              <button onclick="showCitation('apa')">APA</button>
+              <button onclick="showCitation('mla')">MLA</button>
+              <button onclick="showCitation('bibtex')">BibTeX</button>
+            </div>
+            
+            <div id="citation-ieee" class="citation-text">
+              {% assign author_names = page.author | default: site.author.name | split: " " %}
+              {% assign last_name = author_names.last %}
+              {% assign first_names = "" %}
+              {% for name in author_names %}
+                {% unless forloop.last %}
+                  {% assign first_char = name | slice: 0 %}
+                  {% assign first_names = first_names | append: first_char | append: ". " %}
+                {% endunless %}
+              {% endfor %}
+              {{ last_name }}, {{ first_names }}"{{ page.title }}," <i>{{ site.title }}</i>, {{ page.date | date: "%d %b %Y" }}. [Online]. Available: {{ site.url }}{{ page.url }}
+              <button id="copy-ieee" onclick="copyCitation('ieee')" class="citation-copy-btn">Copy</button>
+            </div>
+            
+            <div id="citation-apa" class="citation-text" style="display: none;">
+              {{ site.author.name }}. ({{ page.date | date: "%Y, %B %d" }}). {{ page.title }}. Retrieved from {{ site.url }}{{ page.url }}
+              <button id="copy-apa" onclick="copyCitation('apa')" class="citation-copy-btn">Copy</button>
+            </div>
+            
+            <div id="citation-mla" class="citation-text" style="display: none;">
+              {{ site.author.name }}. "{{ page.title }}." {{ site.title }}, {{ page.date | date: "%-d %b. %Y" }}, {{ site.url }}{{ page.url }}.
+              <button id="copy-mla" onclick="copyCitation('mla')" class="citation-copy-btn">Copy</button>
+            </div>
+            
+            <div id="citation-bibtex" class="citation-text" style="display: none;">
+              @article{ {{page.identifier}},
+                author = { {{site.author.name}} },
+                title = { {{ page.title }} },
+                journal = { {{ site.title }} },
+                year = { {{ page.date | date: "%Y" }} },
+                month = { {{ page.date | date: "%m" }} },
+                url = { {{ site.url }}{{ page.url }} }
+              }
+              <button id="copy-bibtex" onclick="copyCitation('bibtex')" class="citation-copy-btn">Copy</button>
+            </div>
+          </div>
+          
+          {% if page.academic_post %}
+          <!-- Include references section -->
+          {% include references.html %}
+          {% endif %}
+          {% endif %}
+          
           <div class="row">
             <div class="col-md-6">
               <h5 style="display: inline">Tags:</h5>
@@ -74,9 +142,6 @@ layout: default
             <div class="col-lg-12">
               <!-- donate -->
               {% if site.donation %} {% include donate.html %} {% endif %}
-              <br />
-              <!-- share -->
-              {% include share.html %}
               <br />
               <!-- related posts -->
               {% include related_posts.html %}

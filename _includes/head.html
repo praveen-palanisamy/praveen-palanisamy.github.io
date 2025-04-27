@@ -22,6 +22,49 @@
   <meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
   <meta name="twitter:image" content="{{ page.thumbnail | prepend: site.url }}">
 
+  {% if page.academic_post %}
+  <!-- Google Scholar metadata -->
+  <meta name="citation_title" content="{{ page.title }}">
+  <meta name="citation_author" content="{{ site.author.name }}">
+  <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_online_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_language" content="en">
+  {% if page.doi %}
+  <meta name="citation_doi" content="{{ page.doi }}">
+  {% endif %}
+  <meta name="citation_publisher" content="{{ site.title }}">
+  <meta name="citation_abstract" content="{{ page.desc }}">
+  <meta name="citation_fulltext_html_url" content="{{ page.url | prepend: site.url }}">
+  
+  <!-- Schema.org metadata for scholarly articles -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": "{{ page.title }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}"
+      },
+      "description": "{{ page.desc }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/static/assets/img/favicon.ico"
+        }
+      }{% if page.doi %},
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "doi",
+        "value": "{{ page.doi }}"
+      }{% endif %}
+    }
+  </script>
+  {% endif %}
+
   <title>
     {% if page.title != "index" %}
         {{ site.title }}|{{ page.title }}
@@ -33,12 +76,22 @@
   <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
   <!-- Main CSS -->
-  <link href="{{ "/static/assets/app-20250421.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/static/assets/app-20250427.min.css" | prepend: site.baseurl }}" rel="stylesheet">
   <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/static/css/citation.css" | prepend: site.baseurl }}" rel="stylesheet">
 
   <!-- Main Scripts -->
-  <script src="{{"/static/assets/app-20250421.min.js"| prepend: site.baseurl }}"></script>
-  <script src="{{"/static/assets/blog-20250421.min.js"| prepend: site.baseurl }}"></script>
+  <script src="{{"/static/assets/app-20250427.min.js"| prepend: site.baseurl }}"></script>
+  <script src="{{"/static/assets/blog-20250427.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"/static/js/custom.js" | prepend: site.baseurl }}"></script>
-
+  <script src="{{"/static/js/citation.js"| prepend: site.baseurl }}"></script>
+  <script src="{{ "/static/js/bibtex-parser.js" | prepend: site.baseurl }}"></script>
+  
+  <!-- Mermaid JS for diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+  <script src="{{ "/static/js/mermaid-init.js" | prepend: site.baseurl }}"></script>
+  
+  {% if page.academic_post %}
+  <script src="{{"/static/js/citation-manager.js"| prepend: site.baseurl }}"></script>
+  {% endif %}
 </head>
