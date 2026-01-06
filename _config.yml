@@ -68,7 +68,7 @@ permalink: /:categories/:year/:month/:day/:title/
 # paginate: 10
 # paginate_path: "/blog/page:num"
 # excerpt_separator: <!-- more -->
-exclude: ['README.md', 'LICENSE', "build", "node_modules"]
+exclude: ['README.md', 'LICENSE', 'build', 'node_modules', 'vendor', 'Gemfile', 'Gemfile.lock', '.bundle', 'logs', '*.sh']
 plugins:
   - jekyll-paginate
   - jekyll-feed

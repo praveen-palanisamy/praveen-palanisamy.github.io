@@ -4,3 +4,20 @@ _site
 .vscode
 .Gemfile.lock
 node_modules
+logs/*# Ruby/Bundler
+vendor/bundle/
+.bundle/
+# Node
+node_modules/
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+# Environment
+.ruby-version
+.node-version
+.nvmrc
+# Backup files
+*.bak
+# Logs
+logs/*
