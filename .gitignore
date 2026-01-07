@@ -21,3 +21,5 @@ _site/
 *.bak
 # Logs
 logs/*
+.github/*.md
+.asset-build-hash

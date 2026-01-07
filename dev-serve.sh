@@ -111,6 +111,36 @@ watch_data_files() {
   echo "Data watcher started with PID: $WATCHER_PID"
 }
 
+# Check if static assets need rebuilding
+assets_need_rebuild() {
+  # Files that affect the build
+  local ASSET_SOURCES="static/js static/css build package.json"
+  local HASH_FILE=".asset-build-hash"
+  
+  # Calculate hash of source files
+  # Use optimized find command to list files and get their modification times or content
+  if [[ "$OS" == "macos" ]]; then
+    CURRENT_HASH=$(find $ASSET_SOURCES -type f -not -path "*/.*" -print0 | xargs -0 stat -f "%m%z%N" | md5)
+  else
+    CURRENT_HASH=$(find $ASSET_SOURCES -type f -not -path "*/.*" -print0 | xargs -0 stat -c "%Y%s%n" | md5sum | awk '{print $1}')
+  fi
+  
+  # Check if hash file exists and matches
+  if [[ -f "$HASH_FILE" ]]; then
+    STORED_HASH=$(cat "$HASH_FILE")
+    if [[ "$CURRENT_HASH" == "$STORED_HASH" ]]; then
+      # Also check if output files exist (if we cleaned them, we must rebuild)
+      if ls static/assets/*.min.js >/dev/null 2>&1 && ls static/assets/*.min.css >/dev/null 2>&1; then
+        return 1 # No rebuild needed
+      fi
+    fi
+  fi
+  
+  # store new hash
+  echo "$CURRENT_HASH" > "$HASH_FILE"
+  return 0 # Rebuild needed
+}
+
 # Prepare site for a full rebuild
 clean_and_rebuild() {
   echo -e "${YELLOW}Preparing for full rebuild...${NC}"
@@ -123,8 +153,12 @@ clean_and_rebuild() {
   
   # Build static assets with npm (if needed)
   if [ "$1" = "with-assets" ]; then
-    echo -e "${BLUE}Rebuilding static assets with npm...${NC}"
-    npm run build
+    if assets_need_rebuild; then
+      echo -e "${BLUE}Source files changed. Rebuilding static assets with npm...${NC}"
+      npm run build
+    else
+      echo -e "${GREEN}Static assets unchanged. Skipping npm build.${NC}"
+    fi
   fi
   
   echo -e "${GREEN}Site prepared for rebuild!${NC}"
