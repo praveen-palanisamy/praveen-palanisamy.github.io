@@ -5,7 +5,7 @@ subtitle: "The Shift to Programmatic Recursive Inference for Infinite Context an
 date: 2026-01-06
 keywords: ["rlm", "recursive language models", "thinking models", "agentic loops", "agentic orchestration", "context folding", "ai agents", "long context", "reinforcement learning", "inference scaling"]
 author: "Praveen Palanisamy"
-header-img: "img/post-bg-rl-robots.jpg"
+thumbnail: /static/assets/img/blog/rlm/deliberation-orchestration-rlms.jpg
 categories: ["Agents", "AI Architecture"]
 tags: ["rlm", "recursive language models", "thinking models", "agentic loops", "agentic orchestration", "context folding", "ai agents", "long context"]
 permalink: /blog/2026/deliberation-orchestration-recursive-language-models-20260106/
@@ -26,6 +26,7 @@ references:
   - id: semianalysis2024hbm
   - id: edn2025hbm4
 ---
+![deliberation-orchestration-rlms]({{site.img_path}}/rlm/deliberation-orchestration-rlms.jpg){:class="img-responsive"}
 
 # Test-Time Compute Meets Agentic Memory Hierarchies 
 
@@ -73,13 +74,11 @@ This is part of a larger trend where AI system design is separating into two dis
 
 ### 1. The Recursive Inner-Loop: "Thinking"
 
-The inner-loop is inference-time recurrence: each decoded token triggers another transformer forward pass that re-reads prior keys/values (KV-cache) and appends new K/V for the next step, so “more thinking” operationally means more decode steps and more KV traffic. {% include wiki-citation.html ref_id="dao2022flashattention" %}
-
 This is the **inference-time recurrence** of an autoregressive transformer: repeated forward passes that update internal state (KV-cache, residual stream) as tokens are generated. It corresponds to fast pattern completion (**System 1**) and—when extended with extra test-time compute—approaches slower **System 2**, increasingly via *hidden or compact reasoning* rather than always-visible Chain-of-Thought {% include wiki-citation.html ref_id="openai2024reasoning" %}. 
 
 #### Mechanism
 
-Autoregressive “thinking” is inference-time recurrence: each decoded token triggers a new transformer forward pass that reads the accumulated KV-cache and appends fresh keys/values, so additional test-time compute is realized as *more decode steps* (and therefore more KV reads/writes) rather than literal recursion within a single pass. {% include wiki-citation.html ref_id="dao2022flashattention" %}
+Autoregressive “thinking” is inference-time recurrence: Each decoded token triggers a new transformer forward pass that reads the accumulated KV-cache and appends fresh keys/values, so additional test-time compute is realized as *more decode steps* (and therefore more KV reads/writes) rather than literal recursion within a single pass. {% include wiki-citation.html ref_id="dao2022flashattention" %}
 
 Long-context behavior is not uniformly reliable: even when relevant evidence is present in the prompt, accuracy can degrade when that evidence is positioned far from the ends of the sequence (the “lost-in-the-middle” effect), which is a concrete mechanism behind perceived context degradation at scale. {% include wiki-citation.html ref_id="liu2023lostmiddle" %}
 
@@ -106,7 +105,7 @@ Compact/hidden deliberation schemes introduce their own failure modes (e.g., dep
 
 - **Bandwidth + capacity dominate many inference regimes:** Long-context and long-deliberation decode are frequently bounded by moving weights/activations/KV through HBM/VRAM (and not purely by peak FLOPs), because KV-cache scales with context length and must be accessed every token {% include wiki-citation.html ref_id="semianalysis2024hbm" %}.
 - **HBM keeps scaling, but it’s still a packaging-centric problem:** JEDEC finalized **HBM4** in 2025, targeting higher per-stack bandwidth (e.g., up to ~2 TB/s class figures often cited for the standard), but translating that into usable system performance depends on integrating enough stacks close to compute {% include wiki-citation.html ref_id="edn2025hbm4" %}.
-- **Advanced packaging is a first-order limiter:** The practical “inner-loop size” is gated by how much high-bandwidth memory can be co-packaged and coherently accessed at speed—constraints that show up as supply/complexity bottlenecks beyond raw logic-node shrink.
+- **Advanced packaging is a first-order limiter:** The practical “inner-loop size” is gated by how much high-bandwidth memory can be co-packaged and coherently accessed at speed-constraints that show up as supply/complexity bottlenecks beyond raw logic-node shrink.
 
 - **Strictly bounded hot working set:** The inner loop is bounded by addressable high-bandwidth memory plus effective interconnect bandwidth (when sharding weights/KV across devices) {% include wiki-citation.html ref_id="semianalysis2024hbm" %}.
 - **No infinity in the hot path:** “Infinite context” cannot live in KV-cache without exploding capacity/bandwidth costs; longer context directly expands KV and increases per-token decode pressure.
@@ -164,19 +163,20 @@ By using RL to train these Outer Loops, we teach models *how* to manage their ow
 
 ## Key Applications and Value Unlock
 
-The RLM pattern unlocks several high-value applications that were previously impractical or insecure with flat-context models:
+The RLM-style Outer-Loop pattern unlocks several high-value applications that were previously impractical or insecure with flat-context models:
 
 ### 1. Infinite-Context OSS Development
-For autonomous software engineers (like Devin, Cursor's Agents, etc.), RLM-pattern is critical. You cannot fit an entire legacy codebase into a prompt. An RLM-based agent can recursively "explore" the directory structure, "grep" for usages, and "read" only the relevant files, mimicking how human engineers navigate large codebases. 
+For autonomous software engineers (like Devin, Cursor's Agents, etc.), the Outer-Loop is critical. You cannot fit an entire legacy codebase into a prompt. An RLM-based agent can recursively "explore" the directory structure, "grep" for usages, and "read" only the relevant files, mimicking how human engineers navigate large codebases. 
 
 ### 2. Multi-Modal Agents, Robotics, and World Models
-RLMs naturally support "heterogeneous compute" and data types that defy tokenization. Instead of trying to tokenize a massive 3D point cloud or a high-framerate video stream, the RLM can treat these as **variables** (handles) in its environment.
+The RLM pattern naturally supports "heterogeneous compute" and data types that defy tokenization. Instead of trying to tokenize a massive 3D point cloud or a high-framerate video stream, the RLM can treat these as **variables** (handles) in its environment.
 
-*   **Robotics & VLA (Vision-Language-Action):** In robotics, the "context" is a continuous stream of video and sensor data. Feeding all this into an LLM context window is cost-prohibitive and slow. An RLM-based architecture allows a robot to "watch" its environment by holding a handle to the video stream variable and recursively calling VLA sub-models to query specific frames (e.g., "Is the door open in frame 1024?"). This separation allows the high-level reasoning agent to remain lightweight while leveraging heavy perceptual models only when necessary.
+*   **Robotics & VLA (Vision-Language-Action):** In robotics, the "context" is a continuous stream of video and sensor data. Feeding all this into an LLM context window is cost-prohibitive and slow. An RLM-like Outer-Loop style architecture allows a robot to "watch" its environment by holding a handle to the video stream variable and recursively calling VLA sub-models to query specific frames (e.g., "Is the door open in frame 1024?"). This separation allows the high-level reasoning agent to remain lightweight while leveraging heavy perceptual models only when necessary.
 *   **World Models:** As we move toward agents that operate in learned world models, RLMs can act as the navigator. The "world state" is a latent variable in the RLM's environment. The agent proposes actions, the world model simulates the outcome (updating the variable), and the RLM inspects the result—effectively "planning" in a latent space without needing to reconstruct the entire visual scene at every step.
 
 ### 3. Secure and Verifiable AI: TEEs, ZK, and FHE
-RLM is the missing link for privacy-preserving and verifiable AI. Because the "reasoning" happens in a REPL, we can run that REPL inside a **Trusted Execution Environment (TEE)**, while the model orchestrator remains outside.
+
+In these RLM-style Outer Loops, because the "reasoning" happens in a REPL, we can run that REPL inside a **Trusted Execution Environment (TEE)**, while the model orchestrator remains outside.
 
 *   **Encrypted State & TEEs:** Sensitive user data (e.g., medical records, financial logs) stays in the TEE-backed REPL variable. The RLM orchestrator sees only the *queries* and the *final sanitized answer*, never the raw data.
 *   **Fully Homomorphic Encryption (FHE):** RLM is a good candidate for an orchestration layer for FHE. Schemes like **CKKS** (Cheon-Kim-Kim-Song) allow for approximate arithmetic on encrypted real numbers—ideal for deep learning inference. However, FHE operations are complex to construct. An RLM can essentially "write the circuit" by generating Python code that calls FHE libraries (e.g., `fhe_add(encrypted_tensor_a, encrypted_tensor_b)`). The model reasons about *how* to process the data, while the cryptographic primitives execute the math blindly on encrypted ciphertext. This enables "Confidential AI" where the model provider never sees the user's data.
@@ -193,11 +193,11 @@ We will likely see a split in model specialization.
 ### 2. Implicit vs Explicit REPLs
 As noted by Prime Intellect, there is a push to reduce the "multiplicative depth" of recursive calls {% include wiki-citation.html ref_id="prime2026rlm" %}. We may move from explicit Python REPLs (which have parsing overhead) to **latent-space REPLs**, where the "program" and "variables" are represented in high-dimensional vectors, and the "execution" happens via specialized neural modules rather than a Python interpreter.
 
-### 3. Test-Time Compute as the New Moore's Law
+### 3. Test-Time Compute as the New Scaling Law
 The "Outer Loop" paradigm effectively uncaps the "test-time compute" budget. If a problem is hard, the model can simply iterate longer in the outer loop—searching more files, running more simulations, calling more sub-models—without being constrained by the fixed forward-pass depth of the neural network. This turns "intelligence" into a resource we can purchase with time and electricity, decoupled from semiconductor node scaling.
 
 ## Conclusion
 
-The "Recursive Outer-Loop" paradigm is a necessary evolution. It acknowledges that while silicon scaling (Inner Loop) is hitting physics-based friction, system architectural scaling (Outer Loop) is just getting started.
+The "Recursive Outer-Loop" paradigm is a necessary evolution. It acknowledges that while silicon scaling (Inner Loop) is met with physics-based friction, system architectural scaling (Outer Loop) is filling in the gaps to make infinite context with agentic memory a reality sooner.
 
-By decoupling "context storage" from "reasoning capacity," systems like RLM allow us to build agents that don't just *process* tokens, but *navigate* information. As we move toward agents that run for weeks or months, the ability to **programmatically manage state**—to decide what to remember, what to forget, and where to look—will be the defining characteristic of intelligence.
+Systems that decouple "context storage" from "reasoning capacity," allow us to build agents that don't just *process* tokens, but *navigate* information. As we move toward agents that run for weeks or months, the ability to **programmatically manage state**—to decide what to remember, what to forget, and where to look—will be the defining characteristic of intelligence.
