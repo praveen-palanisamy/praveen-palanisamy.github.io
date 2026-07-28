@@ -101,10 +101,11 @@
 .landing-page section.features {
   padding-top: 1.25rem;
   padding-bottom: 1.5rem;
+  scroll-margin-top: 3.25rem;
 }
 
 .landing-page .navy-line {
-  margin-top: 2.5rem;
+  margin-top: 1.25rem;
 }
 
 .landing-page .m-b-lg {
@@ -321,9 +322,58 @@ a.navy-link,
   background: var(--accent-soft);
 }
 
+.landing-page .navbar-default .navbar-nav > .active > a,
+.landing-page .navbar-default .navbar-nav > .active > a:hover,
+.landing-page .navbar-default .navbar-nav > .active > a:focus,
+.landing-page .navbar-default.navbar-scroll .navbar-nav > .active > a,
+.landing-page .navbar-default.navbar-scroll .navbar-nav > .active > a:hover,
+.landing-page .navbar-default.navbar-scroll .navbar-nav > .active > a:focus {
+  color: var(--accent) !important;
+  background: var(--accent-soft) !important;
+  border-top-color: var(--accent) !important;
+}
+
 .landing-page .navbar-brand {
   background: var(--accent) !important;
   color: #fff !important;
+}
+
+/* Compact sticky header so section titles are not clipped */
+.landing-page .navbar-wrapper {
+  margin-top: 0;
+}
+
+.landing-page .navbar-fixed-top {
+  min-height: 0;
+}
+
+.landing-page .navbar-default .navbar-brand {
+  padding: 8px 14px;
+  font-size: 13px;
+  margin-top: 0;
+  border-radius: 0 0 4px 4px;
+}
+
+.landing-page .navbar-nav > li > a,
+.landing-page .nav > li > a {
+  padding: 12px 10px 10px !important;
+  border-top-width: 3px !important;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.landing-page .navbar-default.navbar-scroll {
+  padding: 4px 0 !important;
+}
+
+.landing-page .navbar.navbar-scroll .navbar-brand {
+  margin-top: 4px !important;
+  padding: 7px 12px !important;
+  font-size: 12px;
+}
+
+.landing-page .navbar-scroll .navbar-nav > li > a {
+  padding: 10px 10px 8px !important;
 }
 
 .project-card {
@@ -390,20 +440,23 @@ code,
 
 .theme-toggle {
   position: fixed;
-  top: 0.85rem;
-  right: 0.85rem;
+  top: 0.55rem;
+  right: 0.75rem;
   z-index: 2100;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--bg-elevated);
   color: var(--text);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-size: 13px;
+  line-height: 1;
   transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease,
     transform 0.15s ease;
 }
@@ -426,6 +479,14 @@ html[data-theme="dark"] .theme-toggle .theme-icon-moon {
 
 html[data-theme="dark"] .theme-toggle .theme-icon-sun {
   display: inline;
+}
+
+@media (max-width: 767px) {
+  .theme-toggle {
+    top: auto;
+    bottom: 4.5rem;
+    right: 0.85rem;
+  }
 }
 
 .landing-page h1,
@@ -452,4 +513,116 @@ html[data-theme="dark"] .wrapper,
 html[data-theme="dark"] #page-wrapper {
   background-color: var(--bg);
   color: var(--text);
+}
+
+/* ---- Timeline: keep center axis behind cards; date readable near the dot ---- */
+#vertical-timeline {
+  position: relative;
+}
+
+#vertical-timeline::before {
+  z-index: 0;
+  background: var(--border) !important;
+}
+
+#vertical-timeline.light-timeline:before {
+  background: var(--border) !important;
+}
+
+.vertical-timeline-icon {
+  z-index: 2;
+  border-color: var(--bg-muted) !important;
+}
+
+.vertical-timeline-content {
+  position: relative;
+  z-index: 1;
+  background: var(--timeline-bg) !important;
+  color: var(--text);
+  border: 1px solid var(--border);
+  box-shadow: var(--card-shadow);
+}
+
+.vertical-timeline-content::before {
+  border-right-color: var(--timeline-bg) !important;
+}
+
+@media only screen and (min-width: 1170px) {
+  .center-orientation .vertical-timeline-content::before {
+    border-left-color: var(--timeline-bg) !important;
+    border-right-color: transparent !important;
+  }
+
+  .center-orientation
+    .vertical-timeline-block:nth-child(even)
+    .vertical-timeline-content::before {
+    border-right-color: var(--timeline-bg) !important;
+    border-left-color: transparent !important;
+  }
+
+  /* Date sits beside the center dot, with opaque chip so the axis never cuts letters */
+  .center-orientation .vertical-timeline-content .vertical-date {
+    top: 0.85rem;
+    left: calc(100% + 1.75rem);
+    width: auto;
+    max-width: 9.5rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    background: var(--bg-muted);
+    border: 1px solid var(--border);
+    color: var(--accent);
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.25;
+    white-space: nowrap;
+    z-index: 3;
+  }
+
+  .center-orientation
+    .vertical-timeline-block:nth-child(even)
+    .vertical-timeline-content
+    .vertical-date {
+    left: auto;
+    right: calc(100% + 1.75rem);
+    text-align: right;
+  }
+}
+
+.vertical-timeline-content .vertical-date {
+  color: var(--accent);
+}
+
+.vertical-timeline-content h2,
+.vertical-timeline-content h2 a,
+.timeline-desc,
+.timeline-desc p,
+.timeline-more,
+.timeline-more a {
+  color: var(--text);
+}
+
+.vertical-timeline-content h2 a:hover,
+.timeline-more a:hover {
+  color: var(--accent);
+}
+
+.vertical-timeline-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.75rem 0;
+  border-radius: 4px;
+}
+
+.timeline-desc p {
+  margin: 0.65em 0;
+}
+
+.timeline-more {
+  margin: 0.5rem 0 0 !important;
+  font-size: 0.9em;
+}
+
+html {
+  scroll-padding-top: 3.5rem;
 }
