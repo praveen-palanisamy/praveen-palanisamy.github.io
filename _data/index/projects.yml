@@ -1,4 +1,11 @@
 # projects section data
+- name: AutoDemo
+  gh_user: praveen-palanisamy
+  repo: autodemo
+  url: https://praveenp.com/autodemo/
+  img: autodemo.png
+  desc: "**Demos as code** — generate demo videos, interactive walkthroughs, and marketing captures from any running web app in one command. Scenarios live in YAML, regenerate in **CI** so demos never go stale, and ship as build artifacts (video, embeddable walkthrough, named stills). **Agent-ready** via MCP; deterministic Playwright steps or AI-authored flows. MIT licensed."
+
 - name: AeroSim
   gh_user: aerosim-open
   repo: aerosim
