@@ -16,20 +16,18 @@
     - "NeurIPS, ICML, TNNLS"
     - "ICRA, IROS, RA-L"
 
-- title: "7+ full-stack AI Agents & Apps"
+- title: "7+ full-stack AI Agents & App Deployments driving business value & impact"
   items:
-    - "- 8+ finetuned LLMS + LMMs"
-    - "- GPT4 for mission planning"
-    - "- Llama2 for code PRs"
+    - "- 8+ post-trained and finetuned LLMs + LMMs"
+    - "- GPT for Mission Planning"
     - "- Semantic-SAM + Grounding DINO for AutoGen"
     - "- LERFs-based volumetric rendering for 3D Sims"
     - "- LangChain/SemanticKernel + PromptFlow for Copilot Orchestration"
-    - "- Next.js (React) App for Conversational LLMs w/ RAG + Memory (Vector DB)"
     - "- LLM serving using VLLM, Triton, Ray, SkyPilot"
 
 - title: "Team leader: 10+ direct reports, interns"
   items:
     - "Sr. AI Engineers, SWEs, UI/UX Devs, PhD interns"
 
-- title: "5+ direct Customer & Partner engagements"
+- title: "5+ direct Customer & Partner engagements driving business value & impact"
   items:
