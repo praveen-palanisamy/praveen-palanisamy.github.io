@@ -93,7 +93,7 @@
 /* ---- Responsive page width: use available viewport ---- */
 .landing-page .container {
   width: auto !important;
-  max-width: min(92rem, calc(100% - 1.5rem));
+  max-width: unquote("min(92rem, calc(100% - 1.5rem))");
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
@@ -125,7 +125,7 @@
 }
 
 .about-bio {
-  max-width: min(72rem, 100%);
+  max-width: unquote("min(72rem, 100%)");
   margin: 0 auto;
   text-align: left;
   font-size: 1.05em;

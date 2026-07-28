@@ -2,6 +2,9 @@
 title: Praveen Palanisamy
 description: Building Autonomous Systems, AI, Deep RL Agents & Robots
 keywords: Praveen,Praveen Palanisamy, HOIAWOG
+# Used by jekyll-github-metadata / GitHub Pages production builds
+repository: praveen-palanisamy/praveen-palanisamy.github.io
+url: "https://praveenp.com"
 # url: https://praveen-palanisamy.github.io
 uri: "https://praveenp.com"
 # url: http://127.0.0.1:4000
@@ -68,7 +71,7 @@ permalink: /:categories/:year/:month/:day/:title/
 # paginate: 10
 # paginate_path: "/blog/page:num"
 # excerpt_separator: <!-- more -->
-exclude: ['README.md', 'LICENSE', 'build', 'node_modules', 'vendor', 'Gemfile', 'Gemfile.lock', '.bundle', 'logs', '*.sh']
+exclude: ['README.md', 'LICENSE', 'build', 'node_modules', 'vendor', 'Gemfile', 'Gemfile.lock', '.bundle', 'logs', '*.sh', '.specstory', '.cursor', '.cursorindexingignore', '.git']
 plugins:
   - jekyll-paginate
   - jekyll-feed
