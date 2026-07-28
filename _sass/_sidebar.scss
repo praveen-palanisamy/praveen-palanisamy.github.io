@@ -38,6 +38,9 @@
   }
 }
 
+// Expanded sticky sidebar width — avatar + labels; body padding matches this
+$sidebar-expanded-width: 11.5rem;
+
 .sidebar {
   @include clearfix();
   // @include breakpoint(max-width $large) {
@@ -63,13 +66,87 @@
     &.sticky {
       // position: -webkit-sticky;
       position: fixed;
+      top: 0;
+      left: 0;
       z-index: 1000;
+      width: $sidebar-expanded-width;
+      padding: 0 0.45rem;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      overflow-y: auto;
 
       // overflow-y: auto;
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
       max-height: calc(100vh - #{$nav-height} - 2em);
+
+      .author__avatar {
+        display: block;
+        width: 100%;
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      .author__content {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .author__name {
+        font-size: $type-size-6;
+        line-height: 1.25;
+      }
+
+      .author__bio {
+        font-size: $type-size-7;
+        line-height: 1.35;
+      }
+
+      .author__urls a {
+        display: flex;
+        align-items: center;
+        gap: 0.3em;
+        margin-bottom: 0.3em;
+        padding: 0.25em 0.35em;
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.55);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        white-space: nowrap;
+        transition: background 0.15s ease-in-out;
+
+        i {
+          flex: 0 0 auto;
+          width: 1.25em;
+          text-align: center;
+          font-size: 1.05em;
+          line-height: 1;
+        }
+
+        .label {
+          display: inline;
+          margin: 0;
+          padding: 0 0 0 0.15em;
+          font-size: 0.7em;
+          font-weight: 500;
+          line-height: 1.2;
+          color: $dark-gray;
+          background: transparent;
+          text-shadow: none;
+        }
+
+        &:hover,
+        &:focus {
+          background: rgba(255, 255, 255, 0.95);
+          text-decoration: none;
+        }
+      }
     }
   }
 

@@ -70,3 +70,22 @@
 .card-link:hover {
   text-decoration: none;
 }
+
+/* Metrics heading: subtle as-of qualifier */
+.landing-page .features h1 .metrics-as-of {
+  display: block;
+  margin-top: 0.35em;
+  font-size: 0.45em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #8a9096;
+  font-style: italic;
+}
+
+/* Reserve left space for the expanded sticky sidebar so content never sits under it.
+   $sidebar-expanded-width is defined in _sidebar.scss (imported above). */
+@include breakpoint($large) {
+  body:has(.sidebar.sticky) {
+    padding-left: $sidebar-expanded-width;
+  }
+}
