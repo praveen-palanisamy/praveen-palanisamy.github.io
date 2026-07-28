@@ -1,0 +1,14 @@
+---
+description: Commit modularly as work progresses; do not wait until the end
+alwaysApply: true
+---
+
+# Commit as you go
+
+When making changes in this repository:
+
+- **Commit modularly while working**, not only at the end of a multi-step task.
+- After each coherent unit of work (e.g. one UI fix, one feature, one data update), stage and commit that unit before moving on.
+- Prefer several focused commits over one large dump.
+- Follow the existing git safety protocol (status/diff/log, HEREDOC messages, no force-push, no amend unless explicitly requested).
+- If the user says "commit as you go" or similar, treat it as a standing instruction for the session and for future work in this repo.
