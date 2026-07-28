@@ -19,13 +19,13 @@
   tpl: timeline.html
   css: timeline
 
+- id: career
+  name: Career
+  tpl: career.html
+  css: timeline
+
 - id: blog
   name: Blog
   tpl: blog.html
   page: blog/
   css: testimonials navy-section
-
-- id: career
-  name: Career
-  tpl: career.html
-  css: timeline
