@@ -1,31 +1,35 @@
-$(document).ready(function() {
-  users = []
-  repos = []
-  $(".ghbtn").each( function () {
-    var user = $(this).attr('user');
-    var repo = $(this).attr('repo');
-    repos.push(user + '/' + repo);
-      if (users.indexOf($(this).attr('user')) === -1) {
-        users.push($(this).attr('user'))
-      }
-  })
-  // console.log(1, users, repos)
-  for (var i = 0; i < users.length; i++) {
-    $.ajax({
-    type: "GET",
-    url: "https://api.github.com/users/" + users[i] + "/repos?per_page=100",
-    tryCount : 0,
-    retryLimit : 3,
-    async: true,
-    dataType: "json",
-    success: function (data) {
-      for  (var i = 0; i < data.length; i++) {
-        if (repos.indexOf(data[i].full_name) !== -1) {
-          x = data[i].name;
-          $("div[repo='" + x + "']").children(".star").html('<i class="fa fa-star"></i> ' + data[i].stargazers_count)
-          $("div[repo='" + x + "']").children(".fork").html('<i class="fa fa-code-fork"></i> ' + data[i].forks_count)
-        }
-      }
+$(document).ready(function () {
+  // Fetch each repo directly so org-owned and >100-repo users still resolve.
+  $(".ghbtn").each(function () {
+    var $btn = $(this);
+    var user = $btn.attr("user");
+    var repo = $btn.attr("repo");
+    if (!user || !repo) {
+      return;
     }
-  })}
+
+    $.ajax({
+      type: "GET",
+      url: "https://api.github.com/repos/" + encodeURIComponent(user) + "/" + encodeURIComponent(repo),
+      tryCount: 0,
+      retryLimit: 3,
+      async: true,
+      dataType: "json",
+      success: function (data) {
+        var stars = typeof data.stargazers_count === "number" ? data.stargazers_count : "–";
+        var forks = typeof data.forks_count === "number" ? data.forks_count : "–";
+        $btn.children(".star").html('<i class="fa fa-star"></i> ' + stars);
+        $btn.children(".fork").html('<i class="fa fa-code-fork"></i> ' + forks);
+      },
+      error: function (xhr, textStatus) {
+        this.tryCount = (this.tryCount || 0) + 1;
+        if (textStatus === "timeout" || (xhr.status >= 500 && this.tryCount <= this.retryLimit)) {
+          $.ajax(this);
+          return;
+        }
+        $btn.children(".star").html('<i class="fa fa-star"></i> –');
+        $btn.children(".fork").html('<i class="fa fa-code-fork"></i> –');
+      }
+    });
+  });
 });
