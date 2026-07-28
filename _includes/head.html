@@ -75,6 +75,20 @@
   <!-- favicon -->
   <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t !== "light" && t !== "dark") {
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "light");
+      }
+    })();
+  </script>
+
   <!-- Main CSS -->
   <link href="{{ "/static/assets/app-20260108.min.css" | prepend: site.baseurl }}" rel="stylesheet">
   <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
@@ -84,6 +98,7 @@
   <script src="{{"/static/assets/app-20260108.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"/static/assets/blog-20260108.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"/static/js/custom.js" | prepend: site.baseurl }}"></script>
+  <script src="{{"/static/js/theme.js" | prepend: site.baseurl }}"></script>
   <script src="{{"/static/js/citation.js"| prepend: site.baseurl }}"></script>
   <script src="{{ "/static/js/bibtex-parser.js" | prepend: site.baseurl }}"></script>
   
