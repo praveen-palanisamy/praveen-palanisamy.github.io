@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Outer space energy generation, compute and cold data storage"
+thumbnail: /static/assets/img/blog/thumbs/space-compute-storage.jpg
 date: 2022-01-15
 desc: "Outer space, multi-planet energy generation for cold data storage, compute cluster and beyond"
 keywords: "Deep Reinforcement Learning, TensorFlow 2.x, Deep RL code, Cross-platform RL Apps, mobile Deep RL"

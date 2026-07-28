@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Securing AI Agent Ecosystems Through Decentralized MCP Infrastructure"
+thumbnail: /static/assets/img/blog/thumbs/secure-mcp-agents.jpg
 subtitle: "A framework for implementing secure Model Context Protocol deployments using decentralized technologies"
 date: 2025-03-30
 keywords: ["mcp", "model context protocol", "ai agent", "ai agent ecosystem", "mcp security", "mcp vulnerabilities"]

@@ -1,5 +1,6 @@
 ---
 title: ZFS and dm-crypt On Windows 10/11 WSL2 using custom kernel
+thumbnail: /static/assets/img/blog/thumbs/zfs-wsl2.jpg
 date: 2022-08-08
 desc: "Enable ZFS and dm-crypt support on Windows using custom compiled WSL2 kernel"
 keywords: "Linux, Windows, Sys Ops, WSL2"

@@ -1,5 +1,6 @@
 ---
 title: The Beginning of the Generative AI Revolution for the Human Evolution
+thumbnail: /static/assets/img/blog/gen-ai/tech-stack-for-3d-xp-products.jpg
 date: 2023-01-01
 desc: Generative AI for text, image, audio, video generation and how it will help humanity to become more productive and accelerate memetic evolution
 keywords: AI

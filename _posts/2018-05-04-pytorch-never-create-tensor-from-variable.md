@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Avoiding pit-falls in PyTorch- Never create a torch.tensor from an existing container of tensors (previously called Variables)"
+thumbnail: /static/assets/img/blog/thumbs/pytorch-tensor-pitfall.jpg
 date: 2018-05-04
 desc: "Avoiding pit falls in PyTorch Tensors"
 keywords: "PyTorch, Deep Learning, Reinforcement Learning, Deep RL"

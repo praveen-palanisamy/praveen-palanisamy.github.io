@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Model-free control algorithms for deep reinforcement learning --Similarities and differences (WIP)"
+thumbnail: /static/assets/img/blog/thumbs/rl-model-free-control.jpg
 date: 2017-03-16
 desc: "Model-free control algorithms for deep reinforcement learning --Similarities and differences (WIP)"
 keywords: "Deep Reinforcement Learning, RL, DRL"

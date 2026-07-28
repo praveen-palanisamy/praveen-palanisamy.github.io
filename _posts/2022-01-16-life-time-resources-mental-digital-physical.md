@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Life-Time-Resource Triangle and the Mental-Digital-Physical (MDP) Framework"
+thumbnail: /static/assets/img/blog/ltr-mdp/mental-digital-physical.png
 date: 2022-01-16
 desc: "Optimizing for Life-Time-Resources using a Mental-Digital-Physical (MDP) Framework"
 keywords: "mdp, Reinforcement Learning, extended reality, ar/vr/xr"

@@ -1,5 +1,6 @@
 ---
 title: Learnings from the collapse of the Silicon Valley Bank
+thumbnail: /static/assets/img/blog/thumbs/svb-collapse.jpg
 date: 2023-03-11
 desc: Silicon Valley Bank mismanaged risks, announced sale of securities at a loss to meet withdrawal obligations, majority-depositors were VCs in the tech and healthcare industry who were shrewd to act optimally (in a game-theoretic sense), spread the word through network-effects, led to  'bankrun', FDIC took-over and placed under receivership, posed systemic risk, the feds, treasury, and FDIC intervened to make the depositors whole. What can we learn from this? 
 keywords: finance, banking, silicon valley bank, bankrun, fdic, treasury, feds, depositors, deposit insurance, ban

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Visual Odometry Estimation"
+thumbnail: /static/assets/img/blog/thumbs/visual-odometry.jpg
 date: 2015-01-19
 desc: "Visual Odometry Estimation"
 keywords: "Computer-Vision, visual odometry"

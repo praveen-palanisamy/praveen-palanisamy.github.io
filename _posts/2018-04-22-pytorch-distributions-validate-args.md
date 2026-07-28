@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Making use of Pytorch Distribution's hidden gem - validate_args"
+thumbnail: /static/assets/img/blog/thumbs/pytorch-validate-args.jpg
 date: 2018-04-22
 desc: "Learn to use Pytorch Distribution's hidden gem - validate_args"
 keywords: "PyTorch, Deep Learning, Deep Reinforcement Learning, Deep RL"
